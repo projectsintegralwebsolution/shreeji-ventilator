@@ -140,7 +140,7 @@ export default function ContactPage() {
                     src="/images/office/reception-lobby.jpg"
                     alt="Shreeji Sales Corporation Reception at Vasai"
                     aspectRatio="aspect-[16/10]"
-                    watermarkText="Shreeji Reception • Vasai"
+                    watermarkText="SIMPOVENT® • VASAI PLANT"
                     watermarkPosition="bottom-right"
                   />
                 </div>

@@ -84,7 +84,7 @@ export default async function KeywordProductPage({ params }: PageProps) {
                 DETAILED PRODUCT OVERVIEW
               </span>
               <h2 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
-                About the Shreeji {product.name}
+                About the SIMPOVENT® {product.name}
               </h2>
               {product.fullDescription.map((paragraph, idx) => (
                 <p key={idx} className="text-sm md:text-base text-slate-700 leading-relaxed">

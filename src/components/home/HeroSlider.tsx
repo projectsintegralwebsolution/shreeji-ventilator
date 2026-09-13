@@ -11,12 +11,12 @@ export const HeroSlider: React.FC = () => {
 
   const slides = [
     {
-      bgImage: "/images/products/motoized-roof-1.jpg",
-      badge: "Priority 1 • Hybrid Extraction Series",
+      bgImage: "/images/slides/slide-1.jpeg",
+      badge: "Priority 1 • Motorized Hybrid Series",
       title: "SIMPOVENT® Motorized Industrial Roof Ventilators",
-      subtitle: "Combines 100% natural wind-driven suction with high-torque electric motor boost for severe heat spikes and dense factory smoke extraction.",
+      subtitle: "Combines 100% natural wind-driven suction with high-torque electric motor power boost for severe heat spikes and continuous industrial smoke extraction.",
       bullets: [
-        "Guaranteed High-Capacity CFM Extraction Even on Dead Calm Days",
+        "High-CFM Powered Extraction Guaranteed Even on Zero-Wind Days",
         "Hindalco 8011 Aluminium Vanes with IP55 Weatherproof Copper Motor",
         "100% Monsoon-Proof & Rainwater Seepage Resistant Integration"
       ],
@@ -24,38 +24,38 @@ export const HeroSlider: React.FC = () => {
       ctaPrimaryUrl: "/contact"
     },
     {
-      bgImage: "/images/products/hvls-industrial-fan-ceiling.jpg",
-      badge: "SIMPOVENT® HVLS Series • PMSM Direct Drive",
-      title: "SIMPOVENT® Industrial HVLS PMSM Ceiling Fans (Up to 24 Ft / 15,500 CMM)",
-      subtitle: "Permanent Magnet Synchronous Motor direct-drive technology — zero gearbox, zero oil leak risk, 20X motor life, and whisper-quiet cooling for expansive factory sheds.",
+      bgImage: "/images/slides/slide-2.png",
+      badge: "Heavy-Duty Exhaust Series",
+      title: "SIMPOVENT® Industrial Wall & Roof Cone Exhaust Fans",
+      subtitle: "High-efficiency cone-type wall and roof exhaust fans engineered for aggressive process fumes, welding smoke, and heavy factory heat evacuation.",
       bullets: [
-        "Massive Air Volume up to 15,500 CMM (547,000 CFM)",
-        "Saves 50% Electricity Compared to Traditional Gearbox Fans",
-        "Ultra-Quiet Operation (38-55 dBA) with Triple Redundant Safety Locking"
+        "High Volume Air Discharge with Aerodynamic Cone Diffuser",
+        "Heavy Gauge Corrosion-Resistant Body & Automatic Weather Shutters",
+        "Wall & Roof Mount Options Custom Sized for Manufacturing Plants"
       ],
-      ctaPrimary: "Explore HVLS Fans",
-      ctaPrimaryUrl: "/hvls-fan"
+      ctaPrimary: "Explore Exhaust Fans",
+      ctaPrimaryUrl: "/contact"
     },
     {
-      bgImage: "/images/products/roof-exhaust-fan-simpovent.jpg",
-      badge: "High-Volume Power Exhaust Series",
-      title: "SIMPOVENT® Heavy Duty Industrial Roof & Wall Exhaust Fans",
-      subtitle: "Engineered for intense welding smoke, chemical fumes, and process heat evacuation across expansive manufacturing facilities.",
+      bgImage: "/images/slides/slide-3.png",
+      badge: "High-Volume Industrial Ventilation",
+      title: "SIMPOVENT® Heavy Duty Roof Extractors & Axial Flow Fans",
+      subtitle: "Custom engineered rooftop exhaust cowls and high-capacity axial flow systems with built-in protective wire guards and weatherproof housings.",
       bullets: [
-        "Dynamically Balanced High-CFM Impeller Blades (Up to 28,000 CFM)",
-        "Heavy Gauge Corrosion-Proof Powder Coated Body & Automatic Shutters",
-        "Direct Factory Supply & Custom Sizing from Vasai Manufacturing Plant"
+        "Direct Drive High-Torque Motor with Dynamically Balanced Impellers",
+        "Heavy-Duty Weather Hood, Simpovent® Cowl & Bird Guard Mesh",
+        "Direct Factory Supply & Custom Sizing from Vasai Plant"
       ],
       ctaPrimary: "Get Exhaust Fan Quote",
       ctaPrimaryUrl: "/contact"
     },
     {
-      bgImage: "/images/products/WhatsApp Image 2026-09-09 at 4.28.51 PM.jpeg",
-      badge: "ISO 9001:2015 Certified • SIMPOVENT®",
+      bgImage: "/images/slides/slide-4.jpeg",
+      badge: "Zero-Power Eco Ventilation",
       title: "SIMPOVENT® Zero-Power Industrial Wind Turbo Ventilators",
-      subtitle: "Continuously exhausts trapped factory heat, smoke, and fumes using 100% natural wind energy — 0 Watts electricity.",
+      subtitle: "Continuously exhausts trapped heat, humidity, and toxic gases across large factory sheds using 100% natural wind currents — 0 Watts electricity.",
       bullets: [
-        "Zero Electricity Bills & Zero Operating Cost for Lifetime",
+        "100% Zero Electricity Bills & Zero Operating Cost for Lifetime",
         "Hindalco 8011 Aluminium Curved Vanes & Dual Sealed HCH Bearings",
         "10-Year Comprehensive Structural & Rotor Cage Warranty"
       ],
@@ -63,17 +63,17 @@ export const HeroSlider: React.FC = () => {
       ctaPrimaryUrl: "/calculator"
     },
     {
-      bgImage: "/images/products/WhatsApp Image 2026-09-09 at 4.31.55 PM.jpeg",
-      badge: "Natural Air Flow Systems",
-      title: "SIMPOVENT® Industrial Roof Air Extractors & Matching FRP Base Plates",
-      subtitle: "Custom fabricated UV-stabilized virgin FRP base plates designed for exact profile matching with Tata Bluescope, JSW, and Kirby metal roofing.",
+      bgImage: "/images/slides/slide-5.jpeg",
+      badge: "SIMPOVENT® HVLS Series • PMSM Direct Drive",
+      title: "SIMPOVENT® Industrial HVLS PMSM Ceiling Fans (Up to 24 Ft)",
+      subtitle: "Permanent Magnet Synchronous Motor direct-drive technology — zero gearbox, zero oil leak risk, whisper-quiet operation, and massive airflow up to 15,500 CMM.",
       bullets: [
-        "100% Monsoon Leakproof & Capillary Water Seepage Resistant",
-        "High Light Transmission Polycarbonate Skylight Integration Available",
-        "Pan-India Fast Dispatch Directly from Vasai Factory"
+        "Massive Air Volume up to 15,500 CMM (547,000 CFM) Across Expansive Sheds",
+        "Saves Up to 50% Electricity Compared to Traditional Gearbox Fans",
+        "Ultra-Quiet Performance (38-55 dBA) with Triple Redundant Safety Locking"
       ],
-      ctaPrimary: "Explore 22 Products",
-      ctaPrimaryUrl: "/products"
+      ctaPrimary: "Explore HVLS Fans",
+      ctaPrimaryUrl: "/hvls-fan"
     }
   ];
 
@@ -95,11 +95,12 @@ export const HeroSlider: React.FC = () => {
 
   return (
     <section
-      className="relative w-full min-h-[480px] sm:min-h-[520px] lg:min-h-[560px] overflow-hidden bg-slate-950 text-white flex items-center"
+      className="relative w-full min-h-[500px] sm:min-h-[540px] lg:min-h-[580px] overflow-hidden bg-slate-950 text-white flex items-center"
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
+      aria-label="SIMPOVENT Hero Product Slider"
     >
-      {/* Sliding Background Images with LIGHT overlay so rooftop photos are bright & clear */}
+      {/* Sliding Background Images with Gradient Overlay */}
       {slides.map((slide, idx) => (
         <div
           key={idx}
@@ -112,9 +113,10 @@ export const HeroSlider: React.FC = () => {
             src={slide.bgImage}
             alt={slide.title}
             className="w-full h-full object-cover object-center"
+            loading={idx === 0 ? "eager" : "lazy"}
           />
-          {/* Light, soft gradient overlay so background imagery remains crisp & bright */}
-          <div className="absolute inset-0 bg-gradient-to-r from-[#061d16]/80 via-[#061d16]/50 to-transparent" />
+          {/* Readable gradient overlay */}
+          <div className="absolute inset-0 bg-gradient-to-r from-[#061d16]/90 via-[#061d16]/65 to-black/30" />
           <div className="absolute inset-0 bg-black/20" />
         </div>
       ))}
@@ -129,7 +131,7 @@ export const HeroSlider: React.FC = () => {
         </div>
       </div>
 
-      {/* Concise Hero Content Container */}
+      {/* Hero Content Container */}
       <div className="max-w-7xl mx-auto px-4 py-12 md:py-16 relative z-20 w-full">
         <div className="max-w-2xl space-y-4">
           {/* Badge */}
@@ -138,12 +140,12 @@ export const HeroSlider: React.FC = () => {
             <span>{slides[currentSlide].badge}</span>
           </div>
 
-          {/* Concise Title */}
+          {/* Title */}
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white leading-tight tracking-tight drop-shadow-md">
             {slides[currentSlide].title}
           </h1>
 
-          {/* Short Punchy Subtitle */}
+          {/* Subtitle */}
           <p className="text-slate-100 text-xs sm:text-sm md:text-base leading-relaxed max-w-xl font-medium drop-shadow">
             {slides[currentSlide].subtitle}
           </p>
@@ -162,7 +164,7 @@ export const HeroSlider: React.FC = () => {
           <div className="flex flex-wrap items-center gap-3 pt-3">
             <QuoteButton
               productName={slides[currentSlide].title}
-              className="px-5 py-3 text-xs sm:text-sm shadow-xl hover:scale-105 active:scale-95"
+              className="px-5 py-3 text-xs sm:text-sm shadow-xl hover:scale-105 active:scale-95 cursor-pointer"
               variant="primary"
             >
               <span className="flex items-center gap-2">
@@ -187,7 +189,7 @@ export const HeroSlider: React.FC = () => {
         <button
           onClick={prevSlide}
           aria-label="Previous Slide"
-          className="w-9 h-9 rounded-full bg-slate-900/70 hover:bg-emerald-600 text-white border border-white/20 flex items-center justify-center backdrop-blur-md transition-all hover:scale-110 active:scale-95"
+          className="w-9 h-9 rounded-full bg-slate-900/70 hover:bg-emerald-600 text-white border border-white/20 flex items-center justify-center backdrop-blur-md transition-all hover:scale-110 active:scale-95 cursor-pointer"
         >
           <ChevronLeft className="w-4 h-4" />
         </button>
@@ -198,7 +200,7 @@ export const HeroSlider: React.FC = () => {
               key={idx}
               onClick={() => setCurrentSlide(idx)}
               aria-label={`Go to slide ${idx + 1}`}
-              className={`h-2 rounded-full transition-all duration-500 ${
+              className={`h-2 rounded-full transition-all duration-500 cursor-pointer ${
                 currentSlide === idx ? 'w-7 bg-emerald-400' : 'w-2 bg-white/50 hover:bg-white/80'
               }`}
             />
@@ -208,7 +210,7 @@ export const HeroSlider: React.FC = () => {
         <button
           onClick={nextSlide}
           aria-label="Next Slide"
-          className="w-9 h-9 rounded-full bg-slate-900/70 hover:bg-emerald-600 text-white border border-white/20 flex items-center justify-center backdrop-blur-md transition-all hover:scale-110 active:scale-95"
+          className="w-9 h-9 rounded-full bg-slate-900/70 hover:bg-emerald-600 text-white border border-white/20 flex items-center justify-center backdrop-blur-md transition-all hover:scale-110 active:scale-95 cursor-pointer"
         >
           <ChevronRight className="w-4 h-4" />
         </button>

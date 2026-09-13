@@ -147,7 +147,7 @@ export const MegaMenu: React.FC<MegaMenuProps> = ({ onItemClick }) => {
 
           <div className="rounded-xl overflow-hidden shadow-inner border border-white/10">
             <WatermarkedImage
-              src="/images/products/motoized-roof-1.jpg"
+              src="/images/products/motorized-roof-ventilator-new.jpeg"
               alt="SIMPOVENT Motorized Industrial Roof Ventilator"
               aspectRatio="aspect-[16/10]"
               watermarkText="SIMPOVENT® Hybrid"

@@ -26,7 +26,7 @@ export const FeatureCards: React.FC = () => {
   ];
 
   return (
-    <section className="py-12 bg-white relative -mt-8 z-20">
+    <section className="py-10 md:py-14 bg-white relative z-20 border-b border-slate-100">
       <div className="max-w-7xl mx-auto px-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {features.map((feature, index) => (
