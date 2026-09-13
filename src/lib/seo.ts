@@ -15,7 +15,7 @@ export function constructMetadata({
   description,
   keywords = [],
   canonicalUrl,
-  ogImage = "/images/products/motoized-roof-1.jpg",
+  ogImage = "/images/products/motorized-roof-ventilator-new.jpeg",
   noIndex = false
 }: GenerateMetadataProps): Metadata {
   const fullTitle = `${title} | ${companyData.name} (${companyData.brand})`;
