@@ -41,6 +41,37 @@ const nextConfig = {
       { source: '/roof-extractor-fan.php', destination: '/roof-extractor-fan', permanent: true },
       { source: '/motorized-roof-air-ventilator.php', destination: '/motorized-roof-air-ventilator', permanent: true }
     ];
+  },
+  async headers() {
+    return [
+      {
+        source: '/:path*',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'no-cache, no-store, must-revalidate'
+          }
+        ]
+      },
+      {
+        source: '/_next/static/:path*',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable'
+          }
+        ]
+      },
+      {
+        source: '/images/:path*',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=86400, must-revalidate'
+          }
+        ]
+      }
+    ];
   }
 };
 
