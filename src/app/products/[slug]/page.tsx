@@ -1,4 +1,4 @@
-import { redirect } from 'next/navigation';
+import { permanentRedirect } from 'next/navigation';
 import { productsData } from '@/data/productsData';
 
 interface PageProps {
@@ -13,5 +13,5 @@ export async function generateStaticParams() {
 
 export default async function ProductRedirectPage({ params }: PageProps) {
   const resolvedParams = await params;
-  redirect(`/${resolvedParams.slug}`);
+  permanentRedirect(`/${resolvedParams.slug}`);
 }
