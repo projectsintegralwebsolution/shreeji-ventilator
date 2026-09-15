@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { X, Send, Phone, Mail, Building, CheckCircle2, Sparkles, Wind, MessageCircle } from 'lucide-react';
 import { productsData } from '@/data/productsData';
 import { companyData } from '@/data/companyData';
@@ -31,6 +31,26 @@ export const InquiryModal: React.FC<InquiryModalProps> = ({
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const [notificationInfo, setNotificationInfo] = useState<any>(null);
+
+  // Lock body scroll and listen for Escape key
+  useEffect(() => {
+    if (!isOpen) return;
+
+    const originalOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        onClose();
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => {
+      document.body.style.overflow = originalOverflow;
+      window.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [isOpen, onClose]);
 
   if (!isOpen) return null;
 
@@ -86,75 +106,80 @@ export const InquiryModal: React.FC<InquiryModalProps> = ({
   };
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4">
       <div
-        className="fixed inset-0 bg-slate-950/70 backdrop-blur-sm"
+        className="fixed inset-0 bg-slate-950/70 backdrop-blur-sm transition-opacity"
         onClick={onClose}
       />
 
-      <div className="relative w-full max-w-lg bg-white rounded-3xl shadow-2xl border border-slate-200 overflow-hidden z-10 animate-scaleUp max-h-[90vh] overflow-y-auto text-slate-900">
-        <div className="bg-[#0e382c] text-white p-6 flex items-center justify-between">
+      <div className="relative w-full max-w-lg bg-white rounded-2xl sm:rounded-3xl shadow-2xl border border-slate-200 overflow-hidden z-10 animate-scaleUp max-h-[90vh] flex flex-col text-slate-900">
+        {/* Modal Header */}
+        <div className="bg-[#0e382c] text-white p-4 sm:p-6 flex items-center justify-between shrink-0">
           <div>
-            <span className="text-[11px] font-extrabold uppercase tracking-wider text-emerald-400 flex items-center gap-1">
+            <span className="text-[10px] sm:text-[11px] font-extrabold uppercase tracking-wider text-emerald-400 flex items-center gap-1">
               <Sparkles className="w-3 h-3" /> Factory Direct Pricing
             </span>
-            <h3 className="text-xl font-bold mt-0.5">Request Official Quotation</h3>
+            <h3 className="text-lg sm:text-xl font-bold mt-0.5">Request Official Quotation</h3>
           </div>
           <button
             onClick={onClose}
-            aria-label="Close inquiry modal"
-            className="w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center text-white transition-colors"
+            type="button"
+            aria-label="Close quotation dialog"
+            className="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-white/15 hover:bg-white/25 flex items-center justify-center text-white transition-colors cursor-pointer shrink-0 ml-2"
           >
             <X className="w-5 h-5" />
           </button>
         </div>
 
-        <div className="p-6">
+        {/* Modal Body */}
+        <div className="p-4 sm:p-6 overflow-y-auto flex-1">
           {submitted ? (
-            <div className="py-6 text-center space-y-4">
-              <div className="w-16 h-16 rounded-full bg-emerald-50 text-emerald-600 flex items-center justify-center mx-auto shadow-inner">
-                <CheckCircle2 className="w-10 h-10" />
+            <div className="py-4 sm:py-6 text-center space-y-4">
+              <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-emerald-50 text-emerald-600 flex items-center justify-center mx-auto shadow-inner">
+                <CheckCircle2 className="w-8 h-8 sm:w-10 sm:h-10" />
               </div>
-              <h4 className="text-xl font-black text-slate-900">Inquiry Dispatched Successfully!</h4>
+              <h4 className="text-lg sm:text-xl font-black text-slate-900">Inquiry Dispatched Successfully!</h4>
               <p className="text-xs sm:text-sm text-slate-600 max-w-sm mx-auto leading-relaxed">
-                Thank you, <strong className="text-slate-900">{formData.name}</strong>. Your quotation request has been processed and 3-way notification dispatched:
+                Thank you, <strong className="text-slate-900">{formData.name}</strong>. Your quotation request has been processed and factory notification dispatched:
               </p>
 
               <div className="bg-slate-50 border border-slate-200 rounded-2xl p-4 text-left text-xs space-y-2 max-w-sm mx-auto">
                 <div className="flex items-center gap-2 text-slate-700">
                   <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
-                  <span><strong>1. Customer Email:</strong> {formData.email || formData.phone}</span>
+                  <span><strong>1. Customer Copy:</strong> {formData.email || formData.phone}</span>
                 </div>
                 <div className="flex items-center gap-2 text-slate-700">
                   <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
-                  <span><strong>2. Client Email:</strong> info@shreejiwind.com</span>
+                  <span><strong>2. Sales Desk:</strong> info@shreejiwindventilator.com</span>
                 </div>
                 <div className="flex items-center gap-2 text-slate-700">
                   <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
-                  <span><strong>3. Admin/Developer:</strong> princekumarjha80@gmail.com</span>
+                  <span><strong>3. Technical Desk:</strong> Vasai Plant Support Team</span>
                 </div>
               </div>
 
               <div className="pt-2 space-y-2">
                 <button
+                  type="button"
                   onClick={openWhatsAppDirect}
-                  className="w-full py-3 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs sm:text-sm flex items-center justify-center gap-2 shadow-md transition-all"
+                  className="w-full py-3 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs sm:text-sm flex items-center justify-center gap-2 shadow-md transition-all cursor-pointer"
                 >
                   <MessageCircle className="w-4 h-4" />
                   <span>Chat with Senior Engineer on WhatsApp</span>
                 </button>
 
                 <button
+                  type="button"
                   onClick={onClose}
-                  className="w-full py-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-xs transition-colors"
+                  className="w-full py-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-xs transition-colors cursor-pointer"
                 >
                   Close Window
                 </button>
               </div>
             </div>
           ) : (
-            <form onSubmit={handleSubmit} className="space-y-4">
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
+            <form onSubmit={handleSubmit} className="space-y-3.5 sm:space-y-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-3.5">
                 <div>
                   <label className="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
                     Your Name *
@@ -184,7 +209,7 @@ export const InquiryModal: React.FC<InquiryModalProps> = ({
                 </div>
               </div>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-3.5">
                 <div>
                   <label className="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
                     Email Address *
@@ -277,11 +302,11 @@ export const InquiryModal: React.FC<InquiryModalProps> = ({
                 className="w-full py-3.5 bg-gradient-to-r from-emerald-600 to-green-600 hover:from-emerald-700 hover:to-green-700 text-white font-bold rounded-xl shadow-lg transition-all flex items-center justify-center gap-2 text-xs sm:text-sm cursor-pointer"
               >
                 <Send className="w-4 h-4" />
-                <span>{isSubmitting ? 'Dispatching 3-Way Notification...' : 'Submit & Get Official Quotation'}</span>
+                <span>{isSubmitting ? 'Dispatching Factory Notification...' : 'Submit & Get Official Quotation'}</span>
               </button>
 
               <p className="text-[10px] text-center text-slate-500">
-                🔒 3-Way Nodemailer Notification: info@shreejiwind.com • your email • princekumarjha80@gmail.com
+                🔒 Direct Factory Notification: info@shreejiwindventilator.com • Vasai Plant Unit
               </p>
             </form>
           )}

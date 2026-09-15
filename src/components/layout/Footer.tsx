@@ -11,12 +11,12 @@ export const Footer: React.FC = () => {
   const exhaust = productsData.filter(p => p.category === 'industrial-exhaust');
 
   return (
-    <footer className="bg-[#09261e] text-slate-300 pt-16 border-t-4 border-emerald-500" suppressHydrationWarning>
+    <footer className="w-full bg-[#09261e] text-slate-300 pt-12 sm:pt-16 border-t-4 border-emerald-500 overflow-x-hidden" suppressHydrationWarning>
       {/* Top Banner with ISO Badge */}
-      <div className="max-w-7xl mx-auto px-4 pb-12 border-b border-emerald-900/60">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 text-white">
+      <div className="max-w-7xl mx-auto px-4 pb-10 sm:pb-12 border-b border-emerald-900/60">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 text-white">
           <div className="flex items-center gap-3 bg-[#0e382c]/80 p-4 rounded-xl border border-emerald-800/40">
-            <div className="w-10 h-10 rounded-lg bg-emerald-500/20 flex items-center justify-center text-emerald-400">
+            <div className="w-10 h-10 rounded-lg bg-emerald-500/20 flex items-center justify-center text-emerald-400 shrink-0">
               <Award className="w-5 h-5" />
             </div>
             <div>
@@ -26,7 +26,7 @@ export const Footer: React.FC = () => {
           </div>
 
           <div className="flex items-center gap-3 bg-[#0e382c]/80 p-4 rounded-xl border border-emerald-800/40">
-            <div className="w-10 h-10 rounded-lg bg-emerald-500/20 flex items-center justify-center text-emerald-400">
+            <div className="w-10 h-10 rounded-lg bg-emerald-500/20 flex items-center justify-center text-emerald-400 shrink-0">
               <ShieldCheck className="w-5 h-5" />
             </div>
             <div>
@@ -36,7 +36,7 @@ export const Footer: React.FC = () => {
           </div>
 
           <div className="flex items-center gap-3 bg-[#0e382c]/80 p-4 rounded-xl border border-emerald-800/40">
-            <div className="w-10 h-10 rounded-lg bg-emerald-500/20 flex items-center justify-center text-emerald-400">
+            <div className="w-10 h-10 rounded-lg bg-emerald-500/20 flex items-center justify-center text-emerald-400 shrink-0">
               <Wind className="w-5 h-5" />
             </div>
             <div>
@@ -46,7 +46,7 @@ export const Footer: React.FC = () => {
           </div>
 
           <div className="flex items-center gap-3 bg-[#0e382c]/80 p-4 rounded-xl border border-emerald-800/40">
-            <div className="w-10 h-10 rounded-lg bg-emerald-500/20 flex items-center justify-center text-emerald-400">
+            <div className="w-10 h-10 rounded-lg bg-emerald-500/20 flex items-center justify-center text-emerald-400 shrink-0">
               <CheckCircle2 className="w-5 h-5" />
             </div>
             <div>
@@ -58,9 +58,9 @@ export const Footer: React.FC = () => {
       </div>
 
       {/* Main Footer Silo Section */}
-      <div className="max-w-7xl mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
+      <div className="max-w-7xl mx-auto px-4 py-10 sm:py-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
         {/* Column 1: Company Profile with Logo */}
-        <div className="lg:col-span-2 space-y-4">
+        <div className="sm:col-span-2 space-y-4">
           <Link href="/" className="inline-block bg-white p-2.5 rounded-2xl shadow-md">
             <img
               src="/images/logo.png"
@@ -69,22 +69,22 @@ export const Footer: React.FC = () => {
             />
           </Link>
 
-          <p className="text-xs text-slate-400 leading-relaxed pr-4">
+          <p className="text-xs text-slate-400 leading-relaxed sm:pr-4">
             Shreeji Sales Corporation is India's leading ISO 9001:2015 certified manufacturer, supplier, and exporter of high-grade Wind Driven Turbo Ventilators, Motorized Roof Ventilators, and Heavy Duty Industrial Exhaust Fans for factory sheds, PEB buildings, and warehouses.
           </p>
 
-          <div className="space-y-2 text-xs text-slate-300 pt-2">
+          <div className="space-y-2.5 text-xs text-slate-300 pt-2">
             <div className="flex items-start gap-2.5">
               <MapPin className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
-              <span>{companyData.address.full}</span>
+              <span className="break-words leading-relaxed">{companyData.address.full}</span>
             </div>
-            <div className="flex items-center gap-2.5">
-              <Phone className="w-4 h-4 text-emerald-400 shrink-0" />
-              <span>+91 93202 93021 / +91 72628 60283 / +91 90286 88880</span>
+            <div className="flex items-start gap-2.5">
+              <Phone className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
+              <span className="break-words leading-relaxed">+91 93202 93021 / +91 72628 60283 / +91 90286 88880</span>
             </div>
             <div className="flex items-center gap-2.5">
               <Mail className="w-4 h-4 text-emerald-400 shrink-0" />
-              <a href="mailto:info@shreejiwindventilator.com" className="hover:text-emerald-400">
+              <a href="mailto:info@shreejiwindventilator.com" className="hover:text-emerald-400 break-all transition-colors">
                 info@shreejiwindventilator.com
               </a>
             </div>
@@ -101,7 +101,7 @@ export const Footer: React.FC = () => {
               <li key={p.id}>
                 <Link href={`/${p.slug}`} className="hover:text-emerald-400 transition-colors flex items-center gap-1 text-slate-300">
                   <ArrowRight className="w-3 h-3 text-emerald-500 shrink-0" />
-                  <span>{p.name}</span>
+                  <span className="break-words">{p.name}</span>
                 </Link>
               </li>
             ))}
@@ -118,7 +118,7 @@ export const Footer: React.FC = () => {
               <li key={p.id}>
                 <Link href={`/${p.slug}`} className="hover:text-emerald-400 transition-colors flex items-center gap-1 text-slate-300">
                   <ArrowRight className="w-3 h-3 text-emerald-500 shrink-0" />
-                  <span>{p.name}</span>
+                  <span className="break-words">{p.name}</span>
                 </Link>
               </li>
             ))}
@@ -178,13 +178,13 @@ export const Footer: React.FC = () => {
       </div>
 
       {/* Major Industrial Cities & Regions Served Silo (Local SEO Booster) */}
-      <div className="max-w-7xl mx-auto px-4 py-8 border-t border-emerald-900/60 text-xs">
+      <div className="max-w-7xl mx-auto px-4 py-8 border-t border-emerald-900/60 text-xs overflow-hidden">
         <h5 className="text-white font-bold mb-3 uppercase tracking-wider text-[11px] text-emerald-400">
           Serving Major Industrial Hubs & Manufacturing Belts Across India:
         </h5>
         <div className="flex flex-wrap gap-2 text-slate-400">
           {citiesData.map((city, idx) => (
-            <span key={idx} className="inline-flex items-center">
+            <span key={idx} className="inline-flex items-center flex-wrap">
               <span className="text-slate-300 font-medium">{city.name}</span>
               <span className="text-slate-500 text-[10px] ml-1">({city.industrialHubs.slice(0, 3).join(', ')})</span>
               {idx < citiesData.length - 1 && <span className="mx-2 text-emerald-800">•</span>}
@@ -193,11 +193,11 @@ export const Footer: React.FC = () => {
         </div>
       </div>
 
-      {/* Factory Google Map & Copyright */}
+      {/* Factory Copyright & Bottom Nav Links */}
       <div className="bg-[#051712] py-6 border-t border-emerald-950 text-xs text-slate-400">
-        <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4">
-          <div>
-            <p>
+        <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4 text-center md:text-left">
+          <div className="w-full md:w-auto">
+            <p className="leading-normal">
               © {new Date().getFullYear()} <strong className="text-white">Shreeji Sales Corporation</strong>. All Rights Reserved. Brand: <strong className="text-emerald-400">Simpovent®</strong>
             </p>
             <p className="text-[11px] text-slate-500 mt-0.5">
@@ -205,22 +205,22 @@ export const Footer: React.FC = () => {
             </p>
           </div>
 
-          <div className="flex items-center gap-4 text-xs">
-            <Link href="/" className="hover:text-white">Home</Link>
-            <span>/</span>
-            <Link href="/about" className="hover:text-white">About Us</Link>
-            <span>/</span>
-            <Link href="/events" className="hover:text-white">Events</Link>
-            <span>/</span>
-            <Link href="/blog" className="hover:text-white">Blog</Link>
-            <span>/</span>
-            <Link href="/products" className="hover:text-white">Products</Link>
-            <span>/</span>
-            <Link href="/calculator" className="hover:text-white">CFM Calculator</Link>
-            <span>/</span>
-            <Link href="/contact" className="hover:text-white">Contact</Link>
-            <span>/</span>
-            <Link href="/privacy-policy" className="hover:text-white">Privacy Policy</Link>
+          <div className="flex flex-wrap items-center justify-center md:justify-end gap-x-3 gap-y-1.5 text-xs text-slate-400 w-full md:w-auto">
+            <Link href="/" className="hover:text-white transition-colors">Home</Link>
+            <span className="text-slate-600">/</span>
+            <Link href="/about" className="hover:text-white transition-colors">About Us</Link>
+            <span className="text-slate-600">/</span>
+            <Link href="/events" className="hover:text-white transition-colors">Events</Link>
+            <span className="text-slate-600">/</span>
+            <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
+            <span className="text-slate-600">/</span>
+            <Link href="/products" className="hover:text-white transition-colors">Products</Link>
+            <span className="text-slate-600">/</span>
+            <Link href="/calculator" className="hover:text-white transition-colors">CFM Calculator</Link>
+            <span className="text-slate-600">/</span>
+            <Link href="/contact" className="hover:text-white transition-colors">Contact</Link>
+            <span className="text-slate-600">/</span>
+            <Link href="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link>
           </div>
         </div>
       </div>

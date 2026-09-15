@@ -122,7 +122,7 @@ export const Header: React.FC = () => {
                 </button>
 
                 {megaMenuHover && (
-                  <div className="absolute top-full -left-20 pt-2 z-50">
+                  <div className="absolute top-full -left-36 md:-left-48 lg:-left-60 xl:-left-72 pt-2 z-50 pointer-events-auto w-[94vw] max-w-[1060px]">
                     <MegaMenu onItemClick={() => setMegaMenuHover(false)} />
                   </div>
                 )}

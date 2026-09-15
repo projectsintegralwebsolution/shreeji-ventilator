@@ -3,6 +3,7 @@ import "./globals.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { WhatsAppFloatingBtn } from "@/components/common/WhatsAppFloatingBtn";
+import { BackToTop } from "@/components/common/BackToTop";
 import { JsonLd } from "@/components/common/JsonLd";
 import { getOrganizationSchema, getLocalBusinessSchema } from "@/lib/seo";
 
@@ -68,6 +69,7 @@ export default function RootLayout({
         </main>
         <Footer />
         <WhatsAppFloatingBtn />
+        <BackToTop />
       </body>
     </html>
   );

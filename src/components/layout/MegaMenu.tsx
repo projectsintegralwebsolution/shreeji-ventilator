@@ -15,9 +15,9 @@ export const MegaMenu: React.FC<MegaMenuProps> = ({ onItemClick }) => {
   const hvlsFans = productsData.filter(p => p.category === 'hvls-fans');
 
   return (
-    <div className="w-[1080px] bg-white rounded-3xl shadow-2xl border border-slate-200/90 p-6 grid grid-cols-12 gap-6 animate-fadeIn text-slate-800 backdrop-blur-xl">
+    <div className="w-full max-w-[1060px] bg-white rounded-2xl sm:rounded-3xl shadow-2xl border border-slate-200/90 p-4 sm:p-5 lg:p-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-4 sm:gap-5 lg:gap-6 animate-fadeIn text-slate-800 backdrop-blur-xl max-h-[85vh] overflow-y-auto">
       {/* Column 1: Motorized Hybrid Series (Priority 1 - 3 cols) */}
-      <div className="col-span-3 space-y-3">
+      <div className="col-span-1 md:col-span-1 lg:col-span-3 space-y-3">
         <div className="flex items-center gap-2.5 pb-2.5 border-b border-amber-200">
           <div className="w-8 h-8 rounded-xl bg-amber-50 border border-amber-200 flex items-center justify-center text-amber-600 shadow-sm">
             <Zap className="w-4 h-4" />
@@ -46,7 +46,7 @@ export const MegaMenu: React.FC<MegaMenuProps> = ({ onItemClick }) => {
       </div>
 
       {/* Column 2: Wind-Driven Turbo Ventilators (3 cols) */}
-      <div className="col-span-3 space-y-3 border-l border-slate-100 pl-4">
+      <div className="col-span-1 md:col-span-1 lg:col-span-3 space-y-3 lg:border-l border-slate-100 lg:pl-4">
         <div className="flex items-center gap-2.5 pb-2.5 border-b border-emerald-100">
           <div className="w-8 h-8 rounded-xl bg-emerald-50 border border-emerald-200 flex items-center justify-center text-emerald-700 shadow-sm">
             <Wind className="w-4 h-4 animate-spin-slow" />
@@ -85,7 +85,7 @@ export const MegaMenu: React.FC<MegaMenuProps> = ({ onItemClick }) => {
       </div>
 
       {/* Column 3: Exhaust & HVLS Series (3 cols) */}
-      <div className="col-span-3 space-y-3 border-l border-slate-100 pl-4">
+      <div className="col-span-1 md:col-span-1 lg:col-span-3 space-y-3 lg:border-l border-slate-100 lg:pl-4">
         <div className="flex items-center gap-2.5 pb-2.5 border-b border-emerald-100">
           <div className="w-8 h-8 rounded-xl bg-teal-50 border border-teal-200 flex items-center justify-center text-teal-700 shadow-sm">
             <Fan className="w-4 h-4" />
@@ -136,7 +136,7 @@ export const MegaMenu: React.FC<MegaMenuProps> = ({ onItemClick }) => {
       </div>
 
       {/* Column 4: Featured SIMPOVENT® Showcase Card (3 cols) */}
-      <div className="col-span-3 bg-gradient-to-br from-[#0e382c] to-[#155e4b] p-4 rounded-2xl text-white flex flex-col justify-between shadow-lg">
+      <div className="col-span-1 md:col-span-1 lg:col-span-3 bg-gradient-to-br from-[#0e382c] to-[#155e4b] p-4 rounded-2xl text-white flex flex-col justify-between shadow-lg">
         <div className="space-y-2.5">
           <div className="flex items-center justify-between">
             <span className="inline-flex items-center gap-1 text-[9px] font-black uppercase tracking-wider px-2 py-0.5 rounded-full bg-emerald-400/20 text-emerald-300 border border-emerald-400/30">
