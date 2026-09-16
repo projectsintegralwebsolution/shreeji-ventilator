@@ -1,21 +1,32 @@
 "use client";
 
-import React, { useState } from 'react';
+import React, { useState, useEffect, Suspense } from 'react';
 import Link from 'next/link';
+import { useSearchParams } from 'next/navigation';
 import { Wind, Zap, Fan, ArrowRight, Sparkles, CheckCircle2 } from 'lucide-react';
 import { productsData, ProductItem } from '@/data/productsData';
 import { QuoteButton } from '../common/QuoteButton';
 import { WatermarkedImage } from '../common/WatermarkedImage';
 
-export const ProductGrid: React.FC = () => {
-  const [activeTab, setActiveTab] = useState<string>('all');
+const ProductGridContent: React.FC = () => {
+  const searchParams = useSearchParams();
+  const initialCategory = searchParams.get('category') || 'all';
+
+  const [activeTab, setActiveTab] = useState<string>(initialCategory);
+
+  useEffect(() => {
+    const categoryParam = searchParams.get('category');
+    if (categoryParam) {
+      setActiveTab(categoryParam);
+    }
+  }, [searchParams]);
 
   const categories = [
     { key: 'all', label: 'All 22 Products' },
-    { key: 'motorized-hybrid', label: 'Motorized Roof Ventilators' },
-    { key: 'industrial-exhaust', label: 'Heavy Duty Exhaust Fans' },
-    { key: 'hvls-fans', label: 'HVLS PMSM Fans' },
-    { key: 'wind-driven', label: 'Wind-Driven Ventilators' }
+    { key: 'wind-driven', label: 'Natural Wind-Driven (13 Models)' },
+    { key: 'motorized-hybrid', label: 'Motorized Hybrid (5 Models)' },
+    { key: 'industrial-exhaust', label: 'Heavy Duty Exhaust Fans (2 Models)' },
+    { key: 'hvls-fans', label: 'HVLS PMSM Fans (2 Models)' }
   ];
 
   const filteredProducts = activeTab === 'all'
@@ -23,7 +34,7 @@ export const ProductGrid: React.FC = () => {
     : productsData.filter(p => p.category === activeTab);
 
   return (
-    <section className="py-16 md:py-24 bg-slate-50 border-t border-slate-200" suppressHydrationWarning>
+    <section id="products-grid" className="py-16 md:py-24 bg-slate-50 border-t border-slate-200 scroll-mt-20" suppressHydrationWarning>
       <div className="max-w-7xl mx-auto px-4" suppressHydrationWarning>
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
@@ -35,7 +46,7 @@ export const ProductGrid: React.FC = () => {
               Industrial Ventilation Solutions
             </h2>
             <p className="text-xs sm:text-sm text-slate-600 mt-1">
-              Explore our full range of wind-driven, hybrid motorized, and heavy-duty powered exhaust systems.
+              Explore our full range of 22 wind-driven, hybrid motorized, and heavy-duty powered exhaust systems.
             </p>
           </div>
 
@@ -141,5 +152,13 @@ export const ProductGrid: React.FC = () => {
         </div>
       </div>
     </section>
+  );
+};
+
+export const ProductGrid: React.FC = () => {
+  return (
+    <Suspense fallback={<div className="py-24 text-center text-slate-400 text-sm">Loading industrial products...</div>}>
+      <ProductGridContent />
+    </Suspense>
   );
 };

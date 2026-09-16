@@ -7,7 +7,7 @@ export const dynamic = 'force-dynamic';
 export async function POST(request: Request) {
   try {
     const body = await request.json();
-    const { name, phone, email, city, product, shedDimensions, message } = body;
+    const { name, phone, email, city, product, shedDimensions, message, quantity } = body;
 
     if (!name || !phone) {
       return NextResponse.json(
@@ -19,6 +19,10 @@ export async function POST(request: Request) {
     const timestamp = new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' });
     const settings = db.getSettings();
 
+    const formattedMessage = message 
+      ? (quantity ? `[Quantity: ${quantity}] ${message}` : message)
+      : (quantity ? `[Quantity: ${quantity}]` : '');
+
     // 1. Save Lead to Persistent Database Store
     const savedLead = db.addLead({
       name,
@@ -27,7 +31,7 @@ export async function POST(request: Request) {
       city,
       product,
       shedDimensions,
-      message
+      message: formattedMessage
     });
 
     // 2. Prepare 3-Way Notification Emails

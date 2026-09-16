@@ -42,6 +42,16 @@ export const MegaMenu: React.FC<MegaMenuProps> = ({ onItemClick }) => {
               </Link>
             </li>
           ))}
+          <li className="pt-1.5">
+            <Link
+              href="/products?category=motorized-hybrid"
+              onClick={onItemClick}
+              className="group flex items-center justify-between py-1.5 px-2.5 rounded-xl text-xs font-bold text-amber-800 bg-amber-50 hover:bg-amber-100 hover:text-amber-950 transition-all border border-amber-200/60"
+            >
+              <span>+ View All Motorized Models</span>
+              <ArrowRight className="w-3.5 h-3.5 text-amber-700 group-hover:translate-x-1 transition-transform shrink-0" />
+            </Link>
+          </li>
         </ul>
       </div>
 
@@ -71,14 +81,14 @@ export const MegaMenu: React.FC<MegaMenuProps> = ({ onItemClick }) => {
               </Link>
             </li>
           ))}
-          <li>
+          <li className="pt-1.5">
             <Link
-              href="/products"
+              href="/products?category=wind-driven"
               onClick={onItemClick}
-              className="text-[11px] font-bold text-emerald-700 hover:underline px-2 pt-1 inline-flex items-center gap-1"
+              className="group flex items-center justify-between py-1.5 px-2.5 rounded-xl text-xs font-bold text-emerald-800 bg-emerald-50 hover:bg-emerald-100 hover:text-emerald-950 transition-all border border-emerald-200/60"
             >
-              <span>+ View all 13 Natural Models</span>
-              <ArrowRight className="w-2.5 h-2.5" />
+              <span>+ View All 13 Natural Models</span>
+              <ArrowRight className="w-3.5 h-3.5 text-emerald-700 group-hover:translate-x-1 transition-transform shrink-0" />
             </Link>
           </li>
         </ul>

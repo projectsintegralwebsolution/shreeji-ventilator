@@ -94,7 +94,30 @@ export const MobileNav: React.FC<MobileNavProps> = ({ isOpen, onClose }) => {
               <ChevronDown className={`w-4 h-4 transition-transform ${productsOpen ? 'rotate-180' : ''}`} />
             </button>
             {productsOpen && (
-              <div className="pl-4 pr-2 py-2 space-y-1 bg-slate-50 rounded-xl my-1 max-h-60 overflow-y-auto border border-slate-100">
+              <div className="pl-3 pr-2 py-2 space-y-1 bg-slate-50 rounded-xl my-1 max-h-72 overflow-y-auto border border-slate-100">
+                <div className="pb-2 mb-2 border-b border-slate-200/80 space-y-1">
+                  <Link
+                    href="/products?category=wind-driven"
+                    onClick={onClose}
+                    className="block py-1.5 px-2.5 text-xs font-bold text-emerald-800 bg-emerald-100/70 hover:bg-emerald-100 rounded-md"
+                  >
+                    🍃 View All 13 Natural Models
+                  </Link>
+                  <Link
+                    href="/products?category=motorized-hybrid"
+                    onClick={onClose}
+                    className="block py-1.5 px-2.5 text-xs font-bold text-amber-800 bg-amber-100/70 hover:bg-amber-100 rounded-md"
+                  >
+                    ⚡ View All 5 Motorized Models
+                  </Link>
+                  <Link
+                    href="/products"
+                    onClick={onClose}
+                    className="block py-1.5 px-2.5 text-xs font-bold text-slate-800 bg-slate-200/60 hover:bg-slate-200 rounded-md"
+                  >
+                    📦 View All 22 Product Models
+                  </Link>
+                </div>
                 {productsData.map((p) => (
                   <Link
                     key={p.id}

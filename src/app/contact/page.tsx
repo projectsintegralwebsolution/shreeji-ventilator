@@ -134,6 +134,27 @@ export default function ContactPage() {
                   </div>
                 </div>
 
+                {/* Direct Action Buttons */}
+                <div className="pt-2 space-y-2.5">
+                  <a
+                    href="https://wa.me/917262860283?text=Hello%20Shreeji%20Sales%20Corporation,%20I%20am%20interested%20in%20an%20industrial%20ventilator%20quotation."
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-full py-3 px-4 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs sm:text-sm flex items-center justify-center gap-2 shadow-md transition-all"
+                  >
+                    <span>Chat Directly on WhatsApp</span>
+                  </a>
+
+                  <a
+                    href="https://maps.google.com/?q=Takdir+Industrial+Estate+Fatherwadi+Vasai+East+Palghar+Maharashtra+401208"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-full py-2.5 px-4 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 font-bold text-xs flex items-center justify-center gap-2 transition-colors border border-slate-200"
+                  >
+                    <span>Get Directions on Google Maps</span>
+                  </a>
+                </div>
+
                 {/* Real Reception Image */}
                 <div className="rounded-2xl overflow-hidden border border-slate-200 shadow-md">
                   <WatermarkedImage

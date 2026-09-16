@@ -20,16 +20,12 @@ const nextConfig = {
       // About Us variations
       { source: '/aboutus', destination: '/about', permanent: true },
       { source: '/about-us', destination: '/about', permanent: true },
-      { source: '/Aboutus', destination: '/about', permanent: true },
-      { source: '/About-Us', destination: '/about', permanent: true },
-      { source: '/About', destination: '/about', permanent: true },
       { source: '/aboutus.php', destination: '/about', permanent: true },
       { source: '/about.php', destination: '/about', permanent: true },
       { source: '/aboutus.html', destination: '/about', permanent: true },
       { source: '/about.html', destination: '/about', permanent: true },
 
-      // Products variations & casing
-      { source: '/Products', destination: '/products', permanent: true },
+      // Products variations
       { source: '/products.php', destination: '/products', permanent: true },
       { source: '/products.html', destination: '/products', permanent: true },
       { source: '/product.php', destination: '/products', permanent: true },
@@ -38,8 +34,6 @@ const nextConfig = {
       // Contact variations
       { source: '/contactus', destination: '/contact', permanent: true },
       { source: '/contact-us', destination: '/contact', permanent: true },
-      { source: '/Contact', destination: '/contact', permanent: true },
-      { source: '/Contact-Us', destination: '/contact', permanent: true },
       { source: '/contactus.php', destination: '/contact', permanent: true },
       { source: '/contact.php', destination: '/contact', permanent: true },
       { source: '/contactus.html', destination: '/contact', permanent: true },
