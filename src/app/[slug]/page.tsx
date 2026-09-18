@@ -110,7 +110,7 @@ export default async function KeywordProductPage({ params }: PageProps) {
                   </span>
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                <div className={`grid grid-cols-1 ${product.galleryImages.length === 2 ? 'sm:grid-cols-2' : 'sm:grid-cols-2 md:grid-cols-3'} gap-4`}>
                   {product.galleryImages.map((img, idx) => (
                     <div key={idx} className="rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
                       <WatermarkedImage

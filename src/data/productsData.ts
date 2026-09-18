@@ -68,7 +68,7 @@ export const productsData: ProductItem[] = [
     "name": "Motorized Roof Ventilator",
     "h1Title": "Motorized Roof Ventilator Manufacturer & Industrial Roof Extraction Systems",
     "metaTitle": "Motorized Roof Ventilator Manufacturer in India | Simpovent®",
-    "metaDescription": "Simpovent® Motorized Roof Ventilator combining continuous wind-driven natural suction with high-torque electric motor assist for high-heat industrial factories.",
+    "metaDescription": "Simpovent® Motorized Roof Ventilator engineered for continuous roof-apex forced extraction of dense industrial heat, furnace smoke, and process fumes.",
     "focusKeywords": [
       "motorized roof ventilator",
       "motorised roof ventilator",
@@ -85,34 +85,34 @@ export const productsData: ProductItem[] = [
     ],
     "category": "motorized-hybrid",
     "categoryLabel": "Motorized Hybrid Roof Ventilator",
-    "shortDescription": "Heavy-duty dual-action motorized roof ventilator integrating aerodynamic wind turbine vanes with high-torque electric motor for guaranteed exhaust during high heat generation.",
+    "shortDescription": "Heavy-duty industrial motorized roof ventilator engineered for continuous high-heat evacuation, severe smoke extraction, and zero-stagnation plant ventilation.",
     "fullDescription": [
-      "The Simpovent® Motorized Roof Ventilator is engineered for severe industrial factory environments where process heat loads, welding fumes, or chemical vapors fluctuate dramatically throughout production shifts.",
-      "Featuring a dual-operation hybrid design, this unit functions 100% powerless as a natural wind-driven ventilator during normal weather conditions, while the integrated high-efficiency copper-wound motor can be energized on-demand or via automatic thermal sensors during peak production cycles.",
-      "Manufactured with aerospace-grade Hindalco Aluminium 8011 vanes, heavy-gauge Stainless Steel SS 304 framework, and IP55 weatherproof motor enclosure, ensuring maintenance-free, continuous smoke and fume extraction."
+      "The SIMPOVENT® Motorized Roof Ventilator is engineered specifically for severe industrial factory environments where process heat loads, welding fumes, chemical vapors, or furnace emissions demand continuous forced rooftop extraction.",
+      "Operating directly at the highest apex of the factory roof deck, this system prevents the accumulation of trapped thermal blankets and stratifying toxic fumes. When energized, the precision-balanced internal motor assembly generates high-velocity suction that pulls stagnant air up through the central throat and expels it horizontally away from the roofline.",
+      "Constructed with aerospace-grade Hindalco Aluminium 8011 vanes, heavy-gauge Stainless Steel SS 304 structural framework, and a TEFC IP55 weatherproof motor enclosure, it provides continuous 24/7 industrial extraction in dusty, humid, and corrosive atmospheres."
     ],
     "keyFeatures": [
-      "Dual Hybrid Mode (Wind-Driven Zero Power + Electric Motorized Boost)",
-      "High-Torque IP55 Weatherproof Copper-Wound Electric Motor",
-      "Hindalco 8011 Aluminium Vanes with SS 304 Reinforcement",
-      "Custom RPM Control with Thermal & Smoke Sensor Automation Compatibility",
-      "100% Monsoon-Proof & Capillary Water Seepage Resistant Design",
-      "Heavy-Duty FRP Matching Base Plate for Corrugated Roofing Sheets"
+      "Roof Apex Thermal Blanket Elimination & Continuous Forced Exhaust",
+      "High-Torque Class F Insulated IP55 Weatherproof Copper-Wound Motor",
+      "Hindalco 8011 Aluminium Vanes with SS 304 Structural Framework",
+      "Dynamic Factory Balancing for Low-Vibration Continuous Duty",
+      "100% Monsoon-Proof Aerodynamic Water Deflector Construction",
+      "Precision-Moulded FRP Base Plate for All Industrial Corrugated Roofing Profiles"
     ],
     "efficiencyHighlights": [
-      "Provides up to 300% higher CFM air extraction during peak heat shifts",
-      "Operates silently in passive mode with zero power consumption",
-      "Drastically reduces rooftop heat pockets and stagnant hot air blankets",
-      "Long-life dual sealed bearings rated for continuous industrial operation"
+      "Delivers rapid volumetric air displacement to prevent heat buildup beneath metal ceilings",
+      "Reduces indoor ambient shop-floor temperatures by 5°C to 9°C",
+      "Prevents corrosive condensate and moisture buildup on roof purlins and rafters",
+      "Engineered for 24/7 continuous industrial duty cycle with minimal maintenance"
     ],
-    "workingTheory": "Combines the natural thermal siphon effect and ambient wind velocity with forced motorized centrifugal suction. When the electric motor is engaged, the internal impellers generate high negative static pressure, forcefully drawing hot fumes, welding smoke, and stagnant warm air up through the throat and discharging it horizontally.",
+    "workingTheory": "Operating at the factory roof crest where rising hot air naturally collects, the unit uses motorized centrifugal suction to establish a powerful low-pressure extraction zone. Rising thermal plumes, heavy smoke, and process vapors are continuously captured and forcefully discharged outward, drawing cooler fresh air inward through wall louvers.",
     "applications": [
       "Steel Rolling Mills & Forging Plants",
-      "Foundries & Heat Treatment Shops",
-      "Chemical Processing & Paint Booths",
+      "Foundries & Heat Treatment Facilities",
+      "Chemical Processing & Paint Application Bays",
       "Automotive Assembly & Robotic Welding Lines",
-      "Plastic Injection Moulding Plants",
-      "Die Casting & Rubber Processing Units"
+      "Plastic Extrusion & Injection Moulding Plants",
+      "Die Casting & Industrial Rubber Processing Units"
     ],
     "specs": {
       "throatDia": "24\" Inch (610 MM) / 28\" Inch (710 MM)",
@@ -137,11 +137,11 @@ export const productsData: ProductItem[] = [
     "faqs": [
       {
         "question": "How does a Motorized Roof Ventilator differ from a standard wind ventilator?",
-        "answer": "A standard wind ventilator relies 100% on ambient breeze and thermal updrafts. A Motorized Roof Ventilator features an integrated electric motor and auxiliary impellers, giving you guaranteed, high-capacity forced exhaust even during zero-wind conditions or extreme furnace heat spikes."
+        "answer": "A standard wind ventilator relies on ambient breeze and thermal updrafts. A Motorized Roof Ventilator features an integrated electric motor and auxiliary impellers, delivering guaranteed, high-capacity forced exhaust even during zero-wind conditions or extreme furnace heat spikes."
       },
       {
-        "question": "Can this motorized ventilator run continuously in passive wind mode?",
-        "answer": "Yes. When the motor is turned off, the rotor cage continues to spin freely and silently via wind energy and thermal convection with zero electricity consumption."
+        "question": "Can this motorized ventilator run continuously during high production hours?",
+        "answer": "Yes. The IP55 Class F insulated motor is rated for continuous 24/7 industrial duty, ensuring reliable smoke and heat evacuation throughout multi-shift operations."
       },
       {
         "question": "What roof sheet profiles can it be mounted on?",
@@ -154,12 +154,13 @@ export const productsData: ProductItem[] = [
     "slug": "motorised-ventilator",
     "legacySlug": "motorised-ventilator.php",
     "name": "Motorised Ventilator",
-    "h1Title": "Motorised Ventilator - Industrial Forced Draft Roof Ventilation System",
-    "metaTitle": "Motorised Ventilator Manufacturer & Supplier India | Simpovent®",
-    "metaDescription": "Buy heavy-duty Motorised Ventilators from Simpovent®. Powered ventilation units for factories, warehouses, boiler rooms and high-temperature manufacturing plants.",
+    "h1Title": "SIMPOVENT® Motorized Ventilator - 10,000 CFM Industrial Forced Draft System",
+    "metaTitle": "SIMPOVENT® Motorized Ventilator | 32\" 1.5 HP 10,000 CFM Roof Ventilator",
+    "metaDescription": "SIMPOVENT® Motorized Ventilator. 32\" Size, 1.5 HP Motor, 10,000 CFM forced air exhaust with FRP base plate only. High-capacity extraction for heavy industries.",
     "focusKeywords": [
       "motorised ventilator",
       "motorized ventilator",
+      "SIMPOVENT motorized ventilator",
       "motorized roof ventilator",
       "motorized turbo ventilator",
       "force ventilator",
@@ -171,45 +172,44 @@ export const productsData: ProductItem[] = [
     ],
     "category": "motorized-hybrid",
     "categoryLabel": "Motorized Roof Ventilator",
-    "shortDescription": "High-velocity motorised industrial roof ventilator designed for high-density heat evacuation, fume expulsion, and severe factory ventilation requirements.",
+    "shortDescription": "High-capacity SIMPOVENT® Motorized Ventilator engineered with 32\" outer diameter, 1.5 HP industrial motor, and 10,000 CFM exhaust capacity with heavy-duty FRP base plate.",
     "fullDescription": [
-      "Simpovent® Motorised Ventilators represent the next generation of forced-air industrial roof extraction. Engineered to solve acute overheating problems in metal PEB factory sheds, these units guarantee uninterrupted ventilation regardless of exterior weather.",
-      "The precision-balanced rotor cage is driven by a rugged, energy-efficient electric motor designed for 24/7 continuous operation in dusty, humid, and chemically aggressive industrial atmospheres.",
-      "Equipped with corrosion-resistant aluminium turbine vanes and heavy-gauge mounting hardware, it ensures long-term operational reliability with minimal maintenance."
+      "The SIMPOVENT® Motorized Ventilator is a powerhouse industrial roof ventilation unit engineered to deliver a verified 10,000 CFM of high-velocity air exhaust across heavy manufacturing plants, foundries, and large PEB industrial sheds.",
+      "Driven by a high-torque 1.5 HP Class F insulated copper-wound electric motor, this 32\" unit provides aggressive, uninterrupted extraction of dense thermal plumes, process fumes, and airborne industrial contaminants without depending on external wind speeds.",
+      "Every SIMPOVENT® Motorized Ventilator is supplied exclusively with custom-moulded, UV-stabilized heavy-duty FRP base plates tailored to match exact roofing sheet profiles (Tata Bluescope, JSW, Kirby, Asbestos, etc.), ensuring a 100% leak-proof, weatherproof factory installation."
     ],
     "keyFeatures": [
-      "Direct Drive Motorized Air Extraction Mechanism",
-      "Aerodynamically Engineered 42-Curved Vane Rotor Cage",
-      "Energy Efficient TEFC Class F Insulated Copper Motor",
-      "Resistant to High Acidic, Alkaline, and Humid Environments",
-      "Includes Bird Guard & Heavy Duty Base Flange",
-      "Factory Dynamically Balanced for Vibration-Free Operation"
+      "Guaranteed 10,000 CFM High-Volume Industrial Air Displacement",
+      "High-Torque 1.5 HP Continuous-Duty TEFC IP55 Copper Motor",
+      "Robust 32\" Outer Rotor Diameter with Precision Aerofoil Vanes",
+      "100% FRP Only UV-Stabilized Custom Profile Base Plate",
+      "Corrosion-Resistant Metallurgy with SS 304 Central Hardware",
+      "Engineered for Multi-Shift Heavy Factory Environments"
     ],
     "efficiencyHighlights": [
-      "Eliminates trapped hot air layers under PEB factory ceilings",
-      "Evacuates up to 6,800 CFM of hot air, moisture, and fumes",
-      "Significantly improves indoor air quality (IAQ) and worker comfort",
-      "Reduces structural thermal expansion stress on industrial roof sheets"
+      "Provides massive 10,000 CFM exhaust capacity to maintain statutory air changes per hour",
+      "Rapidly clears high-density smoke, furnace emissions, and airborne particulate haze",
+      "Maintains comfortable indoor ambient working temperatures for plant personnel",
+      "Eliminates stagnant heat buildup under high-bay industrial metal ceilings"
     ],
-    "workingTheory": "The internal motorized impeller generates positive upward velocity and negative pressure below the roof deck, pulling hot thermal plumes directly from factory production lines and exhausting them through the weatherproof rotating cowl.",
+    "workingTheory": "The 1.5 HP direct-drive motor spins a heavy-duty internal impeller assembly within the 32\" housing, creating substantial negative static pressure across the roof opening. Trapped factory air, hot process steam, and airborne emissions are rapidly suctioned upward and discharged continuously at a rate of 10,000 CFM.",
     "applications": [
-      "Furnace & Boiler Sheds",
-      "Heavy Machine Fabrication Workshops",
-      "Plastic Extrusion & Injection Facilities",
-      "Chemical Processing Sheds",
-      "Textile Processing & Dyeing Units",
-      "Paper Mills & Corrugation Plants"
+      "Furnace & Induction Melting Sheds",
+      "Heavy Machine Fabrication & Welding Bays",
+      "Boiler Rooms & Thermal Power Ancillaries",
+      "Chemical Manufacturing & Reaction Vessels",
+      "Automotive Stamping & Paint Curing Plants",
+      "Textile Processing & High-Humidity Dyeing Mills"
     ],
     "specs": {
-      "throatDia": "24\" Inch (610 MM) / 28\" Inch (710 MM)",
-      "outerDia": "30\" Inch (760 MM) / 36\" Inch (915 MM)",
-      "motorType": "Class F High-Efficiency IP55 Induction Motor",
-      "bladeMoc": "Hindalco 8011 Aluminium Vanes",
-      "topCoverMoc": "Stainless Steel SS 304",
+      "throatDia": "32\" Inch (810 MM)",
+      "outerDia": "32\" Inch (810 MM)",
+      "motorType": "1.5 HP High-Torque IP55 Industrial Motor",
+      "topCoverMoc": "Stainless Steel SS 304 Heavy Duty Cowl",
       "bearingMake": "Dual Sealed Heavy-Duty Deep Groove Bearings",
-      "basePlateMoc": "Virgin UV-Resistant FRP Profile Matching Plate",
-      "airflowCfm": "4,000 CFM to 6,800 CFM",
-      "powerConsumption": "0.5 HP to 1.5 HP (230V / 415V 50Hz)"
+      "basePlateMoc": "Heavy-Duty FRP Matching Profile Base Plate (FRP only)",
+      "airflowCfm": "10,000 CFM",
+      "powerConsumption": "1.5 HP (415V 3-Phase / 230V Single Phase)"
     },
     "image": "/images/products/motorized-roof-air-ventilator-new.jpeg",
     "galleryImages": [
@@ -219,12 +219,16 @@ export const productsData: ProductItem[] = [
     ],
     "faqs": [
       {
-        "question": "Can the motorized ventilator be connected to automatic sensors?",
-        "answer": "Yes, our motorized ventilators can be easily integrated with temperature sensors, smoke detectors, or timer switches for automated on/off cycling."
+        "question": "What are the confirmed specifications of the SIMPOVENT® Motorized Ventilator?",
+        "answer": "The SIMPOVENT® Motorized Ventilator is engineered with a 32\" outer diameter, 1.5 HP industrial motor, 10,000 CFM airflow capacity, and custom FRP matching base plates."
       },
       {
-        "question": "Is it completely waterproof during heavy monsoon rain?",
-        "answer": "Yes, the precision aerodynamic curvature of the vanes combined with our custom FRP base plate and water deflector lip prevents any water ingress even during heavy gale-force monsoon storms."
+        "question": "Why is the base plate supplied in FRP only?",
+        "answer": "FRP (Fiberglass Reinforced Polymer) provides superior weather resistance, zero corrosion from acid/chemical vapors, and exact structural matching to industrial corrugated roof profiles."
+      },
+      {
+        "question": "Can it be automated with plant control panels?",
+        "answer": "Yes, it can be connected to thermal switches, VFD controllers, or centralized BMS automation systems for scheduled or demand-based operation."
       }
     ]
   },
@@ -250,33 +254,34 @@ export const productsData: ProductItem[] = [
     ],
     "category": "motorized-hybrid",
     "categoryLabel": "Motorized Turbo Ventilator",
-    "shortDescription": "Industrial turbo ventilator equipped with internal electric motor assist for high-velocity thermal extraction and severe factory fume removal.",
+    "shortDescription": "Dual-action motorized turbo ventilator integrating an aerodynamic spinning rotor cage with an electric motor booster for rapid localized heat and smoke evacuation.",
     "fullDescription": [
-      "The Simpovent® Motorized Turbo Ventilator is specifically designed for manufacturing facilities experiencing extreme heat generation where passive wind ventilators alone need additional powered extraction.",
-      "Combining the advantages of our classic 42-blade aerodynamic aluminium turbo head with a precision-mounted direct-drive electric motor, this unit offers maximum flexibility and power.",
-      "Manufactured with Hindalco 8011 aluminium vanes, stainless steel hardware, and precision sealed bearings, the unit is corrosion-proof, durable, and designed for decades of trouble-free performance."
+      "The SIMPOVENT® Motorized Turbo Ventilator unites the aerofoil efficiency of an industrial rotary turbo head with the assured extraction power of an internal electric motor booster, delivering reliable ventilation regardless of weather or wind conditions.",
+      "In standard operating conditions, the precision-curved 42 aluminium vanes rotate smoothly via natural thermal buoyancy and ambient breeze. During intense manufacturing shifts or sudden thermal surges, the integrated motor activates to create an accelerated vortex that dramatically boosts volumetric CFM air evacuation.",
+      "Constructed with Hindalco 8011 aluminium alloy, heavy SS 304 center shaft assembly, and dual precision sealed bearings, the Motorized Turbo Ventilator is designed for long service life across harsh chemical, industrial, and coastal settings."
     ],
     "keyFeatures": [
-      "Dual Mechanism (Wind Turbine + Powered Booster)",
-      "High Volumetric Air Displacement up to 7,200 CFM",
-      "Hindalco 8011 Aluminium Vanes with SS 304 Reinforcement",
-      "Precision Balanced for Ultra-Low Vibration & Noise",
-      "Weatherproof IP55 Motor with Overload Protection",
-      "Custom FRP Base Plate for Exact Roof Profile Fit"
+      "Dual Extraction Dynamic (Wind Turbine Aerodynamics + Motorized Booster Fan)",
+      "High-Torque Class F IP55 Copper-Wound Electric Motor",
+      "42 Precision-Contoured Hindalco 8011 Aluminium Vanes",
+      "Accelerated Vortex Suction for Instantaneous Smoke & Heat Evacuation",
+      "Dual Deep-Groove Sealed Bearings for Smooth, Low-Noise Rotation",
+      "Custom FRP Base Plate Tailored to Corrugated Sheet Profiles"
     ],
     "efficiencyHighlights": [
-      "Provides continuous positive extraction regardless of wind speed",
-      "Drops ambient factory temperatures by 5°C to 10°C",
-      "Removes toxic welding smoke, oil mist, and humidity rapidly",
-      "Lowest lifecycle operating cost in the powered ventilation category"
+      "Assures high-velocity extraction during sudden thermal spikes and heavy production runs",
+      "Low lifecycle power consumption with intelligent on-demand motorized boosting",
+      "Prevents accumulation of heavy toxic fumes around robotic welding lines",
+      "Drop-in replacement for existing passive 24\" turbo vents requiring powered upgrades"
     ],
-    "workingTheory": "Thermal updrafts and ambient wind naturally rotate the exterior turbine vanes. When excessive heat or smoke triggers the motor, the internal booster fan creates a powerful localized vortex that rapidly expels stagnant hot air through the spinning cowl.",
+    "workingTheory": "Thermal updrafts and ambient wind naturally rotate the exterior 42 aluminium turbine blades. When active motorized boosting is engaged, the internal high-pitch impeller creates a concentrated vortex core that dramatically accelerates exhaust velocity through the rotating turbo head.",
     "applications": [
-      "Robotic Welding & Fabrication Shops",
+      "Robotic Welding & Heavy Metal Fabrication Shops",
       "Foundries, Forging & Smelting Sheds",
-      "Automotive Paint & Powder Coating Booths",
-      "DG (Diesel Generator) & Compressor Rooms",
-      "Plastic Extrusion & Injection Molding Plants"
+      "Automotive Paint, Primer & Powder Coating Booths",
+      "Diesel Generator (DG) Rooms & Compressor Housings",
+      "Plastic Extrusion & Injection Molding Facilities",
+      "Electronic Manufacturing & Soldering Workshops"
     ],
     "specs": {
       "throatDia": "24\" Inch (610 MM) / 28\" Inch (710 MM)",
@@ -299,6 +304,10 @@ export const productsData: ProductItem[] = [
       {
         "question": "What is the warranty on the motorized turbo ventilator?",
         "answer": "We provide a 10-year structural warranty on the aluminium turbine rotor assembly and a standard 1-year replacement warranty on the electrical motor."
+      },
+      {
+        "question": "Can the booster motor be retrofitted into existing installed ventilators?",
+        "answer": "Yes, we offer modular motorized conversion kits designed to fit into standard 24\" SIMPOVENT® turbine collars."
       }
     ]
   },
@@ -327,40 +336,41 @@ export const productsData: ProductItem[] = [
     "categoryLabel": "Powered Roof Ventilator",
     "shortDescription": "High-capacity powered industrial roof ventilator engineered for forced evacuation of industrial thermal plumes, corrosive fumes, and stagnant factory air.",
     "fullDescription": [
-      "The Simpovent® Power Ventilator (Power Roof Exhaust Unit) is built for industrial facilities requiring high-pressure, forced air evacuation through the roof.",
-      "Engineered with a high-efficiency axial or centrifugal impeller powered by a heavy-duty continuous-duty motor, it guarantees rapid air exchanges across expansive factory floors.",
-      "Housed in a rugged weatherproof aluminium/galvanized cowl with an aerodynamic rain cap, the Power Ventilator delivers uncompromising performance in severe industrial environments."
+      "The SIMPOVENT® Power Ventilator is an industrial-grade, electric-driven roof exhaust unit designed for manufacturing facilities requiring guaranteed, continuous high-volume air displacement through the roof deck.",
+      "Equipped with a high-torque continuous-duty motor and aerodynamically balanced impeller blades, the Power Ventilator establishes positive vertical airflow, forcefully evacuating process heat, airborne dust, and oppressive industrial fumes before they disperse across the shop floor.",
+      "Housed inside a rugged, corrosion-resistant weatherproof cowl with integrated backdraft prevention, the Power Ventilator delivers uncompromising 24/7 reliability in steel mills, chemical plants, and heavy fabrication workshops."
     ],
     "keyFeatures": [
-      "Heavy-Duty Powered Air Extraction Engine",
-      "Aerodynamic Weatherhood with Backdraft Damper",
-      "High Air Volume Delivery up to 8,500 CFM",
-      "Corrosion-Proof Aluminium & SS 304 Construction",
-      "Low Acoustic Signature with Dynamically Balanced Impeller",
-      "Direct Factory Dispatch from Vasai Manufacturing Unit"
+      "High-Volume Powered Air Extraction Engine for Large Industrial Sheds",
+      "Aerodynamic Weatherhood Cowl with Integrated Rain Deflection Lip",
+      "Heavy-Duty Class F TEFC Copper-Wound Industrial Motor",
+      "Corrosion-Proof Aluminium & SS 304 Hardware Construction",
+      "Precision Dynamically Balanced Impeller for Smooth, Low-Acoustic Operation",
+      "Direct Roof Mounting via Custom FRP Base Plate"
     ],
     "efficiencyHighlights": [
-      "Guarantees scheduled air changes per hour (ACH) to comply with factory safety norms",
+      "Guarantees designated air changes per hour (ACH) to meet industrial safety and environmental standards",
       "Swiftly purges explosive dust, welding fumes, and paint overspray",
-      "Maintains optimal working ambient temperatures for machine operators"
+      "Maintains optimal working ambient temperatures for machine operators and sensitive equipment",
+      "Prevents structural heat entrapment under wide-span metal roof decks"
     ],
-    "workingTheory": "A high-efficiency axial/mixed-flow impeller driven by an industrial electric motor forcefully expels trapped hot air upward through the roof cowl, creating a powerful draft that draws fresh cool ambient air into the facility from lower wall louvers.",
+    "workingTheory": "An industrial electric motor drives a high-pitch aerofoil impeller inside the cowl, creating substantial upward pressure differential. Hot thermal plumes, heavy smoke, and trapped factory air are suctioned upward from floor level and forcefully ejected into the atmosphere.",
     "applications": [
-      "Steel Fabrication Plants",
-      "Chemical Processing & Storage Units",
-      "Commercial Kitchen Exhaust Hoods",
-      "Die Casting & Metal Stamping Plants",
-      "Transformer & Switchgear Rooms"
+      "Steel Fabrication & Heavy Engineering Plants",
+      "Chemical Processing & Bulk Storage Sheds",
+      "Commercial Kitchen & Food Processing Exhaust Lines",
+      "Die Casting, Stamping & Hot Pressing Facilities",
+      "Transformer, Switchgear & Power Distribution Rooms",
+      "Paper Mills & Corrugated Packaging Facilities"
     ],
     "specs": {
-      "throatDia": "24\" Inch (610 MM) / 30\" Inch (760 MM)",
-      "outerDia": "34\" Inch (860 MM)",
-      "motorType": "High-Torque Class F TEFC Copper Motor",
-      "bladeMoc": "High-Strength Cast Aluminium / SS 304",
+      "throatDia": "32\" Inch (810 MM)",
+      "outerDia": "32\" Inch (810 MM)",
+      "motorType": "1.5 HP High-Torque IP55 Industrial Motor",
       "topCoverMoc": "Heavy-Gauge Weatherproof Cowl",
-      "basePlateMoc": "FRP / MS Powder Coated Base",
-      "airflowCfm": "4,500 CFM to 8,500 CFM",
-      "powerConsumption": "0.75 kW to 2.2 kW (415V 3-Phase)"
+      "basePlateMoc": "Heavy-Duty FRP Matching Base Plate (FRP only)",
+      "airflowCfm": "10,000 CFM",
+      "powerConsumption": "1.5 HP (415V 3-Phase / 230V Single Phase)"
     },
     "image": "/images/products/power-ventilator-new.jpeg",
     "galleryImages": [
@@ -372,6 +382,10 @@ export const productsData: ProductItem[] = [
       {
         "question": "Can this unit be mounted on inclined metal roofs?",
         "answer": "Yes, our custom-engineered FRP base plates are moulded to the exact pitch and profile of your PEB or asbestos roof, ensuring a vertical installation with zero leakages."
+      },
+      {
+        "question": "What is the noise level during full-speed operation?",
+        "answer": "Precision dynamic balancing and aerodynamically contoured impeller blades maintain operating noise levels below 65 dBA, ensuring full compliance with OSHA industrial standards."
       }
     ]
   },
@@ -380,9 +394,9 @@ export const productsData: ProductItem[] = [
     "slug": "force-ventilator",
     "legacySlug": "force-ventilator.php",
     "name": "Force Ventilator",
-    "h1Title": "Force Ventilator Manufacturer - High Pressure Industrial Roof Exhaust",
-    "metaTitle": "Force Ventilator Manufacturer & Industrial Extraction Systems | Simpovent®",
-    "metaDescription": "High-pressure Force Ventilator manufacturer in India. Simpovent® forced-draft roof extraction units for severe industrial heat and chemical fume evacuation.",
+    "h1Title": "Force Ventilator Manufacturer - 25,000 to 53,000 CFM High Pressure Industrial Roof Exhaust",
+    "metaTitle": "Force Ventilator Manufacturer India | 25,000 - 53,000 CFM Simpovent®",
+    "metaDescription": "Simpovent® Force Ventilator delivers 25,000 to 53,000 CFM high-pressure forced-draft roof extraction for severe industrial heat, dense chemical fumes, and heavy smoke.",
     "focusKeywords": [
       "force ventilator",
       "forced ventilator",
@@ -398,42 +412,44 @@ export const productsData: ProductItem[] = [
     ],
     "category": "motorized-hybrid",
     "categoryLabel": "Forced Draft Ventilator",
-    "shortDescription": "High-pressure forced-draft industrial roof ventilator engineered to overcome heavy system resistance and evacuate dense chemical fumes, smoke, and process heat.",
+    "shortDescription": "High-pressure, high-capacity forced-draft industrial roof ventilator delivering 25,000 to 53,000 CFM to overcome heavy static resistance and evacuate dense chemical fumes and smoke.",
     "fullDescription": [
-      "The Simpovent® Force Ventilator is engineered for specialized industrial facilities where standard gravity or wind-driven ventilators cannot overcome heavy static pressure or dense airborne particulate loads.",
-      "Featuring high-pressure axial impeller blades paired with an industrial-grade TEFC motor, it creates a powerful directional draft that forces contaminants and superheated air out of the building envelope.",
-      "Constructed with corrosion-proof alloys and sealed against harsh chemical vapors, it provides dependable forced exhaust across the most demanding manufacturing operations."
+      "The SIMPOVENT® Force Ventilator is a high-capacity, high-pressure forced-draft industrial roof ventilation system engineered for massive industrial facilities, chemical synthesis plants, and heavy fabrication workshops where high system resistance and dense airborne particulate loads demand extraordinary extraction power.",
+      "Delivering an impressive airflow capacity of 25,000 to 53,000 CFM, this heavy-duty system is driven by an industrial-grade Class F insulated IP55 motor paired with high-pitch aerodynamic impellers. It generates the powerful directional draft required to forcefully pull superheated air, corrosive chemical vapors, and dense smoke plumes from deep within the building envelope.",
+      "Constructed with heavy-gauge corrosion-resistant metallurgy, sealed bearing assemblies, and custom heavy-duty FRP roof base plates, the Force Ventilator ensures zero-leakage, vibration-free, and dependable operation in the most demanding manufacturing environments."
     ],
     "keyFeatures": [
-      "High Static Pressure Air Evacuation Capability",
-      "Aerodynamically Profiled High-CFM Impeller",
-      "IP55 Ingress Protected Chemical-Resistant Motor",
-      "Heavy Duty Weatherhood with Integrated Gravity Flaps",
-      "Seamless Integration with Central Industrial Ducting or Direct Roof Mount",
-      "ISO 9001:2015 Certified Manufacturing Quality"
+      "High Airflow Capacity of 25,000 to 53,000 CFM for Massive Industrial Volumes",
+      "High Static Pressure Capability to Overcome Duct & Shed Air Resistance",
+      "IP55 Ingress Protected Chemical & Moisture Resistant Motor",
+      "Heavy-Duty Weatherproof Cowl Housing with Rain Ingress Protection",
+      "Heavy-Duty FRP Matching Base Plate for Seamless Roof Deck Integration",
+      "Manufactured Under ISO 9001:2015 Strict Quality Standards"
     ],
     "efficiencyHighlights": [
-      "Exhausts heavy smoke plumes before they diffuse across the shop floor",
-      "Reduces workplace thermal fatigue and respiratory health risks",
-      "Eliminates condensation of corrosive vapors on metal roof purlins"
+      "Evacuates dense thermal plumes and chemical smoke before they disperse across worker breathing zones",
+      "Delivers rapid air changes across large-footprint PEB industrial structures",
+      "Prevents condensation of aggressive acid/alkaline vapors on metal roof framing",
+      "Substantially lowers indoor heat indices in high-BTU manufacturing zones"
     ],
-    "workingTheory": "The motor-driven impeller creates strong negative suction at the factory roof level, pulling dense hot gases, smoke, and process steam through the throat and ejecting them with high velocity into the atmosphere.",
+    "workingTheory": "The high-torque motor spins large-diameter aerodynamic impellers, generating intense localized negative static pressure across the roof penetration. Dense hot air, process steam, and airborne chemical gases are suctioned from floor level and forcefully ejected at high velocity into the atmosphere.",
     "applications": [
-      "Galvanizing & Electroplating Plants",
-      "Chemical Synthesis & Reactor Sheds",
-      "Industrial Rubber Curing Facilities",
-      "Welding Bays & Plasma Cutting Workshops",
-      "Foundry Pouring & Shakeout Areas"
+      "Chemical Synthesis, Fertilizer & Reactor Sheds",
+      "Galvanizing, Pickling & Electroplating Plants",
+      "Industrial Rubber Curing & Tyre Manufacturing Units",
+      "Large-Scale Steel Fabrication & Plasma Cutting Bays",
+      "Foundry Pouring, Smelting & Shakeout Areas",
+      "Heavy Machinery Assembly & Metal Stamping Facilities"
     ],
     "specs": {
-      "throatDia": "24\" Inch (610 MM) / 30\" Inch (760 MM)",
-      "outerDia": "34\" Inch (860 MM)",
+      "throatDia": "24\" (600 MM) / 36\" (900 MM) / 48\" (1200 MM)",
+      "outerDia": "34\" to 56\" (860 MM to 1420 MM)",
       "motorType": "Class F High-Efficiency IP55 Induction Motor",
-      "bladeMoc": "Cast Aluminium / Stainless Steel SS 304",
-      "topCoverMoc": "Heavy Duty Galvanized / FRP Cowl",
+      "bladeMoc": "Cast Aluminium / High-Grade Stainless Steel SS 304",
+      "topCoverMoc": "Heavy Duty Weatherproof Cowl Housing",
       "basePlateMoc": "Custom Heavy Duty FRP Base Plate",
-      "airflowCfm": "5,000 CFM to 9,000 CFM",
-      "powerConsumption": "1.0 HP to 3.0 HP (415V 50Hz 3-Phase)"
+      "airflowCfm": "25,000 to 53,000 CFM",
+      "powerConsumption": "1.5 HP to 5.0 HP (415V 50Hz 3-Phase)"
     },
     "image": "/images/products/force-ventilator-new.jpeg",
     "galleryImages": [
@@ -442,6 +458,10 @@ export const productsData: ProductItem[] = [
       "/images/products/motorized-roof-ventilator-new.jpeg"
     ],
     "faqs": [
+      {
+        "question": "What is the airflow capacity of the Force Ventilator?",
+        "answer": "The SIMPOVENT® Force Ventilator provides a high-capacity airflow range of 25,000 to 53,000 CFM, specifically engineered for high-heat, high-resistance industrial facilities."
+      },
       {
         "question": "Is the Force Ventilator suitable for corrosive chemical environments?",
         "answer": "Yes, we offer specialized chemical-resistant SS 316 and epoxy/FRP coated impeller options specifically engineered for acidic and alkaline vapor exhaust."
@@ -470,42 +490,42 @@ export const productsData: ProductItem[] = [
     ],
     "category": "motorized-hybrid",
     "categoryLabel": "Motorized Roof Air Ventilator",
-    "shortDescription": "Precision-engineered motorized roof air ventilator designed for large manufacturing plants needing both natural convection and high-capacity forced draft extraction.",
+    "shortDescription": "Precision-engineered motorized roof air ventilator combining continuous passive air circulation with high-capacity motorized suction for versatile multi-shift factory ventilation.",
     "fullDescription": [
-      "The Simpovent® Motorized Roof Air Ventilator offers the ultimate flexibility in industrial ventilation. It allows factory managers to benefit from zero-cost natural ventilation around the clock while having the power to activate high-velocity forced exhaust during intense production runs.",
-      "Engineered with 42 Hindalco Aluminium vanes, high-grade dual sealed bearings, and an integrated heavy-duty motor, it represents the pinnacle of hybrid ventilation engineering.",
-      "Its robust design withstands coastal salinity, high humidity, chemical fumes, and extreme monsoon weather without degradation."
+      "The SIMPOVENT® Motorized Roof Air Ventilator offers versatile, energy-efficient ventilation for modern manufacturing facilities that operate under fluctuating thermal and production demands throughout the day.",
+      "Engineered to deliver continuous zero-cost air changes during normal operating hours via thermal convection, it features an integrated high-efficiency electric motor that can be engaged on-demand to provide powerful forced draft extraction during peak heat-generating production shifts.",
+      "Built with a robust IP55 motor housing, this unit withstands aggressive industrial humidity, chemical vapors, and heavy monsoon weather with zero maintenance."
     ],
     "keyFeatures": [
-      "Seamless Hybrid Operation (Zero-Power Passive + Motorized Active)",
-      "High Air Displacement Capacity up to 7,000 CFM",
-      "Hindalco 8011 Aluminium Vanes with SS 304 Fasteners",
-      "IP55 Weatherproof Copper Motor Enclosure",
-      "Supplied with Custom Matched Industrial FRP Base Plates",
-      "100% Maintenance-Free Sealed Bearing System"
+      "Versatile Multi-Shift Operation (Passive Thermal Flow + Active Motorized Suction)",
+      "High Airflow Capacity (24\" main - 6500)",
+      "Class F TEFC IP55 Weatherproof Induction Motor",
+      "Custom UV-Stabilized FRP Base Plate for All Industrial Roofing Profiles",
+      "Continuous 24/7 Heavy Industrial Duty Cycle",
+      "100% Leak-Proof Weatherhood Construction"
     ],
     "efficiencyHighlights": [
-      "Guarantees continuous ventilation even on dead calm, windless days",
-      "Rapidly exhausts process heat, steam, and particulate haze",
-      "Reduces factory ambient temperature by up to 8°C"
+      "Provides guaranteed forced ventilation during dead calm, windless summer afternoons",
+      "Rapidly purges process heat, steam, and airborne dust particles",
+      "Reduces overall factory cooling energy costs by evacuating rising heat blankets",
+      "Simple direct retrofit installation on existing industrial corrugated roof sheets"
     ],
-    "workingTheory": "During low-heat hours, ambient wind and thermal updrafts spin the rotor cage naturally with zero electricity. During high-heat production cycles, the electric motor is energized, spinning internal boost blades to force high-volume air extraction.",
+    "workingTheory": "During low-heat hours, ambient wind and natural thermal updrafts rotate the rotor cage freely with zero power consumption. When heat loads rise during full production shifts, the electric motor is energized, spinning internal booster blades to force high-velocity air extraction through the weatherproof cowl.",
     "applications": [
-      "Engineering & Fabrication Facilities",
-      "Warehouse & Logistics Hubs",
-      "Food Processing & Sugar Mills",
-      "Paper Mills & Corrugated Box Plants",
-      "Automotive Service Centers & Workshops"
+      "General Engineering & Machine Fabrication Facilities",
+      "Warehouse, Logistics & Material Handling Hubs",
+      "Food Processing, Packaging & Sugar Mills",
+      "Paper Mills & Corrugated Box Manufacturing Units",
+      "Automotive Service Workshops & Assembly Garages",
+      "Pharmaceutical & FMCG Packaging Halls"
     ],
     "specs": {
       "throatDia": "24\" Inch (610 MM) / 28\" Inch (710 MM)",
       "outerDia": "32\" Inch (810 MM)",
       "motorType": "Class F TEFC Induction Motor (IP55)",
       "bladeMoc": "Hindalco 8011 High-Tensile Aluminium",
-      "topCoverMoc": "SS 304 Stainless Steel (5 MM)",
-      "bearingMake": "Dual Sealed Deep Groove Bearings",
       "basePlateMoc": "Virgin Resin FRP Matching Base Sheet",
-      "airflowCfm": "3,800 CFM to 7,000 CFM",
+      "airflowCfm": "24\" main - 6500",
       "powerConsumption": "0.5 HP to 1.5 HP (220V / 415V)"
     },
     "image": "/images/products/motorized-roof-air-ventilator-new.jpeg",
@@ -518,6 +538,10 @@ export const productsData: ProductItem[] = [
       {
         "question": "Can these units be installed on existing factory roofs without major alterations?",
         "answer": "Yes, our lightweight FRP base plates replace standard roof sheet panels directly, ensuring a clean retrofit without cutting main structural purlins."
+      },
+      {
+        "question": "What is the expected operating life of the motor system?",
+        "answer": "The Class F insulated IP55 motor is rated for continuous 24/7 industrial service with minimal maintenance requirements."
       }
     ]
   },
@@ -587,9 +611,8 @@ export const productsData: ProductItem[] = [
     },
     "image": "/images/products/heavy-duty-industrial-exhaust-fan-new.jpg",
     "galleryImages": [
-      "/images/products/roof-extractor-fan-new.jpg",
-      "/images/products/roof-mounted-exhaust-fan-new.jpg",
-      "/images/products/roof-exhaust-fan-simpovent.jpg"
+      "/images/products/roof-exhaust-fan-simpovent.jpg",
+      "/images/products/roof-mounted-exhaust-fan-new.jpg"
     ],
     "faqs": [
       {
@@ -665,9 +688,9 @@ export const productsData: ProductItem[] = [
     },
     "image": "/images/products/roof-extractor-fan-new.jpg",
     "galleryImages": [
-      "/images/products/heavy-duty-industrial-exhaust-fan-new.jpg",
       "/images/products/roof-mounted-exhaust-fan-new.jpg",
-      "/images/products/simpo-248-axial-flow.jpg"
+      "/images/products/roof-exhaust-fan-simpovent.jpg",
+      "/images/products/roof-extractor-fan-new.jpg"
     ],
     "faqs": [
       {
@@ -855,7 +878,7 @@ export const productsData: ProductItem[] = [
       "bladeThickness": "0.5 MM High-Tensile Sheet",
       "bladeMoc": "Hindalco Aluminium 8011",
       "bladeCount": "42 Specially Curved Blades",
-      "airflowCfm": "1,200 to 2,400 CFM (at 5-15 km/h wind speed)",
+      "airflowCfm": "2,000 to 2,500 CFM (at 5-15 km/h wind speed)",
       "powerConsumption": "0 Watts (100% Free Natural Power)"
     },
     "image": "/images/products/turbo-ventilator-new.jpeg",
@@ -931,7 +954,7 @@ export const productsData: ProductItem[] = [
       "bladeMoc": "Hindalco 8011 Aluminium",
       "bearingMake": "HCH Precision Sealed Bearing",
       "basePlateMoc": "FRP Matching Profile Sheet",
-      "airflowCfm": "1,200 to 2,400 CFM",
+      "airflowCfm": "2,000 to 2,500 CFM",
       "powerConsumption": "0 Watts"
     },
     "image": "/images/products/alu-turbo-with-frp-base-new.jpeg",
@@ -999,7 +1022,7 @@ export const productsData: ProductItem[] = [
       "bladeMoc": "Hindalco 8011 Aluminium",
       "bearingMake": "HCH Precision Sealed Bearing",
       "basePlateMoc": "FRP UV-Stabilized Sheet",
-      "airflowCfm": "1,200 to 2,400 CFM",
+      "airflowCfm": "2,000 to 2,500 CFM",
       "powerConsumption": "0 Watts"
     },
     "image": "/images/products/turbo-ventilator-new.jpeg",
@@ -1066,7 +1089,7 @@ export const productsData: ProductItem[] = [
       "topCoverMoc": "Stainless Steel SS 304",
       "bearingMake": "HCH Precision Sealed Dual Bearings",
       "basePlateMoc": "FRP Corrugated Matching Sheet",
-      "airflowCfm": "1,200 to 2,400 CFM",
+      "airflowCfm": "2,000 to 2,500 CFM",
       "powerConsumption": "0 Watts"
     },
     "image": "/images/products/wind-driven-ventilator-new.jpeg",
@@ -1132,7 +1155,7 @@ export const productsData: ProductItem[] = [
       "topCoverMoc": "Stainless Steel SS 304",
       "bearingMake": "HCH Precision Sealed Bearing",
       "basePlateMoc": "FRP Matching Base Plate",
-      "airflowCfm": "1,200 to 2,400 CFM",
+      "airflowCfm": "2,000 to 2,500 CFM",
       "powerConsumption": "0 Watts"
     },
     "image": "/images/products/wind-operate-ventilator-new.jpg",
@@ -1198,7 +1221,7 @@ export const productsData: ProductItem[] = [
       "topCoverMoc": "Stainless Steel SS 304",
       "bearingMake": "HCH Precision Sealed Bearing",
       "basePlateMoc": "FRP UV-Resistant Matching Sheet",
-      "airflowCfm": "1,200 to 2,400 CFM",
+      "airflowCfm": "2,000 to 2,500 CFM",
       "powerConsumption": "0 Watts"
     },
     "image": "/images/products/natural-air-ventilator-new.jpeg",
@@ -1265,7 +1288,7 @@ export const productsData: ProductItem[] = [
       "topCoverMoc": "Stainless Steel SS 304",
       "bearingMake": "HCH Precision Sealed Bearing",
       "basePlateMoc": "FRP Matching Profile Base Plate",
-      "airflowCfm": "1,200 to 2,400 CFM",
+      "airflowCfm": "2,000 to 2,500 CFM",
       "powerConsumption": "0 Watts"
     },
     "image": "/images/products/alu-turbo-with-frp-base-new.jpeg",
@@ -1331,7 +1354,7 @@ export const productsData: ProductItem[] = [
       "topCoverMoc": "Stainless Steel SS 304",
       "bearingMake": "HCH Precision Sealed Bearing",
       "basePlateMoc": "FRP Matching Sheet",
-      "airflowCfm": "1,200 to 2,400 CFM",
+      "airflowCfm": "2,000 to 2,500 CFM",
       "powerConsumption": "0 Watts"
     },
     "image": "/images/products/turbo-ventilator-new.jpeg",
@@ -1397,7 +1420,7 @@ export const productsData: ProductItem[] = [
       "topCoverMoc": "Stainless Steel SS 304",
       "bearingMake": "HCH Precision Sealed Bearing",
       "basePlateMoc": "FRP Matching Sheet",
-      "airflowCfm": "1,200 to 2,400 CFM",
+      "airflowCfm": "2,000 to 2,500 CFM",
       "powerConsumption": "0 Watts"
     },
     "image": "/images/products/wind-driven-ventilator-new.jpeg",
@@ -1463,7 +1486,7 @@ export const productsData: ProductItem[] = [
       "topCoverMoc": "Stainless Steel SS 304",
       "bearingMake": "HCH Precision Sealed Bearing",
       "basePlateMoc": "FRP Matching Profile Sheet",
-      "airflowCfm": "1,200 to 2,400 CFM",
+      "airflowCfm": "2,000 to 2,500 CFM",
       "powerConsumption": "0 Watts"
     },
     "image": "/images/products/natural-air-ventilator-new.jpeg",
@@ -1529,7 +1552,7 @@ export const productsData: ProductItem[] = [
       "topCoverMoc": "Stainless Steel SS 304",
       "bearingMake": "HCH Precision Sealed Bearing",
       "basePlateMoc": "FRP Matching Profile Sheet",
-      "airflowCfm": "1,200 to 2,400 CFM",
+      "airflowCfm": "2,000 to 2,500 CFM",
       "powerConsumption": "0 Watts"
     },
     "image": "/images/products/eco-ventilator-new.jpeg",
@@ -1577,7 +1600,7 @@ export const productsData: ProductItem[] = [
       "10-Year Comprehensive Structural Warranty"
     ],
     "efficiencyHighlights": [
-      "Evacuates up to 2,400 CFM per unit in normal breeze",
+      "Evacuates up to 2,500 CFM per unit in normal breeze",
       "Prevents condensation of corrosive moisture on metal purlins",
       "Reduces factory ambient temperature by 4°C to 8°C"
     ],
@@ -1596,14 +1619,14 @@ export const productsData: ProductItem[] = [
       "topCoverMoc": "Stainless Steel SS 304",
       "bearingMake": "HCH Precision Sealed Bearing",
       "basePlateMoc": "FRP Matching Profile Sheet",
-      "airflowCfm": "1,200 to 2,400 CFM",
+      "airflowCfm": "2,000 to 2,500 CFM",
       "powerConsumption": "0 Watts"
     },
-    "image": "/images/products/roof-mounted-exhaust-fan-new.jpg",
+    "image": "/images/products/alu-turbo-with-frp-base-new.jpeg",
     "galleryImages": [
-      "/images/products/roof-extractor-fan-new.jpg",
-      "/images/products/heavy-duty-industrial-exhaust-fan-new.jpg",
-      "/images/products/roof-exhaust-fan-simpovent.jpg"
+      "/images/products/turbo-ventilator-new.jpeg",
+      "/images/products/wind-driven-ventilator-new.jpeg",
+      "/images/products/natural-air-ventilator-new.jpeg"
     ],
     "faqs": [
       {
@@ -1662,7 +1685,7 @@ export const productsData: ProductItem[] = [
       "topCoverMoc": "Stainless Steel SS 304",
       "bearingMake": "HCH Precision Sealed Bearing",
       "basePlateMoc": "FRP Matching Profile Sheet",
-      "airflowCfm": "1,200 to 2,400 CFM",
+      "airflowCfm": "2,000 to 2,500 CFM",
       "powerConsumption": "0 Watts"
     },
     "image": "/images/products/wind-driven-ventilator-new.jpeg",

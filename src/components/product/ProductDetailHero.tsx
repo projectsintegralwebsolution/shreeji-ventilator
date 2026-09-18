@@ -37,24 +37,51 @@ export const ProductDetailHero: React.FC<ProductDetailHeroProps> = ({ product })
               </p>
 
               {/* Quick Spec Highlights */}
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-3">
-                <div className="bg-white/5 border border-white/10 p-2.5 rounded-xl text-xs">
-                  <span className="text-slate-400 block text-[10px]">Throat Diameter</span>
-                  <span className="font-bold text-white">{product.specs.throatDia}</span>
-                </div>
-                <div className="bg-white/5 border border-white/10 p-2.5 rounded-xl text-xs">
-                  <span className="text-slate-400 block text-[10px]">Material (MOC)</span>
-                  <span className="font-bold text-emerald-300">{product.specs.bladeMoc || 'Hindalco Aluminium'}</span>
-                </div>
-                <div className="bg-white/5 border border-white/10 p-2.5 rounded-xl text-xs">
-                  <span className="text-slate-400 block text-[10px]">Airflow Volume</span>
-                  <span className="font-bold text-white">{product.specs.airflowCfm}</span>
-                </div>
-                <div className="bg-white/5 border border-white/10 p-2.5 rounded-xl text-xs">
-                  <span className="text-slate-400 block text-[10px]">Power Input</span>
-                  <span className="font-bold text-emerald-300">{product.specs.powerConsumption}</span>
-                </div>
-              </div>
+              {(() => {
+                const highlights: { label: string; value: string; isEmerald?: boolean }[] = [];
+
+                if (product.id === 'power-ventilator') {
+                  highlights.push({ label: 'Size', value: '32"' });
+                  highlights.push({ label: 'CFM', value: '10,000', isEmerald: true });
+                  highlights.push({ label: 'Motor', value: '1.5 HP' });
+                  highlights.push({ label: 'Base Plate', value: 'FRP only', isEmerald: true });
+                } else if (product.id === 'motorised-ventilator') {
+                  highlights.push({ label: 'Throat Diameter', value: product.specs.throatDia || '32"' });
+                  highlights.push({ label: 'Airflow Volume', value: product.specs.airflowCfm || '10,000 CFM', isEmerald: true });
+                  highlights.push({ label: 'Base Plate', value: 'FRP only' });
+                  highlights.push({ label: 'Power Input', value: product.specs.powerConsumption || '1.5 HP', isEmerald: true });
+                } else {
+                  if (product.specs.throatDia) {
+                    highlights.push({ label: 'Throat Diameter', value: product.specs.throatDia });
+                  }
+                  if (product.specs.bladeMoc) {
+                    highlights.push({ label: 'Material (MOC)', value: product.specs.bladeMoc, isEmerald: true });
+                  }
+                  if (product.specs.airflowCfm) {
+                    highlights.push({ label: 'Airflow Volume', value: product.specs.airflowCfm });
+                  }
+                  if (product.specs.powerConsumption) {
+                    highlights.push({ label: 'Power Input', value: product.specs.powerConsumption, isEmerald: true });
+                  }
+                }
+
+                const gridColsClass = highlights.length === 4
+                  ? 'grid-cols-2 sm:grid-cols-4'
+                  : highlights.length === 3
+                  ? 'grid-cols-2 sm:grid-cols-3'
+                  : 'grid-cols-2';
+
+                return (
+                  <div className={`grid ${gridColsClass} gap-3 pt-3`}>
+                    {highlights.map((h, idx) => (
+                      <div key={idx} className="bg-white/5 border border-white/10 p-2.5 rounded-xl text-xs">
+                        <span className="text-slate-400 block text-[10px]">{h.label}</span>
+                        <span className={`font-bold ${h.isEmerald ? 'text-emerald-300' : 'text-white'}`}>{h.value}</span>
+                      </div>
+                    ))}
+                  </div>
+                );
+              })()}
 
               <div className="pt-4 flex flex-wrap items-center gap-4">
                 <QuoteButton

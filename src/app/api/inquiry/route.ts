@@ -88,12 +88,13 @@ export async function POST(request: Request) {
       </div>
     `;
 
-    // C) To Admin / Developer: princekumarjha80@gmail.com
+    // C) To Admin Internal System Notification
+    const adminAlertTarget = settings.adminAlertEmail || process.env.ADMIN_ALERT_EMAIL || 'princekumarjha80@gmail.com';
     const adminHtml = `
       <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; background: #ffffff;">
         <div style="background-color: #09261e; color: #ffffff; padding: 16px; text-align: center;">
           <h3 style="margin: 0; font-size: 18px;">[New Lead Alert] Shreeji Wind Ventilator Website</h3>
-          <p style="margin: 4px 0 0 0; color: #2ec4b6; font-size: 12px;">Admin Notification Copy (princekumarjha80@gmail.com)</p>
+          <p style="margin: 4px 0 0 0; color: #2ec4b6; font-size: 12px;">Internal Admin Lead Alert</p>
         </div>
         <div style="padding: 20px; color: #1e293b; line-height: 1.5; font-size: 14px;">
           <p><strong>Customer Inquiry Details:</strong></p>
@@ -147,39 +148,37 @@ export async function POST(request: Request) {
           });
         }
 
-        // 3. Email to Admin (princekumarjha80@gmail.com)
-        await transporter.sendMail({
-          from: `"Shreeji Website Alert" <${smtpUser}>`,
-          to: 'princekumarjha80@gmail.com',
-          subject: `[Lead Alert] ${name} (${city || 'India'}) - ${product || 'Ventilator'}`,
-          html: adminHtml
-        });
+        // 3. Email to Admin (Internal Alert)
+        if (adminAlertTarget) {
+          await transporter.sendMail({
+            from: `"Shreeji Website Alert" <${smtpUser}>`,
+            to: adminAlertTarget,
+            subject: `[Lead Alert] ${name} (${city || 'India'}) - ${product || 'Ventilator'}`,
+            html: adminHtml
+          });
+        }
 
         emailSent = true;
-        emailStatusMessage = '3-way email notification dispatched successfully.';
+        emailStatusMessage = 'Inquiry processed successfully.';
       } catch (mailErr: any) {
         console.error('Nodemailer dispatch error:', mailErr);
-        emailStatusMessage = 'SMTP Error: ' + mailErr.message;
+        emailStatusMessage = 'SMTP dispatch failed: ' + mailErr.message;
       }
     } else {
-      emailStatusMessage = 'Lead logged in database. SMTP can be set in .env.local or /admin/settings.';
+      emailStatusMessage = 'Lead logged in database.';
     }
 
+    // Return sanitized response with ZERO internal admin email exposure
     return NextResponse.json({
       success: true,
       emailSent,
-      message: emailStatusMessage,
-      lead: savedLead,
-      recipients: {
-        client: 'info@shreejiwind.com',
-        customer: email || 'N/A',
-        admin: 'princekumarjha80@gmail.com'
-      }
+      message: 'Your inquiry has been submitted successfully.',
+      leadId: savedLead?.id
     });
   } catch (error: any) {
     console.error('Error processing inquiry:', error);
     return NextResponse.json(
-      { success: false, error: error.message || 'Internal Server Error' },
+      { success: false, error: 'Failed to process inquiry. Please try again or call us directly.' },
       { status: 500 }
     );
   }

@@ -12,13 +12,13 @@ export const HeroSlider: React.FC = () => {
   const slides = [
     {
       bgImage: "/images/slides/slide-1.jpeg",
-      badge: "Priority 1 • Motorized Hybrid Series",
-      title: "SIMPOVENT® Motorized Industrial Roof Ventilators",
-      subtitle: "Combines 100% natural wind-driven suction with high-torque electric motor power boost for severe heat spikes and continuous industrial smoke extraction.",
+      badge: "SIMPOVENT® • Motorized & Hybrid Series",
+      title: "SIMPOVENT® Motorized Industrial Roof Ventilator",
+      subtitle: "High-capacity powered roof ventilation system engineered for continuous forced air extraction, dense smoke removal, and rapid factory heat evacuation.",
       bullets: [
-        "High-CFM Powered Extraction Guaranteed Even on Zero-Wind Days",
-        "Hindalco 8011 Aluminium Vanes with IP55 Weatherproof Copper Motor",
-        "100% Monsoon-Proof & Rainwater Seepage Resistant Integration"
+        "High-Torque 1.5 HP Motor Engineered for 10,000 CFM Forced Air Displacement",
+        "Heavy-Duty FRP Base Plate with Weatherproof IP55 Motor Housing Enclosure",
+        "Continuous 24/7 Exhaust Duty for Heavy Manufacturing Plants, Foundries & Sheds"
       ],
       ctaPrimary: "Get Instant Quotation",
       ctaPrimaryUrl: "/contact"

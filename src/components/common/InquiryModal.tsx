@@ -30,7 +30,6 @@ export const InquiryModal: React.FC<InquiryModalProps> = ({
 
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
-  const [notificationInfo, setNotificationInfo] = useState<any>(null);
 
   // Lock body scroll and listen for Escape key
   useEffect(() => {
@@ -76,10 +75,7 @@ export const InquiryModal: React.FC<InquiryModalProps> = ({
           message: formData.message
         })
       });
-      const data = await res.json();
-      if (data.success) {
-        setNotificationInfo(data.recipients);
-      }
+      await res.json();
     } catch (err) {
       console.log('Inquiry dispatch error:', err);
     } finally {

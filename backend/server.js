@@ -43,11 +43,7 @@ app.get('/api/health', (req, res) => {
   res.json({
     status: 'online',
     server: 'Shreeji Sales Express Backend',
-    timestamp: new Date().toISOString(),
-    recipients: {
-      client: 'info@shreejiwind.com',
-      admin: 'princekumarjha80@gmail.com'
-    }
+    timestamp: new Date().toISOString()
   });
 });
 
@@ -93,7 +89,7 @@ app.post('/api/inquiry', async (req, res) => {
       <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; background: #ffffff;">
         <div style="background-color: #0e382c; color: #ffffff; padding: 20px; text-align: center;">
           <h2 style="margin: 0; font-size: 20px;">New Customer Inquiry (Website Lead)</h2>
-          <p style="margin: 5px 0 0 0; color: #2ec4b6; font-size: 13px;">Shreeji Sales Corporation • Simpovent™</p>
+          <p style="margin: 5px 0 0 0; color: #2ec4b6; font-size: 13px;">Shreeji Sales Corporation • Simpovent®</p>
         </div>
         <div style="padding: 24px; color: #334155; line-height: 1.6;">
           <p><strong>A new quotation request has been submitted through the website:</strong></p>
@@ -119,7 +115,7 @@ app.post('/api/inquiry', async (req, res) => {
       <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; background: #ffffff;">
         <div style="background-color: #0e382c; color: #ffffff; padding: 20px; text-align: center;">
           <h2 style="margin: 0; font-size: 20px;">Thank You for Contacting Shreeji Sales Corporation</h2>
-          <p style="margin: 5px 0 0 0; color: #2ec4b6; font-size: 13px;">Brand: Simpovent™ • ISO 9001:2015 Certified</p>
+          <p style="margin: 5px 0 0 0; color: #2ec4b6; font-size: 13px;">Brand: Simpovent® • ISO 9001:2015 Certified</p>
         </div>
         <div style="padding: 24px; color: #334155; line-height: 1.6;">
           <p>Dear <strong>${name}</strong>,</p>
@@ -134,19 +130,20 @@ app.post('/api/inquiry', async (req, res) => {
           <p style="font-size: 13px; color: #64748b;">
             Best Regards,<br />
             <strong>Sales & Engineering Team</strong><br />
-            Shreeji Sales Corporation (Simpovent™)<br />
+            Shreeji Sales Corporation (Simpovent®)<br />
             Takdir Ind. Estate, Vasai East, Palghar, Maharashtra - 401208
           </p>
         </div>
       </div>
     `;
 
-    // C) To Admin / Developer: princekumarjha80@gmail.com
+    // C) To Admin Internal System Notification
+    const adminAlertTarget = settings.adminAlertEmail || process.env.ADMIN_ALERT_EMAIL || 'princekumarjha80@gmail.com';
     const adminHtml = `
       <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; background: #ffffff;">
         <div style="background-color: #09261e; color: #ffffff; padding: 16px; text-align: center;">
           <h3 style="margin: 0; font-size: 18px;">[New Lead Alert] Shreeji Wind Ventilator Website</h3>
-          <p style="margin: 4px 0 0 0; color: #2ec4b6; font-size: 12px;">Admin Notification Copy (princekumarjha80@gmail.com)</p>
+          <p style="margin: 4px 0 0 0; color: #2ec4b6; font-size: 12px;">Internal Admin Lead Alert</p>
         </div>
         <div style="padding: 20px; color: #1e293b; line-height: 1.5; font-size: 14px;">
           <p><strong>Customer Inquiry Details:</strong></p>
@@ -195,44 +192,36 @@ app.post('/api/inquiry', async (req, res) => {
           await transporter.sendMail({
             from: `"Shreeji Sales Corp" <${smtpUser}>`,
             to: email,
-            subject: 'Quotation Request Received - Shreeji Sales Corporation (Simpovent™)',
+            subject: 'Quotation Request Received - Shreeji Sales Corporation (Simpovent®)',
             html: customerHtml
           });
         }
 
-        // 3. Email to Admin (princekumarjha80@gmail.com)
-        await transporter.sendMail({
-          from: `"Shreeji Website Alert" <${smtpUser}>`,
-          to: 'princekumarjha80@gmail.com',
-          subject: `[Lead Alert] ${name} (${city || 'India'}) - ${product || 'Ventilator'}`,
-          html: adminHtml
-        });
+        // 3. Email to Admin (Internal Alert)
+        if (adminAlertTarget) {
+          await transporter.sendMail({
+            from: `"Shreeji Website Alert" <${smtpUser}>`,
+            to: adminAlertTarget,
+            subject: `[Lead Alert] ${name} (${city || 'India'}) - ${product || 'Ventilator'}`,
+            html: adminHtml
+          });
+        }
 
         emailSent = true;
-        emailStatusMessage = '3-way notification emails dispatched successfully.';
+        emailStatusMessage = 'Notification emails dispatched successfully.';
       } catch (mailErr) {
         console.error('Nodemailer dispatch error:', mailErr);
         emailStatusMessage = 'SMTP Error: ' + mailErr.message;
       }
     } else {
-      emailStatusMessage = 'Lead logged. SMTP credentials can be set in .env.local or /admin/settings.';
+      emailStatusMessage = 'Lead logged in database.';
     }
-
-    console.log(`--- [EXPRESS BACKEND] 3-WAY NOTIFICATION PROCESSED ---`);
-    console.log(`1. Client: info@shreejiwind.com`);
-    console.log(`2. Customer: ${email || 'N/A'}`);
-    console.log(`3. Admin: princekumarjha80@gmail.com`);
 
     return res.json({
       success: true,
       emailSent,
-      message: emailStatusMessage,
-      lead: newLead,
-      recipients: {
-        client: 'info@shreejiwind.com',
-        customer: email || 'N/A',
-        admin: 'princekumarjha80@gmail.com'
-      }
+      message: 'Inquiry submitted successfully.',
+      leadId: newLead.id
     });
   } catch (err) {
     console.error('Express inquiry error:', err);
