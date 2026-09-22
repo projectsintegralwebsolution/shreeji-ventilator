@@ -1026,7 +1026,7 @@ export const productsData: ProductItem[] = [
       "airflowCfm": "2,000 to 2,500 CFM",
       "powerConsumption": "0 Watts"
     },
-    "image": "/images/products/turbo-ventilator-new.jpeg",
+    "image": "/images/products/turbo-air-ventilator-new.png",
     "galleryImages": [
       "/images/products/alu-turbo-with-frp-base-new.jpeg",
       "/images/products/wind-driven-ventilator-new.jpeg",
@@ -1225,7 +1225,7 @@ export const productsData: ProductItem[] = [
       "airflowCfm": "2,000 to 2,500 CFM",
       "powerConsumption": "0 Watts"
     },
-    "image": "/images/products/natural-air-ventilator-new.jpeg",
+    "image": "/images/products/natural-air-ventilator-new.jpg",
     "galleryImages": [
       "/images/products/eco-ventilator-new.jpeg",
       "/images/products/wind-driven-ventilator-new.jpeg",
@@ -1292,7 +1292,7 @@ export const productsData: ProductItem[] = [
       "airflowCfm": "2,000 to 2,500 CFM",
       "powerConsumption": "0 Watts"
     },
-    "image": "/images/products/alu-turbo-with-frp-base-new.jpeg",
+    "image": "/images/products/roof-ventilator-new.png",
     "galleryImages": [
       "/images/products/turbo-ventilator-new.jpeg",
       "/images/products/wind-driven-ventilator-new.jpeg",
@@ -1424,7 +1424,7 @@ export const productsData: ProductItem[] = [
       "airflowCfm": "2,000 to 2,500 CFM",
       "powerConsumption": "0 Watts"
     },
-    "image": "/images/products/wind-driven-ventilator-new.jpeg",
+    "image": "/images/products/wind-turbine-ventilator-new.jpg",
     "galleryImages": [
       "/images/products/turbo-ventilator-new.jpeg",
       "/images/products/wind-operate-ventilator-new.jpg",
@@ -1689,7 +1689,7 @@ export const productsData: ProductItem[] = [
       "airflowCfm": "2,000 to 2,500 CFM",
       "powerConsumption": "0 Watts"
     },
-    "image": "/images/products/wind-driven-ventilator-new.jpeg",
+    "image": "/images/products/wind-ventilator-new.jpg",
     "galleryImages": [
       "/images/products/wind-operate-ventilator-new.jpg",
       "/images/products/alu-turbo-with-frp-base-new.jpeg",
