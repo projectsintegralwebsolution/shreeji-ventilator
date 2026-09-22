@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     "Roof Ventilator Pune",
     "Industrial Exhaust Fan",
     "Powerless Roof Ventilator",
-    "Motorized Roof Air Ventilator"
+    "Motorized Roof Ventilator"
   ],
   authors: [{ name: "Shreeji Sales Corporation", url: "https://shreejiwindventilator.com" }],
   creator: "Shreeji Sales Corporation",

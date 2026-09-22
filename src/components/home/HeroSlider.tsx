@@ -18,7 +18,7 @@ export const HeroSlider: React.FC = () => {
       bullets: [
         "High-Torque 1.5 HP Motor Engineered for 10,000 CFM Forced Air Displacement",
         "Heavy-Duty FRP Base Plate with Weatherproof IP55 Motor Housing Enclosure",
-        "Continuous 24/7 Exhaust Duty for Heavy Manufacturing Plants, Foundries & Sheds"
+        "Easy ON/OFF Operation for Convenient Ventilation Control"
       ],
       ctaPrimary: "Get Instant Quotation",
       ctaPrimaryUrl: "/contact"

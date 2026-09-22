@@ -7,7 +7,7 @@ export const TechSpecsComparison: React.FC = () => {
     { parameter: "Throat Diameter (Neck Dia)", standard24: '24" Inch (610 MM)', standard21: '21" Inch (530 MM)', motorized24: '24" Inch (610 MM)' },
     { parameter: "Outer Diameter", standard24: '30" Inch (760 MM)', standard21: '28" Inch (710 MM)', motorized24: '32" Inch (810 MM)' },
     { parameter: "Number of Vanes (Blades)", standard24: "42 Nos. Aerodynamic Curved", standard21: "36 Nos. Aerodynamic Curved", motorized24: "42 External + Axial Motor" },
-    { parameter: "Blade Material (MOC)", standard24: "Hindalco Aluminium Grade 8011", standard21: "Hindalco Aluminium Grade 8011", motorized24: "Aluminium 8011 / SS 304" },
+    { parameter: "Blade Material (MOC)", standard24: "Hindalco Aluminium Grade 8011", standard21: "Hindalco Aluminium Grade 8011", motorized24: "Fibre (Heavy Duty FRP)" },
     { parameter: "Top Cover Size & Material", standard24: "510 MM (Stainless Steel SS 304)", standard21: "450 MM (Stainless Steel SS 304)", motorized24: "510 MM Heavy Duty SS Cowl" },
     { parameter: "Central Shaft & Diameter", standard24: "EN-8 Steel (125mm x 280mm)", standard21: "EN-8 Steel (125mm x 250mm)", motorized24: "EN-9 High Tensile Steel" },
     { parameter: "Bearing Make & Type", standard24: "Dual HCH 6001 ZZ Sealed", standard21: "Dual HCH 6001 ZZ Sealed", motorized24: "Dual Heavy Duty Sealed" },

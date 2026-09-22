@@ -115,17 +115,17 @@ export const productsData: ProductItem[] = [
       "Die Casting & Industrial Rubber Processing Units"
     ],
     "specs": {
-      "throatDia": "24\" Inch (610 MM) / 28\" Inch (710 MM)",
-      "outerDia": "32\" Inch (810 MM) / 36\" Inch (915 MM)",
+      "throatDia": "32 Inch (810 mm)",
+      "outerDia": "32\" Inch (810 MM)",
       "motorType": "Class F Insulated IP55 Industrial Motor",
-      "bladeMoc": "Hindalco Aluminium Alloy 8011 / SS 304",
-      "topCoverMoc": "Stainless Steel SS 304 (5 MM Heavy Duty)",
-      "bottomPlateMoc": "Galvanized Steel / SS 304",
+      "bladeMoc": "Fibre",
+      "topCoverMoc": "Fibre",
+      "bottomPlateMoc": "Fibre",
       "bladeMountingRingMoc": "High-Tensile Galvanized Steel Ring",
       "bearingSize": "Dual Deep Groove Heavy Duty Bearings",
       "bearingMake": "HCH Precision Sealed Bearing",
-      "basePlateMoc": "UV-Stabilized Virgin FRP Matching Sheet",
-      "airflowCfm": "3,500 CFM to 7,500 CFM (Active Motorized Mode)",
+      "basePlateMoc": "UV-Stabilized Virgin FRP Matching Sheet (FRP only)",
+      "airflowCfm": "10,000 CFM",
       "powerConsumption": "0.37 kW to 1.1 kW (Single / 3 Phase 415V)"
     },
     "image": "/images/products/motorized-roof-ventilator-new.jpeg",
@@ -154,9 +154,9 @@ export const productsData: ProductItem[] = [
     "slug": "motorised-ventilator",
     "legacySlug": "motorised-ventilator.php",
     "name": "Motorised Ventilator",
-    "h1Title": "SIMPOVENT® Motorized Ventilator - 10,000 CFM Industrial Forced Draft System",
-    "metaTitle": "SIMPOVENT® Motorized Ventilator | 32\" 1.5 HP 10,000 CFM Roof Ventilator",
-    "metaDescription": "SIMPOVENT® Motorized Ventilator. 32\" Size, 1.5 HP Motor, 10,000 CFM forced air exhaust with FRP base plate only. High-capacity extraction for heavy industries.",
+    "h1Title": "SIMPOVENT® Motorized Ventilator - 6000 to 6500 CFM Industrial Forced Draft System",
+    "metaTitle": "SIMPOVENT® Motorized Ventilator | 6000 to 6500 CFM Roof Ventilator",
+    "metaDescription": "SIMPOVENT® Motorized Ventilator. 24\" & 28\" Size, 6000 to 6500 CFM forced air exhaust with FRP base plate only. High-capacity extraction for heavy industries.",
     "focusKeywords": [
       "motorised ventilator",
       "motorized ventilator",
@@ -172,27 +172,27 @@ export const productsData: ProductItem[] = [
     ],
     "category": "motorized-hybrid",
     "categoryLabel": "Motorized Roof Ventilator",
-    "shortDescription": "High-capacity SIMPOVENT® Motorized Ventilator engineered with 32\" outer diameter, 1.5 HP industrial motor, and 10,000 CFM exhaust capacity with heavy-duty FRP base plate.",
+    "shortDescription": "High-capacity SIMPOVENT® Motorized Ventilator engineered with 24\" and 28\" throat diameter and 6000 to 6500 CFM exhaust capacity with heavy-duty FRP base plate.",
     "fullDescription": [
-      "The SIMPOVENT® Motorized Ventilator is a powerhouse industrial roof ventilation unit engineered to deliver a verified 10,000 CFM of high-velocity air exhaust across heavy manufacturing plants, foundries, and large PEB industrial sheds.",
-      "Driven by a high-torque 1.5 HP Class F insulated copper-wound electric motor, this 32\" unit provides aggressive, uninterrupted extraction of dense thermal plumes, process fumes, and airborne industrial contaminants without depending on external wind speeds.",
+      "The SIMPOVENT® Motorized Ventilator is a powerhouse industrial roof ventilation unit engineered to deliver 6000 to 6500 CFM of high-velocity air exhaust across heavy manufacturing plants, foundries, and large PEB industrial sheds.",
+      "Driven by a high-torque Class F insulated copper-wound electric motor, this unit provides aggressive, uninterrupted extraction of dense thermal plumes, process fumes, and airborne industrial contaminants without depending on external wind speeds.",
       "Every SIMPOVENT® Motorized Ventilator is supplied exclusively with custom-moulded, UV-stabilized heavy-duty FRP base plates tailored to match exact roofing sheet profiles (Tata Bluescope, JSW, Kirby, Asbestos, etc.), ensuring a 100% leak-proof, weatherproof factory installation."
     ],
     "keyFeatures": [
-      "Guaranteed 10,000 CFM High-Volume Industrial Air Displacement",
-      "High-Torque 1.5 HP Continuous-Duty TEFC IP55 Copper Motor",
-      "Robust 32\" Outer Rotor Diameter with Precision Aerofoil Vanes",
+      "Guaranteed 6000 to 6500 CFM High-Volume Industrial Air Displacement",
+      "High-Torque Continuous-Duty TEFC IP55 Copper Motor",
+      "24 Inch (610 mm) & 28 Inch (710 mm) Throat Diameter with Precision Aerofoil Vanes",
       "100% FRP Only UV-Stabilized Custom Profile Base Plate",
       "Corrosion-Resistant Metallurgy with SS 304 Central Hardware",
       "Engineered for Multi-Shift Heavy Factory Environments"
     ],
     "efficiencyHighlights": [
-      "Provides massive 10,000 CFM exhaust capacity to maintain statutory air changes per hour",
+      "Provides reliable 6000 to 6500 CFM exhaust capacity to maintain statutory air changes per hour",
       "Rapidly clears high-density smoke, furnace emissions, and airborne particulate haze",
       "Maintains comfortable indoor ambient working temperatures for plant personnel",
       "Eliminates stagnant heat buildup under high-bay industrial metal ceilings"
     ],
-    "workingTheory": "The 1.5 HP direct-drive motor spins a heavy-duty internal impeller assembly within the 32\" housing, creating substantial negative static pressure across the roof opening. Trapped factory air, hot process steam, and airborne emissions are rapidly suctioned upward and discharged continuously at a rate of 10,000 CFM.",
+    "workingTheory": "The direct-drive motor spins a heavy-duty internal impeller assembly, creating substantial negative static pressure across the roof opening. Trapped factory air, hot process steam, and airborne emissions are rapidly suctioned upward and discharged continuously at a rate of 6000 to 6500 CFM.",
     "applications": [
       "Furnace & Induction Melting Sheds",
       "Heavy Machine Fabrication & Welding Bays",
@@ -202,13 +202,14 @@ export const productsData: ProductItem[] = [
       "Textile Processing & High-Humidity Dyeing Mills"
     ],
     "specs": {
-      "throatDia": "32\" Inch (810 MM)",
+      "throatDia": "24 Inch (610 mm), 28 Inch (710 mm)",
       "outerDia": "32\" Inch (810 MM)",
       "motorType": "1.5 HP High-Torque IP55 Industrial Motor",
-      "topCoverMoc": "Stainless Steel SS 304 Heavy Duty Cowl",
+      "bladeMoc": "Fibre",
+      "topCoverMoc": "Fibre",
       "bearingMake": "Dual Sealed Heavy-Duty Deep Groove Bearings",
       "basePlateMoc": "Heavy-Duty FRP Matching Profile Base Plate (FRP only)",
-      "airflowCfm": "10,000 CFM",
+      "airflowCfm": "6000 to 6500 CFM",
       "powerConsumption": "1.5 HP (415V 3-Phase / 230V Single Phase)"
     },
     "image": "/images/products/motorized-roof-air-ventilator-new.jpeg",
@@ -220,7 +221,7 @@ export const productsData: ProductItem[] = [
     "faqs": [
       {
         "question": "What are the confirmed specifications of the SIMPOVENT® Motorized Ventilator?",
-        "answer": "The SIMPOVENT® Motorized Ventilator is engineered with a 32\" outer diameter, 1.5 HP industrial motor, 10,000 CFM airflow capacity, and custom FRP matching base plates."
+        "answer": "The SIMPOVENT® Motorized Ventilator is engineered with 24\" and 28\" throat diameter, 6000 to 6500 CFM airflow capacity, and custom FRP matching base plates."
       },
       {
         "question": "Why is the base plate supplied in FRP only?",
@@ -287,11 +288,11 @@ export const productsData: ProductItem[] = [
       "throatDia": "24\" Inch (610 MM) / 28\" Inch (710 MM)",
       "outerDia": "32\" Inch (810 MM)",
       "motorType": "Heavy Duty 4-Pole TEFC Induction Motor",
-      "bladeMoc": "Hindalco Aluminium 8011 Alloy",
-      "topCoverMoc": "SS 304 Stainless Steel (5 MM)",
+      "bladeMoc": "Fibre",
+      "topCoverMoc": "Fibre",
       "bearingMake": "Dual Deep Groove Sealed Bearings",
       "basePlateMoc": "UV-Resistant FRP Profile Sheet",
-      "airflowCfm": "4,200 CFM to 7,200 CFM",
+      "airflowCfm": "6000–6500 CFM",
       "powerConsumption": "0.5 HP to 1.0 HP (Single/3-Phase)"
     },
     "image": "/images/products/motorized-turbo-ventilator-new.jpeg",
@@ -367,7 +368,8 @@ export const productsData: ProductItem[] = [
       "throatDia": "32\" Inch (810 MM)",
       "outerDia": "32\" Inch (810 MM)",
       "motorType": "1.5 HP High-Torque IP55 Industrial Motor",
-      "topCoverMoc": "Heavy-Gauge Weatherproof Cowl",
+      "bladeMoc": "Fibre",
+      "topCoverMoc": "Fibre",
       "basePlateMoc": "Heavy-Duty FRP Matching Base Plate (FRP only)",
       "airflowCfm": "10,000 CFM",
       "powerConsumption": "1.5 HP (415V 3-Phase / 230V Single Phase)"
@@ -442,13 +444,13 @@ export const productsData: ProductItem[] = [
       "Heavy Machinery Assembly & Metal Stamping Facilities"
     ],
     "specs": {
-      "throatDia": "24\" (600 MM) / 36\" (900 MM) / 48\" (1200 MM)",
+      "throatDia": "36\" (900 MM) / 48\" (1200 MM) / 54\" (1350 mm)",
       "outerDia": "34\" to 56\" (860 MM to 1420 MM)",
       "motorType": "Class F High-Efficiency IP55 Induction Motor",
-      "bladeMoc": "Cast Aluminium / High-Grade Stainless Steel SS 304",
-      "topCoverMoc": "Heavy Duty Weatherproof Cowl Housing",
-      "basePlateMoc": "Custom Heavy Duty FRP Base Plate",
-      "airflowCfm": "25,000 to 53,000 CFM",
+      "bladeMoc": "Fibre",
+      "topCoverMoc": "Fibre",
+      "basePlateMoc": "Custom Heavy Duty FRP Base Plate (FRP only)",
+      "airflowCfm": "25,000–53,000 CFM",
       "powerConsumption": "1.5 HP to 5.0 HP (415V 50Hz 3-Phase)"
     },
     "image": "/images/products/force-ventilator-new.jpeg",
@@ -472,10 +474,10 @@ export const productsData: ProductItem[] = [
     "id": "motorized-roof-air-ventilator",
     "slug": "motorized-roof-air-ventilator",
     "legacySlug": "motorized-roof-air-ventilator.php",
-    "name": "Motorized Roof Air Ventilator",
-    "h1Title": "Motorized Roof Air Ventilator Manufacturer & Industrial Supplier",
-    "metaTitle": "Motorized Roof Air Ventilator Manufacturer India | Simpovent®",
-    "metaDescription": "Simpovent® Motorized Roof Air Ventilators combine continuous wind extraction with powered motor boost for guaranteed factory airflow and rapid smoke removal.",
+    "name": "Motorized Roof Ventilator",
+    "h1Title": "Motorized Roof Ventilator Manufacturer & Industrial Supplier",
+    "metaTitle": "Motorized Roof Ventilator Manufacturer India | Simpovent®",
+    "metaDescription": "Simpovent® Motorized Roof Ventilators combine continuous wind extraction with powered motor boost for guaranteed factory airflow and rapid smoke removal.",
     "focusKeywords": [
       "motorized roof air ventilator",
       "motorized roof ventilator",
@@ -489,16 +491,16 @@ export const productsData: ProductItem[] = [
       "smoke extraction"
     ],
     "category": "motorized-hybrid",
-    "categoryLabel": "Motorized Roof Air Ventilator",
-    "shortDescription": "Precision-engineered motorized roof air ventilator combining continuous passive air circulation with high-capacity motorized suction for versatile multi-shift factory ventilation.",
+    "categoryLabel": "Motorized Roof Ventilator",
+    "shortDescription": "Precision-engineered motorized roof ventilator combining continuous passive air circulation with high-capacity motorized suction for versatile multi-shift factory ventilation.",
     "fullDescription": [
-      "The SIMPOVENT® Motorized Roof Air Ventilator offers versatile, energy-efficient ventilation for modern manufacturing facilities that operate under fluctuating thermal and production demands throughout the day.",
+      "The SIMPOVENT® Motorized Roof Ventilator offers versatile, energy-efficient ventilation for modern manufacturing facilities that operate under fluctuating thermal and production demands throughout the day.",
       "Engineered to deliver continuous zero-cost air changes during normal operating hours via thermal convection, it features an integrated high-efficiency electric motor that can be engaged on-demand to provide powerful forced draft extraction during peak heat-generating production shifts.",
       "Built with a robust IP55 motor housing, this unit withstands aggressive industrial humidity, chemical vapors, and heavy monsoon weather with zero maintenance."
     ],
     "keyFeatures": [
       "Versatile Multi-Shift Operation (Passive Thermal Flow + Active Motorized Suction)",
-      "High Airflow Capacity (24\" main - 6500)",
+      "High Airflow Capacity (6000–6500 CFM)",
       "Class F TEFC IP55 Weatherproof Induction Motor",
       "Custom UV-Stabilized FRP Base Plate for All Industrial Roofing Profiles",
       "Continuous 24/7 Heavy Industrial Duty Cycle",
@@ -520,12 +522,13 @@ export const productsData: ProductItem[] = [
       "Pharmaceutical & FMCG Packaging Halls"
     ],
     "specs": {
-      "throatDia": "24\" Inch (610 MM) / 28\" Inch (710 MM)",
+      "throatDia": "24 Inch (610 mm)",
       "outerDia": "32\" Inch (810 MM)",
       "motorType": "Class F TEFC Induction Motor (IP55)",
-      "bladeMoc": "Hindalco 8011 High-Tensile Aluminium",
-      "basePlateMoc": "Virgin Resin FRP Matching Base Sheet",
-      "airflowCfm": "24\" main - 6500",
+      "bladeMoc": "Fibre",
+      "topCoverMoc": "Fibre",
+      "basePlateMoc": "Virgin Resin FRP Matching Base Sheet (FRP only)",
+      "airflowCfm": "6000–6500 CFM",
       "powerConsumption": "0.5 HP to 1.5 HP (220V / 415V)"
     },
     "image": "/images/products/motorized-roof-air-ventilator-new.jpeg",
@@ -604,9 +607,9 @@ export const productsData: ProductItem[] = [
       "throatDia": "24\" (600mm) / 36\" (900mm) / 48\" (1200mm) / 54\" (1380mm)",
       "outerDia": "Up to 54\" (1380 MM)",
       "motorType": "100% Copper-Wound Class F IP55 TEFC Motor",
-      "bladeMoc": "High-Tensile Stainless Steel / Aluminium / Heavy-Gauge MS",
+      "bladeMoc": "Fibre",
       "bladeCount": "4 to 6 Aerodynamic Blades",
-      "airflowCfm": "6,000 CFM to 28,000 CFM (High Volume Displacement)",
+      "airflowCfm": "25,000–53,000 CFM",
       "powerConsumption": "0.5 HP to 3.0 HP (Single Phase 230V / 3 Phase 415V)"
     },
     "image": "/images/products/heavy-duty-industrial-exhaust-fan-new.jpg",
@@ -677,13 +680,13 @@ export const productsData: ProductItem[] = [
       "Warehouses & Logistics Centers"
     ],
     "specs": {
-      "throatDia": "24\" (600mm) / 30\" (750mm) / 36\" (900mm) / 48\" (1200mm)",
+      "throatDia": "24\" (600mm) / 30\" (750mm) / 36\" (900mm) / 48\" (1200mm) / 54\" (1380mm)",
       "outerDia": "34\" to 56\" (860mm to 1420mm)",
       "motorType": "Class F IP55 Copper Motor",
-      "bladeMoc": "Cast Aluminium / High-Grade Stainless Steel",
-      "topCoverMoc": "UV-Resistant FRP / Galvanized Steel Weatherhood",
-      "basePlateMoc": "Custom FRP Profile Matching Sheet",
-      "airflowCfm": "5,500 CFM to 16,000 CFM",
+      "bladeMoc": "Fibre",
+      "topCoverMoc": "Fibre",
+      "basePlateMoc": "Custom FRP Profile Matching Sheet (FRP only)",
+      "airflowCfm": "25,000–53,000 CFM",
       "powerConsumption": "0.75 kW to 3.7 kW (415V 3-Phase)"
     },
     "image": "/images/products/roof-extractor-fan-new.jpg",
@@ -756,29 +759,27 @@ export const productsData: ProductItem[] = [
       "Textile Mills, Spinning Units & Garment Factories"
     ],
     "specs": {
-      "throatDia": "10 Ft (3.0m) to 24 Ft (7.3m) Sweep",
+      "throatDia": "8 Ft (2.4m) , 10 Ft (3.0m), 24 Ft (7.3m) Sweep",
       "outerDia": "24 Ft (7,300 MM Max)",
-      "fanDiameter": "24ft (7.3m) / 20ft (6.0m) / 18ft (5.5m) / 16ft (4.8m) / 12ft (3.7m) / 10ft (3.0m)",
+      "fanDiameter": "24ft (7.3m) / 20ft (6.0m) / 18ft (5.5m) / 16ft (4.8m) / 12ft (3.7m) / 10ft (3.0m) / 8ft (2.4m)",
       "motorType": "Direct Drive Permanent Magnet Synchronous Motor (PMSM)",
       "noiseLevel": "38 dBA to 55 dBA (Ultra-Quiet)",
-      "coverageArea": "Up to 1,600 m² (17,200 sq.ft) per fan",
+      "coverageArea": "Up to 1,700 m² (18,300 sq.ft) per fan",
       "voltageRating": "220V Single Phase / 380V-415V Three Phase (50/60 Hz)",
       "protectionGrade": "IP55 / Class F Insulation",
-      "maxRpm": "0 to 60 RPM (Stepless Variable Speed Inverter Control)",
+      "maxRpm": "0 to 115 RPM (Stepless Variable Speed Inverter Control)",
       "bladeMoc": "Extruded Aluminium-Magnesium Alloy 6063-T6 with Aerodynamic Winglets",
       "bladeCount": "5 to 6 High-Lift Airfoil Blades",
       "topCoverMoc": "High-Pressure Precision Forged Aluminium Alloy Hub",
       "shaftMoc": "High-Tensile Alloy Steel with Anti-Drop Ring & Safety Cable Lock",
-      "airflowCfm": "15,500 CMM (547,000 CFM Max - Model SIMPO-7.1a)",
-      "powerConsumption": "0.75 kW to 1.5 kW"
+      "airflowCfm": "4,000 to 15,500 CMM (Up to 547,000 CFM Max)",
+      "powerConsumption": "0.37 kW to 1.5 kW (0.5 HP to 2.0 HP)"
     },
     "image": "/images/products/HVLS.png",
     "galleryImages": [
       "/images/products/HVLS (2).png",
       "/images/products/HVLS fan (3).jpeg",
-      "/images/products/HVLS FAN (2).jpeg",
-      "/images/products/hvls-industrial-fan-ceiling.jpg",
-      "/images/products/hvls-pmsm-fan-motor-hub.jpg"
+      "/images/products/HVLS FAN (2).jpeg"
     ],
     "faqs": [
       {
@@ -854,7 +855,7 @@ export const productsData: ProductItem[] = [
       "Paper, Textile, Sugar & Plastic Mills"
     ],
     "specs": {
-      "throatDia": "24\" Inch (610 MM) / 21\" Inch (530 MM)",
+      "throatDia": "24\" Inch (610 MM)",
       "outerDia": "30\" Inch (760 MM)",
       "topCoverSize": "510 MM",
       "topCoverThickness": "5 MM (Stainless Steel SS 304)",
@@ -876,7 +877,7 @@ export const productsData: ProductItem[] = [
       "bladeLength": "505 MM Aerodynamically Curved",
       "bladeWidth": "75 MM Precision Formed",
       "bladeThickness": "0.5 MM High-Tensile Sheet",
-      "bladeMoc": "Hindalco Aluminium 8011",
+      "bladeMoc": "Hindalco Aluminium Alloy 8011 / SS 304",
       "bladeCount": "42 Specially Curved Blades",
       "airflowCfm": "2,000 to 2,500 CFM (at 5-15 km/h wind speed)",
       "powerConsumption": "0 Watts (100% Free Natural Power)"
@@ -948,10 +949,10 @@ export const productsData: ProductItem[] = [
       "Plastic & Rubber Processing Plants"
     ],
     "specs": {
-      "throatDia": "24\" Inch (610 MM) / 21\" Inch (530 MM)",
+      "throatDia": "24\" Inch (610 MM)",
       "outerDia": "30\" Inch (760 MM)",
       "topCoverMoc": "Stainless Steel SS 304 (5 MM)",
-      "bladeMoc": "Hindalco 8011 Aluminium",
+      "bladeMoc": "Hindalco Aluminium 8011",
       "bearingMake": "HCH Precision Sealed Bearing",
       "basePlateMoc": "FRP Matching Profile Sheet",
       "airflowCfm": "2,000 to 2,500 CFM",
@@ -1016,10 +1017,10 @@ export const productsData: ProductItem[] = [
       "Commercial Warehouses"
     ],
     "specs": {
-      "throatDia": "24\" Inch (610 MM) / 21\" Inch (530 MM)",
+      "throatDia": "24\" Inch (610 MM)",
       "outerDia": "30\" Inch (760 MM)",
       "topCoverMoc": "Stainless Steel SS 304",
-      "bladeMoc": "Hindalco 8011 Aluminium",
+      "bladeMoc": "Hindalco Aluminium Alloy 8011 / SS 304",
       "bearingMake": "HCH Precision Sealed Bearing",
       "basePlateMoc": "FRP UV-Stabilized Sheet",
       "airflowCfm": "2,000 to 2,500 CFM",
@@ -1083,9 +1084,9 @@ export const productsData: ProductItem[] = [
       "Boiler & Generator Rooms"
     ],
     "specs": {
-      "throatDia": "24\" Inch (610 MM) / 21\" Inch (530 MM)",
+      "throatDia": "24\" Inch (610 MM)",
       "outerDia": "30\" Inch (760 MM)",
-      "bladeMoc": "Hindalco 8011 Aluminium",
+      "bladeMoc": "Hindalco Aluminium 8011",
       "topCoverMoc": "Stainless Steel SS 304",
       "bearingMake": "HCH Precision Sealed Dual Bearings",
       "basePlateMoc": "FRP Corrugated Matching Sheet",
@@ -1149,9 +1150,9 @@ export const productsData: ProductItem[] = [
       "Commercial Sheds & Garages"
     ],
     "specs": {
-      "throatDia": "24\" Inch (610 MM) / 21\" Inch (530 MM)",
+      "throatDia": "24\" Inch (610 MM)",
       "outerDia": "30\" Inch (760 MM)",
-      "bladeMoc": "Hindalco 8011 Aluminium",
+      "bladeMoc": "Hindalco Aluminium 8011",
       "topCoverMoc": "Stainless Steel SS 304",
       "bearingMake": "HCH Precision Sealed Bearing",
       "basePlateMoc": "FRP Matching Base Plate",
@@ -1215,7 +1216,7 @@ export const productsData: ProductItem[] = [
       "Commercial Warehouses"
     ],
     "specs": {
-      "throatDia": "24\" Inch (610 MM) / 21\" Inch (530 MM)",
+      "throatDia": "24\" Inch (610 MM)",
       "outerDia": "30\" Inch (760 MM)",
       "bladeMoc": "Hindalco Aluminium 8011",
       "topCoverMoc": "Stainless Steel SS 304",
@@ -1282,9 +1283,9 @@ export const productsData: ProductItem[] = [
       "Warehouses & Godowns"
     ],
     "specs": {
-      "throatDia": "24\" Inch (610 MM) / 21\" Inch (530 MM)",
+      "throatDia": "24\" Inch (610 MM)",
       "outerDia": "30\" Inch (760 MM)",
-      "bladeMoc": "Hindalco Aluminium 8011",
+      "bladeMoc": "Hindalco Aluminium Alloy 8011 / SS 304",
       "topCoverMoc": "Stainless Steel SS 304",
       "bearingMake": "HCH Precision Sealed Bearing",
       "basePlateMoc": "FRP Matching Profile Base Plate",
@@ -1348,7 +1349,7 @@ export const productsData: ProductItem[] = [
       "Commercial Storage Godowns"
     ],
     "specs": {
-      "throatDia": "24\" Inch (610 MM) / 21\" Inch (530 MM)",
+      "throatDia": "24\" Inch (610 MM)",
       "outerDia": "30\" Inch (760 MM)",
       "bladeMoc": "Hindalco Aluminium 8011",
       "topCoverMoc": "Stainless Steel SS 304",
@@ -1414,9 +1415,9 @@ export const productsData: ProductItem[] = [
       "Plastic & Rubber Manufacturing Units"
     ],
     "specs": {
-      "throatDia": "24\" Inch (610 MM) / 21\" Inch (530 MM)",
+      "throatDia": "24\" Inch (610 MM)",
       "outerDia": "30\" Inch (760 MM)",
-      "bladeMoc": "Hindalco Aluminium 8011",
+      "bladeMoc": "Hindalco Aluminium Alloy 8011 / SS 304",
       "topCoverMoc": "Stainless Steel SS 304",
       "bearingMake": "HCH Precision Sealed Bearing",
       "basePlateMoc": "FRP Matching Sheet",
@@ -1432,7 +1433,7 @@ export const productsData: ProductItem[] = [
     "faqs": [
       {
         "question": "What is the delivery time for bulk orders across India?",
-        "answer": "We maintain ready stock of standard 21\" and 24\" units and can dispatch large quantities within 24 to 48 hours directly from our Vasai factory."
+        "answer": "We maintain ready stock of standard 24\" units and can dispatch large quantities within 24 to 48 hours directly from our Vasai factory."
       }
     ]
   },
@@ -1480,9 +1481,9 @@ export const productsData: ProductItem[] = [
       "Agricultural Storage Facilities"
     ],
     "specs": {
-      "throatDia": "24\" Inch (610 MM) / 21\" Inch (530 MM)",
+      "throatDia": "24\" Inch (610 MM)",
       "outerDia": "30\" Inch (760 MM)",
-      "bladeMoc": "Hindalco 8011 Aluminium",
+      "bladeMoc": "Hindalco Aluminium 8011",
       "topCoverMoc": "Stainless Steel SS 304",
       "bearingMake": "HCH Precision Sealed Bearing",
       "basePlateMoc": "FRP Matching Profile Sheet",
@@ -1546,9 +1547,9 @@ export const productsData: ProductItem[] = [
       "Logistics Warehouses & Godowns"
     ],
     "specs": {
-      "throatDia": "24\" Inch (610 MM) / 21\" Inch (530 MM)",
+      "throatDia": "24\" Inch (610 MM)",
       "outerDia": "30\" Inch (760 MM)",
-      "bladeMoc": "Hindalco 8011 Aluminium",
+      "bladeMoc": "Hindalco Aluminium 8011",
       "topCoverMoc": "Stainless Steel SS 304",
       "bearingMake": "HCH Precision Sealed Bearing",
       "basePlateMoc": "FRP Matching Profile Sheet",
@@ -1613,9 +1614,9 @@ export const productsData: ProductItem[] = [
       "Automobile Assembly Plants"
     ],
     "specs": {
-      "throatDia": "24\" Inch (610 MM) / 21\" Inch (530 MM)",
+      "throatDia": "24\" Inch (610 MM)",
       "outerDia": "30\" Inch (760 MM)",
-      "bladeMoc": "Hindalco 8011 Aluminium",
+      "bladeMoc": "Hindalco Aluminium Alloy 8011 / SS 304",
       "topCoverMoc": "Stainless Steel SS 304",
       "bearingMake": "HCH Precision Sealed Bearing",
       "basePlateMoc": "FRP Matching Profile Sheet",
@@ -1679,9 +1680,9 @@ export const productsData: ProductItem[] = [
       "Boiler & Generator Rooms"
     ],
     "specs": {
-      "throatDia": "24\" Inch (610 MM) / 21\" Inch (530 MM)",
+      "throatDia": "24\" Inch (610 MM)",
       "outerDia": "30\" Inch (760 MM)",
-      "bladeMoc": "Hindalco 8011 Aluminium",
+      "bladeMoc": "Hindalco Aluminium 8011",
       "topCoverMoc": "Stainless Steel SS 304",
       "bearingMake": "HCH Precision Sealed Bearing",
       "basePlateMoc": "FRP Matching Profile Sheet",

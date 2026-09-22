@@ -40,29 +40,17 @@ export const ProductDetailHero: React.FC<ProductDetailHeroProps> = ({ product })
               {(() => {
                 const highlights: { label: string; value: string; isEmerald?: boolean }[] = [];
 
-                if (product.id === 'power-ventilator') {
-                  highlights.push({ label: 'Size', value: '32"' });
-                  highlights.push({ label: 'CFM', value: '10,000', isEmerald: true });
-                  highlights.push({ label: 'Motor', value: '1.5 HP' });
-                  highlights.push({ label: 'Base Plate', value: 'FRP only', isEmerald: true });
-                } else if (product.id === 'motorised-ventilator') {
-                  highlights.push({ label: 'Throat Diameter', value: product.specs.throatDia || '32"' });
-                  highlights.push({ label: 'Airflow Volume', value: product.specs.airflowCfm || '10,000 CFM', isEmerald: true });
-                  highlights.push({ label: 'Base Plate', value: 'FRP only' });
-                  highlights.push({ label: 'Power Input', value: product.specs.powerConsumption || '1.5 HP', isEmerald: true });
-                } else {
-                  if (product.specs.throatDia) {
-                    highlights.push({ label: 'Throat Diameter', value: product.specs.throatDia });
-                  }
-                  if (product.specs.bladeMoc) {
-                    highlights.push({ label: 'Material (MOC)', value: product.specs.bladeMoc, isEmerald: true });
-                  }
-                  if (product.specs.airflowCfm) {
-                    highlights.push({ label: 'Airflow Volume', value: product.specs.airflowCfm });
-                  }
-                  if (product.specs.powerConsumption) {
-                    highlights.push({ label: 'Power Input', value: product.specs.powerConsumption, isEmerald: true });
-                  }
+                if (product.specs.throatDia) {
+                  highlights.push({ label: 'Throat Diameter', value: product.specs.throatDia });
+                }
+                if (product.specs.bladeMoc) {
+                  highlights.push({ label: 'Material (MOC)', value: product.specs.bladeMoc, isEmerald: true });
+                }
+                if (product.specs.airflowCfm) {
+                  highlights.push({ label: 'Airflow Volume', value: product.specs.airflowCfm });
+                }
+                if (product.specs.powerConsumption) {
+                  highlights.push({ label: 'Power Input', value: product.specs.powerConsumption, isEmerald: true });
                 }
 
                 const gridColsClass = highlights.length === 4
