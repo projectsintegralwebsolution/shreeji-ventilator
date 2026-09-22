@@ -156,7 +156,7 @@ export const productsData: ProductItem[] = [
     "name": "Motorised Ventilator",
     "h1Title": "SIMPOVENT® Motorized Ventilator - 6000 to 6500 CFM Industrial Forced Draft System",
     "metaTitle": "SIMPOVENT® Motorized Ventilator | 6000 to 6500 CFM Roof Ventilator",
-    "metaDescription": "SIMPOVENT® Motorized Ventilator. 24\" & 28\" Size, 6000 to 6500 CFM forced air exhaust with FRP base plate only. High-capacity extraction for heavy industries.",
+    "metaDescription": "SIMPOVENT® Motorized Ventilator. 24\" Size, 6000 to 6500 CFM forced air exhaust with FRP base plate only. High-capacity extraction for heavy industries.",
     "focusKeywords": [
       "motorised ventilator",
       "motorized ventilator",
@@ -172,7 +172,7 @@ export const productsData: ProductItem[] = [
     ],
     "category": "motorized-hybrid",
     "categoryLabel": "Motorized Roof Ventilator",
-    "shortDescription": "High-capacity SIMPOVENT® Motorized Ventilator engineered with 24\" and 28\" throat diameter and 6000 to 6500 CFM exhaust capacity with heavy-duty FRP base plate.",
+    "shortDescription": "High-capacity SIMPOVENT® Motorized Ventilator engineered with 24\" throat diameter and 6000 to 6500 CFM exhaust capacity with heavy-duty FRP base plate.",
     "fullDescription": [
       "The SIMPOVENT® Motorized Ventilator is a powerhouse industrial roof ventilation unit engineered to deliver 6000 to 6500 CFM of high-velocity air exhaust across heavy manufacturing plants, foundries, and large PEB industrial sheds.",
       "Driven by a high-torque Class F insulated copper-wound electric motor, this unit provides aggressive, uninterrupted extraction of dense thermal plumes, process fumes, and airborne industrial contaminants without depending on external wind speeds.",
@@ -181,7 +181,7 @@ export const productsData: ProductItem[] = [
     "keyFeatures": [
       "Guaranteed 6000 to 6500 CFM High-Volume Industrial Air Displacement",
       "High-Torque Continuous-Duty TEFC IP55 Copper Motor",
-      "24 Inch (610 mm) & 28 Inch (710 mm) Throat Diameter with Precision Aerofoil Vanes",
+      "24 Inch (610 mm) Throat Diameter with Precision Aerofoil Vanes",
       "100% FRP Only UV-Stabilized Custom Profile Base Plate",
       "Corrosion-Resistant Metallurgy with SS 304 Central Hardware",
       "Engineered for Multi-Shift Heavy Factory Environments"
@@ -202,7 +202,7 @@ export const productsData: ProductItem[] = [
       "Textile Processing & High-Humidity Dyeing Mills"
     ],
     "specs": {
-      "throatDia": "24 Inch (610 mm), 28 Inch (710 mm)",
+      "throatDia": "24 Inch (610 mm)",
       "outerDia": "32\" Inch (810 MM)",
       "motorType": "1.5 HP High-Torque IP55 Industrial Motor",
       "bladeMoc": "Fibre",
@@ -221,7 +221,7 @@ export const productsData: ProductItem[] = [
     "faqs": [
       {
         "question": "What are the confirmed specifications of the SIMPOVENT® Motorized Ventilator?",
-        "answer": "The SIMPOVENT® Motorized Ventilator is engineered with 24\" and 28\" throat diameter, 6000 to 6500 CFM airflow capacity, and custom FRP matching base plates."
+        "answer": "The SIMPOVENT® Motorized Ventilator is engineered with 24\" throat diameter, 6000 to 6500 CFM airflow capacity, and custom FRP matching base plates."
       },
       {
         "question": "Why is the base plate supplied in FRP only?",
@@ -285,7 +285,7 @@ export const productsData: ProductItem[] = [
       "Electronic Manufacturing & Soldering Workshops"
     ],
     "specs": {
-      "throatDia": "24\" Inch (610 MM) / 28\" Inch (710 MM)",
+      "throatDia": "24\" Inch (610 MM)",
       "outerDia": "32\" Inch (810 MM)",
       "motorType": "Heavy Duty 4-Pole TEFC Induction Motor",
       "bladeMoc": "Fibre",
