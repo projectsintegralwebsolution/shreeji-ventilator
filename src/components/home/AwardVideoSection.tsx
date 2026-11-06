@@ -48,8 +48,8 @@ export const AwardVideoSection: React.FC = () => {
               <img
                 src="/images/awards/harbhajan-singh-award.webp"
                 alt="Harbhajan Singh presenting Inspiring Leaders Award 2023 to Bharat Gurjar of Shreeji Sales Corporation Simpovent"
-                width={800}
-                height={320}
+                width={600}
+                height={240}
                 loading="lazy"
                 decoding="async"
                 className="w-full h-auto object-cover"

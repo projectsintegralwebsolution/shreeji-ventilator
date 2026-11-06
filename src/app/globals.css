@@ -33,8 +33,8 @@
 }
 
 @keyframes pulseGlow {
-  0%, 100% { box-shadow: 0 0 15px rgba(56, 176, 0, 0.2); }
-  50% { box-shadow: 0 0 25px rgba(56, 176, 0, 0.45); }
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.05); opacity: 0.95; }
 }
 
 @keyframes spinSlow {
@@ -48,6 +48,7 @@
 
 .animate-pulse-glow {
   animation: pulseGlow 3s ease-in-out infinite;
+  will-change: transform;
 }
 
 .animate-spin-slow {
