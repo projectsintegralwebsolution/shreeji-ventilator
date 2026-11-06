@@ -8,6 +8,7 @@ import { QuoteButton } from '../common/QuoteButton';
 export const HeroSlider: React.FC = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
+  const [isMounted, setIsMounted] = useState(false);
 
   const slides = [
     {
@@ -78,6 +79,10 @@ export const HeroSlider: React.FC = () => {
   ];
 
   useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  useEffect(() => {
     if (isPaused) return;
     const interval = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % slides.length);
@@ -101,29 +106,32 @@ export const HeroSlider: React.FC = () => {
       aria-label="SIMPOVENT Hero Product Slider"
     >
       {/* Sliding Background Images with Gradient Overlay */}
-      {slides.map((slide, idx) => (
-        <div
-          key={idx}
-          className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
-            currentSlide === idx ? 'opacity-100 z-10 scale-100' : 'opacity-0 z-0 scale-105 pointer-events-none'
-          }`}
-          style={{ transitionProperty: 'opacity, transform' }}
-        >
-          <img
-            src={slide.bgImage}
-            alt={slide.title}
-            width={1920}
-            height={800}
-            className="w-full h-full object-cover object-center"
-            loading={idx === 0 ? "eager" : "lazy"}
-            fetchPriority={idx === 0 ? "high" : "low"}
-            decoding={idx === 0 ? "sync" : "async"}
-          />
-          {/* Readable gradient overlay */}
-          <div className="absolute inset-0 bg-gradient-to-r from-[#061d16]/90 via-[#061d16]/65 to-black/30" />
-          <div className="absolute inset-0 bg-black/20" />
-        </div>
-      ))}
+      {slides.map((slide, idx) => {
+        if (idx !== 0 && !isMounted) return null;
+        return (
+          <div
+            key={idx}
+            className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
+              currentSlide === idx ? 'opacity-100 z-10 scale-100' : 'opacity-0 z-0 scale-105 pointer-events-none'
+            }`}
+            style={{ transitionProperty: 'opacity, transform' }}
+          >
+            <img
+              src={slide.bgImage}
+              alt={slide.title}
+              width={1920}
+              height={800}
+              className="w-full h-full object-cover object-center"
+              loading={idx === 0 ? "eager" : "lazy"}
+              fetchPriority={idx === 0 ? "high" : "low"}
+              decoding={idx === 0 ? "sync" : "async"}
+            />
+            {/* Readable gradient overlay */}
+            <div className="absolute inset-0 bg-gradient-to-r from-[#061d16]/90 via-[#061d16]/65 to-black/30" />
+            <div className="absolute inset-0 bg-black/20" />
+          </div>
+        );
+      })}
 
       {/* Floating Verification Badge */}
       <div className="absolute top-4 right-4 z-20 pointer-events-none hidden sm:block">

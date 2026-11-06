@@ -209,22 +209,22 @@ export const Footer: React.FC = () => {
             </p>
           </div>
 
-          <div className="flex flex-wrap items-center justify-center md:justify-end gap-x-3 gap-y-1.5 text-xs text-slate-300 w-full md:w-auto">
-            <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <span className="text-slate-600">/</span>
-            <Link href="/about" className="hover:text-white transition-colors">About Us</Link>
-            <span className="text-slate-600">/</span>
-            <Link href="/events" className="hover:text-white transition-colors">Events</Link>
-            <span className="text-slate-600">/</span>
-            <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
-            <span className="text-slate-600">/</span>
-            <Link href="/products" className="hover:text-white transition-colors">Products</Link>
-            <span className="text-slate-600">/</span>
-            <Link href="/calculator" className="hover:text-white transition-colors">CFM Calculator</Link>
-            <span className="text-slate-600">/</span>
-            <Link href="/contact" className="hover:text-white transition-colors">Contact</Link>
-            <span className="text-slate-600">/</span>
-            <Link href="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link>
+          <div className="flex flex-wrap items-center justify-center md:justify-end gap-x-2 gap-y-1 text-xs text-slate-300 w-full md:w-auto">
+            <Link href="/" className="hover:text-white transition-colors py-1.5 px-1 min-h-[32px] inline-flex items-center">Home</Link>
+            <span className="text-slate-600 self-center">/</span>
+            <Link href="/about" className="hover:text-white transition-colors py-1.5 px-1 min-h-[32px] inline-flex items-center">About Us</Link>
+            <span className="text-slate-600 self-center">/</span>
+            <Link href="/events" className="hover:text-white transition-colors py-1.5 px-1 min-h-[32px] inline-flex items-center">Events</Link>
+            <span className="text-slate-600 self-center">/</span>
+            <Link href="/blog" className="hover:text-white transition-colors py-1.5 px-1 min-h-[32px] inline-flex items-center">Blog</Link>
+            <span className="text-slate-600 self-center">/</span>
+            <Link href="/products" className="hover:text-white transition-colors py-1.5 px-1 min-h-[32px] inline-flex items-center">Products</Link>
+            <span className="text-slate-600 self-center">/</span>
+            <Link href="/calculator" className="hover:text-white transition-colors py-1.5 px-1 min-h-[32px] inline-flex items-center">CFM Calculator</Link>
+            <span className="text-slate-600 self-center">/</span>
+            <Link href="/contact" className="hover:text-white transition-colors py-1.5 px-1 min-h-[32px] inline-flex items-center">Contact</Link>
+            <span className="text-slate-600 self-center">/</span>
+            <Link href="/privacy-policy" className="hover:text-white transition-colors py-1.5 px-1 min-h-[32px] inline-flex items-center">Privacy Policy</Link>
           </div>
         </div>
       </div>
