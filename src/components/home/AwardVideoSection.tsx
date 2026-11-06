@@ -6,6 +6,7 @@ import { QuoteButton } from '../common/QuoteButton';
 
 export const AwardVideoSection: React.FC = () => {
   const [videoSource, setVideoSource] = useState<'youtube' | 'mp4'>('youtube');
+  const [isPlayingYoutube, setIsPlayingYoutube] = useState(false);
 
   return (
     <section className="py-16 md:py-24 bg-gradient-to-b from-slate-900 via-[#071f18] to-slate-900 text-white relative overflow-hidden" suppressHydrationWarning>
@@ -47,6 +48,10 @@ export const AwardVideoSection: React.FC = () => {
               <img
                 src="/images/awards/harbhajan-singh-award.jpg"
                 alt="Harbhajan Singh presenting Inspiring Leaders Award 2023 to Bharat Gurjar of Shreeji Sales Corporation Simpovent"
+                width={800}
+                height={320}
+                loading="lazy"
+                decoding="async"
                 className="w-full h-auto object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-4">
@@ -106,18 +111,44 @@ export const AwardVideoSection: React.FC = () => {
 
             <div className="my-6 rounded-2xl overflow-hidden border border-white/10 shadow-2xl relative bg-black aspect-video flex items-center justify-center">
               {videoSource === 'youtube' ? (
-                <iframe
-                  className="w-full h-full"
-                  src="https://www.youtube.com/embed/abD5Itpu6hI?rel=0&autoplay=0"
-                  title="Simpovent Wind Ventilator Rooftop Video"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                />
+                isPlayingYoutube ? (
+                  <iframe
+                    className="w-full h-full"
+                    src="https://www.youtube-nocookie.com/embed/abD5Itpu6hI?rel=0&autoplay=1"
+                    title="Simpovent Wind Ventilator Rooftop Video"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  />
+                ) : (
+                  <div
+                    onClick={() => setIsPlayingYoutube(true)}
+                    className="relative w-full h-full cursor-pointer group flex items-center justify-center bg-slate-900"
+                    role="button"
+                    tabIndex={0}
+                    aria-label="Play Simpovent Wind Ventilator Rooftop Video"
+                    onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') setIsPlayingYoutube(true); }}
+                  >
+                    <img
+                      src="https://i.ytimg.com/vi/abD5Itpu6hI/hqdefault.jpg"
+                      alt="Simpovent Wind Ventilator Rooftop Demonstration Video Thumbnail"
+                      width={640}
+                      height={360}
+                      className="w-full h-full object-cover opacity-85 group-hover:opacity-95 transition-opacity"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                    <div className="absolute inset-0 bg-black/25 group-hover:bg-black/10 transition-colors" />
+                    <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-red-600 group-hover:bg-red-700 text-white flex items-center justify-center shadow-2xl group-hover:scale-110 transition-all z-10">
+                      <Play className="w-8 h-8 sm:w-10 sm:h-10 fill-current translate-x-0.5" />
+                    </div>
+                  </div>
+                )
               ) : (
                 <video
                   controls
                   className="w-full h-full object-cover"
                   poster="/images/factory/factory-manufacturing-line.jpg"
+                  preload="metadata"
                 >
                   <source src="/videos/Simpovent.mp4" type="video/mp4" />
                   Your browser does not support HTML5 video.

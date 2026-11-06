@@ -95,7 +95,7 @@ const ProductGridContent: React.FC = () => {
                     <span className="text-[11px] font-bold uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-100">
                       {product.categoryLabel}
                     </span>
-                    <span className="text-[11px] font-bold text-slate-400">
+                    <span className="text-[11px] font-bold text-slate-500">
                       {product.specs.powerConsumption}
                     </span>
                   </div>
@@ -114,15 +114,15 @@ const ProductGridContent: React.FC = () => {
                   {/* Quick Specs List */}
                   <div className="mt-4 pt-4 border-t border-slate-100 space-y-1.5 text-xs text-slate-600">
                     <div className="flex items-center justify-between">
-                      <span className="text-slate-400">Throat Diameter:</span>
+                      <span className="text-slate-500">Throat Diameter:</span>
                       <span className="font-semibold text-slate-800">{product.specs.throatDia}</span>
                     </div>
                     <div className="flex items-center justify-between">
-                      <span className="text-slate-400">Material (MOC):</span>
+                      <span className="text-slate-500">Material (MOC):</span>
                       <span className="font-semibold text-slate-800">{product.specs.bladeMoc || 'Hindalco Aluminium'}</span>
                     </div>
                     <div className="flex items-center justify-between">
-                      <span className="text-slate-400">Airflow Rating:</span>
+                      <span className="text-slate-500">Airflow Rating:</span>
                       <span className="font-semibold text-emerald-700">{product.specs.airflowCfm}</span>
                     </div>
                   </div>

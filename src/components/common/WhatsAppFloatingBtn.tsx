@@ -28,7 +28,7 @@ export const WhatsAppFloatingBtn: React.FC<WhatsAppBtnProps> = ({ productName })
         aria-label="Chat with Shreeji Wind Ventilator on WhatsApp"
         className="w-14 h-14 rounded-full bg-[#25D366] text-white flex items-center justify-center shadow-2xl hover:scale-110 active:scale-95 transition-all duration-300 animate-pulse-glow"
       >
-        <MessageCircle className="w-8 h-8 fill-current" />
+        <MessageCircle aria-hidden="true" className="w-8 h-8 fill-current" />
       </a>
     </div>
   );

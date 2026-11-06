@@ -11,7 +11,7 @@ export const HeroSlider: React.FC = () => {
 
   const slides = [
     {
-      bgImage: "/images/slides/slide-1.jpeg",
+      bgImage: "/images/slides/slide-1.webp",
       badge: "SIMPOVENT® • Motorized & Hybrid Series",
       title: "SIMPOVENT® Motorized Industrial Roof Ventilator",
       subtitle: "High-capacity powered roof ventilation system engineered for continuous forced air extraction, dense smoke removal, and rapid factory heat evacuation.",
@@ -24,7 +24,7 @@ export const HeroSlider: React.FC = () => {
       ctaPrimaryUrl: "/contact"
     },
     {
-      bgImage: "/images/slides/slide-2.png",
+      bgImage: "/images/slides/slide-2.webp",
       badge: "Heavy-Duty Exhaust Series",
       title: "SIMPOVENT® Industrial Wall & Roof Cone Exhaust Fans",
       subtitle: "High-efficiency cone-type wall and roof exhaust fans engineered for aggressive process fumes, welding smoke, and heavy factory heat evacuation.",
@@ -37,7 +37,7 @@ export const HeroSlider: React.FC = () => {
       ctaPrimaryUrl: "/contact"
     },
     {
-      bgImage: "/images/slides/slide-3.png",
+      bgImage: "/images/slides/slide-3.webp",
       badge: "High-Volume Industrial Ventilation",
       title: "SIMPOVENT® Heavy Duty Roof Extractors & Axial Flow Fans",
       subtitle: "Custom engineered rooftop exhaust cowls and high-capacity axial flow systems with built-in protective wire guards and weatherproof housings.",
@@ -50,7 +50,7 @@ export const HeroSlider: React.FC = () => {
       ctaPrimaryUrl: "/contact"
     },
     {
-      bgImage: "/images/slides/slide-4.jpeg",
+      bgImage: "/images/slides/slide-4.webp",
       badge: "Zero-Power Eco Ventilation",
       title: "SIMPOVENT® Zero-Power Industrial Wind Turbo Ventilators",
       subtitle: "Continuously exhausts trapped heat, humidity, and toxic gases across large factory sheds using 100% natural wind currents — 0 Watts electricity.",
@@ -63,7 +63,7 @@ export const HeroSlider: React.FC = () => {
       ctaPrimaryUrl: "/calculator"
     },
     {
-      bgImage: "/images/slides/slide-5.jpeg",
+      bgImage: "/images/slides/slide-5.webp",
       badge: "SIMPOVENT® HVLS Series • PMSM Direct Drive",
       title: "SIMPOVENT® Industrial HVLS PMSM Ceiling Fans (Up to 24 Ft)",
       subtitle: "Permanent Magnet Synchronous Motor direct-drive technology — zero gearbox, zero oil leak risk, whisper-quiet operation, and massive airflow up to 15,500 CMM.",
@@ -112,8 +112,12 @@ export const HeroSlider: React.FC = () => {
           <img
             src={slide.bgImage}
             alt={slide.title}
+            width={1920}
+            height={800}
             className="w-full h-full object-cover object-center"
             loading={idx === 0 ? "eager" : "lazy"}
+            fetchPriority={idx === 0 ? "high" : "low"}
+            decoding={idx === 0 ? "sync" : "async"}
           />
           {/* Readable gradient overlay */}
           <div className="absolute inset-0 bg-gradient-to-r from-[#061d16]/90 via-[#061d16]/65 to-black/30" />

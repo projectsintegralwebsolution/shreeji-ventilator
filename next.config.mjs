@@ -2,6 +2,14 @@
 const nextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
+  compress: true,
+  images: {
+    formats: ['image/avif', 'image/webp'],
+    minimumCacheTTL: 2592000,
+  },
+  experimental: {
+    optimizePackageImports: ['lucide-react'],
+  },
   eslint: {
     ignoreDuringBuilds: true
   },

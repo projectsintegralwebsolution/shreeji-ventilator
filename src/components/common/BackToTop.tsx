@@ -37,7 +37,7 @@ export const BackToTop: React.FC = () => {
           : 'opacity-0 translate-y-4 pointer-events-none'
       }`}
     >
-      <ChevronUp className="w-5 h-5 text-emerald-400 stroke-[2.5]" />
+      <ChevronUp aria-hidden="true" className="w-5 h-5 text-emerald-400 stroke-[2.5]" />
     </button>
   );
 };

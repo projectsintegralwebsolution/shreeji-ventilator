@@ -71,6 +71,7 @@ export const WatermarkedImage: React.FC<WatermarkedImageProps> = ({
         alt={alt}
         className={`w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105 ${className}`}
         loading={priority ? 'eager' : 'lazy'}
+        decoding="async"
       />
       {/* Subtle gradient for contrast */}
       <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-50 pointer-events-none" />

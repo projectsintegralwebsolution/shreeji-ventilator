@@ -54,8 +54,10 @@ export const FAQAccordion: React.FC<FAQAccordionProps> = ({
               >
                 <button
                   onClick={() => toggle(idx)}
-                  className="w-full p-4 sm:p-5 text-left font-bold text-sm sm:text-base text-slate-900 flex items-center justify-between gap-4 hover:bg-emerald-50/50 transition-colors cursor-pointer"
+                  id={`faq-btn-${idx}`}
+                  aria-controls={`faq-answer-${idx}`}
                   aria-expanded={isOpen}
+                  className="w-full p-4 sm:p-5 text-left font-bold text-sm sm:text-base text-slate-900 flex items-center justify-between gap-4 hover:bg-emerald-50/50 transition-colors cursor-pointer"
                   suppressHydrationWarning
                 >
                   <span className="flex items-center gap-3">
@@ -65,6 +67,7 @@ export const FAQAccordion: React.FC<FAQAccordionProps> = ({
                     <span>{faq.question}</span>
                   </span>
                   <ChevronDown
+                    aria-hidden="true"
                     className={`w-5 h-5 text-slate-500 shrink-0 transition-transform duration-200 ${
                       isOpen ? 'rotate-180 text-emerald-700' : ''
                     }`}
@@ -72,7 +75,13 @@ export const FAQAccordion: React.FC<FAQAccordionProps> = ({
                 </button>
 
                 {isOpen && (
-                  <div className="px-5 pb-5 pt-1 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-100 pl-14" suppressHydrationWarning>
+                  <div
+                    id={`faq-answer-${idx}`}
+                    role="region"
+                    aria-labelledby={`faq-btn-${idx}`}
+                    className="px-5 pb-5 pt-1 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-100 pl-14"
+                    suppressHydrationWarning
+                  >
                     {faq.answer}
                   </div>
                 )}

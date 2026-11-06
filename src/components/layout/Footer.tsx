@@ -61,10 +61,14 @@ export const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 py-10 sm:py-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
         {/* Column 1: Company Profile with Logo */}
         <div className="sm:col-span-2 space-y-4">
-          <Link href="/" className="inline-block bg-white p-2.5 rounded-2xl shadow-md">
+          <Link href="/" className="inline-block bg-white p-2.5 rounded-2xl shadow-md" aria-label="Simpovent Home">
             <img
               src="/images/logo.png"
               alt="Simpovent Logo"
+              width={160}
+              height={40}
+              loading="lazy"
+              decoding="async"
               className="h-10 w-auto object-contain"
             />
           </Link>
@@ -182,11 +186,11 @@ export const Footer: React.FC = () => {
         <h5 className="text-white font-bold mb-3 uppercase tracking-wider text-[11px] text-emerald-400">
           Serving Major Industrial Hubs & Manufacturing Belts Across India:
         </h5>
-        <div className="flex flex-wrap gap-2 text-slate-400">
+        <div className="flex flex-wrap gap-2 text-slate-300">
           {citiesData.map((city, idx) => (
             <span key={idx} className="inline-flex items-center flex-wrap">
-              <span className="text-slate-300 font-medium">{city.name}</span>
-              <span className="text-slate-500 text-[10px] ml-1">({city.industrialHubs.slice(0, 3).join(', ')})</span>
+              <span className="text-slate-200 font-medium">{city.name}</span>
+              <span className="text-slate-400 text-[10px] ml-1">({city.industrialHubs.slice(0, 3).join(', ')})</span>
               {idx < citiesData.length - 1 && <span className="mx-2 text-emerald-800">•</span>}
             </span>
           ))}
@@ -194,18 +198,18 @@ export const Footer: React.FC = () => {
       </div>
 
       {/* Factory Copyright & Bottom Nav Links */}
-      <div className="bg-[#051712] py-6 border-t border-emerald-950 text-xs text-slate-400">
+      <div className="bg-[#051712] py-6 border-t border-emerald-950 text-xs text-slate-300">
         <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4 text-center md:text-left">
           <div className="w-full md:w-auto">
             <p className="leading-normal">
               © {new Date().getFullYear()} <strong className="text-white">Shreeji Sales Corporation</strong>. All Rights Reserved. Brand: <strong className="text-emerald-400">Simpovent®</strong>
             </p>
-            <p className="text-[11px] text-slate-500 mt-0.5">
+            <p className="text-[11px] text-slate-400 mt-0.5">
               AN ISO 9001:2015 Certified Manufacturer in Vasai, Palghar, Maharashtra, India.
             </p>
           </div>
 
-          <div className="flex flex-wrap items-center justify-center md:justify-end gap-x-3 gap-y-1.5 text-xs text-slate-400 w-full md:w-auto">
+          <div className="flex flex-wrap items-center justify-center md:justify-end gap-x-3 gap-y-1.5 text-xs text-slate-300 w-full md:w-auto">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
             <span className="text-slate-600">/</span>
             <Link href="/about" className="hover:text-white transition-colors">About Us</Link>

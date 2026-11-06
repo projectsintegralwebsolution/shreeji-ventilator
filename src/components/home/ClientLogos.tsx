@@ -22,7 +22,7 @@ export const ClientLogos: React.FC = () => {
   return (
     <section className="py-14 bg-white border-y border-slate-200">
       <div className="max-w-7xl mx-auto px-4 text-center">
-        <span className="text-xs font-extrabold uppercase tracking-widest text-slate-400 block mb-8">
+        <span className="text-xs font-extrabold uppercase tracking-widest text-slate-600 block mb-8">
           TRUSTED BY 1,000+ INDUSTRIAL ENTERPRISES & FACTORIES ACROSS INDIA
         </span>
 
@@ -34,7 +34,11 @@ export const ClientLogos: React.FC = () => {
             >
               <img
                 src={client.src}
-                alt={client.name}
+                alt={`Industrial Client Partner ${idx + 1}`}
+                width={140}
+                height={48}
+                loading="lazy"
+                decoding="async"
                 className="max-h-12 max-w-full object-contain filter grayscale hover:grayscale-0 transition-all duration-300"
               />
             </div>

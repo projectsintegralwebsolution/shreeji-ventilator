@@ -86,6 +86,9 @@ export const Header: React.FC = () => {
               <img
                 src="/images/logo.png"
                 alt="Simpovent - Shreeji Sales Corporation"
+                width={220}
+                height={56}
+                decoding="async"
                 className="h-10 sm:h-12 md:h-14 w-auto object-contain transition-transform group-hover:scale-105"
               />
             </Link>
@@ -115,10 +118,12 @@ export const Header: React.FC = () => {
                 <button
                   className="px-3 py-2 text-sm font-bold text-slate-800 hover:text-emerald-700 flex items-center gap-1 transition-colors cursor-pointer"
                   aria-expanded={megaMenuHover}
+                  aria-haspopup="true"
+                  aria-label="Products category menu"
                   suppressHydrationWarning
                 >
                   <span>Products</span>
-                  <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${megaMenuHover ? 'rotate-180 text-emerald-700' : ''}`} />
+                  <ChevronDown aria-hidden="true" className={`w-4 h-4 transition-transform duration-200 ${megaMenuHover ? 'rotate-180 text-emerald-700' : ''}`} />
                 </button>
 
                 {megaMenuHover && (
