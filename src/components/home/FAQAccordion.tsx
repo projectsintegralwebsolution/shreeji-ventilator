@@ -49,7 +49,7 @@ export const FAQAccordion: React.FC<FAQAccordionProps> = ({
             return (
               <div
                 key={idx}
-                className="bg-white rounded-2xl border border-slate-200/80 overflow-hidden shadow-sm transition-all"
+                className="bg-white rounded-2xl border border-slate-200/80 overflow-hidden shadow-sm transition-all mb-3"
                 suppressHydrationWarning
               >
                 <button
@@ -57,7 +57,7 @@ export const FAQAccordion: React.FC<FAQAccordionProps> = ({
                   id={`faq-btn-${idx}`}
                   aria-controls={`faq-answer-${idx}`}
                   aria-expanded={isOpen}
-                  className="w-full p-4 sm:p-5 text-left font-bold text-sm sm:text-base text-slate-900 flex items-center justify-between gap-4 hover:bg-emerald-50/50 transition-colors cursor-pointer"
+                  className="w-full p-4 sm:p-5 min-h-[48px] text-left font-bold text-sm sm:text-base text-slate-900 flex items-center justify-between gap-4 hover:bg-emerald-50/50 transition-colors cursor-pointer"
                   suppressHydrationWarning
                 >
                   <span className="flex items-center gap-3">

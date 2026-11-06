@@ -103,7 +103,7 @@ export const Footer: React.FC = () => {
           <ul className="space-y-1 text-xs">
             {windDriven.slice(0, 7).map((p) => (
               <li key={p.id}>
-                <Link href={`/${p.slug}`} className="hover:text-emerald-400 transition-colors inline-flex items-center gap-1.5 text-slate-300 py-1 min-h-[30px]">
+                <Link href={`/${p.slug}`} className="hover:text-emerald-400 transition-colors inline-flex items-center gap-1.5 text-slate-300 py-1.5 min-h-[36px]">
                   <ArrowRight aria-hidden="true" className="w-3 h-3 text-emerald-500 shrink-0" />
                   <span className="break-words">{p.name}</span>
                 </Link>
@@ -120,7 +120,7 @@ export const Footer: React.FC = () => {
           <ul className="space-y-1 text-xs">
             {windDriven.slice(7).map((p) => (
               <li key={p.id}>
-                <Link href={`/${p.slug}`} className="hover:text-emerald-400 transition-colors inline-flex items-center gap-1.5 text-slate-300 py-1 min-h-[30px]">
+                <Link href={`/${p.slug}`} className="hover:text-emerald-400 transition-colors inline-flex items-center gap-1.5 text-slate-300 py-1.5 min-h-[36px]">
                   <ArrowRight aria-hidden="true" className="w-3 h-3 text-emerald-500 shrink-0" />
                   <span className="break-words">{p.name}</span>
                 </Link>
@@ -136,43 +136,43 @@ export const Footer: React.FC = () => {
           </h3>
           <ul className="space-y-1 text-xs">
             <li>
-              <Link href="/events" className="hover:text-emerald-400 transition-colors inline-flex items-center gap-1.5 text-emerald-300 font-bold py-1 min-h-[30px]">
+              <Link href="/events" className="hover:text-emerald-400 transition-colors inline-flex items-center gap-1.5 text-emerald-300 font-bold py-1.5 min-h-[36px]">
                 <ArrowRight aria-hidden="true" className="w-3 h-3 text-emerald-500 shrink-0" />
                 <span>Events & Exhibitions</span>
               </Link>
             </li>
             <li>
-              <Link href="/blog" className="hover:text-emerald-400 transition-colors inline-flex items-center gap-1.5 text-slate-300 py-1 min-h-[30px]">
+              <Link href="/blog" className="hover:text-emerald-400 transition-colors inline-flex items-center gap-1.5 text-slate-300 py-1.5 min-h-[36px]">
                 <ArrowRight aria-hidden="true" className="w-3 h-3 text-emerald-500 shrink-0" />
                 <span>Technical Blog</span>
               </Link>
             </li>
             <li>
-              <Link href="/about" className="hover:text-emerald-400 transition-colors inline-flex items-center gap-1.5 text-slate-300 py-1 min-h-[30px]">
+              <Link href="/about" className="hover:text-emerald-400 transition-colors inline-flex items-center gap-1.5 text-slate-300 py-1.5 min-h-[36px]">
                 <ArrowRight aria-hidden="true" className="w-3 h-3 text-emerald-500 shrink-0" />
                 <span>About Our Factory</span>
               </Link>
             </li>
             <li>
-              <Link href="/certificate" className="hover:text-emerald-400 transition-colors inline-flex items-center gap-1.5 text-slate-300 py-1 min-h-[30px]">
+              <Link href="/certificate" className="hover:text-emerald-400 transition-colors inline-flex items-center gap-1.5 text-slate-300 py-1.5 min-h-[36px]">
                 <ArrowRight aria-hidden="true" className="w-3 h-3 text-emerald-500 shrink-0" />
                 <span>ISO Certificates</span>
               </Link>
             </li>
             <li>
-              <Link href="/calculator" className="hover:text-emerald-400 transition-colors inline-flex items-center gap-1.5 text-slate-300 py-1 min-h-[30px]">
+              <Link href="/calculator" className="hover:text-emerald-400 transition-colors inline-flex items-center gap-1.5 text-slate-300 py-1.5 min-h-[36px]">
                 <ArrowRight aria-hidden="true" className="w-3 h-3 text-emerald-500 shrink-0" />
                 <span>CFM Sizing Calculator</span>
               </Link>
             </li>
             <li>
-              <Link href="/applications" className="hover:text-emerald-400 transition-colors inline-flex items-center gap-1.5 text-slate-300 py-1 min-h-[30px]">
+              <Link href="/applications" className="hover:text-emerald-400 transition-colors inline-flex items-center gap-1.5 text-slate-300 py-1.5 min-h-[36px]">
                 <ArrowRight aria-hidden="true" className="w-3 h-3 text-emerald-500 shrink-0" />
                 <span>Industrial Applications</span>
               </Link>
             </li>
             <li>
-              <Link href="/contact" className="hover:text-emerald-400 transition-colors inline-flex items-center gap-1.5 text-slate-300 py-1 min-h-[30px]">
+              <Link href="/contact" className="hover:text-emerald-400 transition-colors inline-flex items-center gap-1.5 text-slate-300 py-1.5 min-h-[36px]">
                 <ArrowRight aria-hidden="true" className="w-3 h-3 text-emerald-500 shrink-0" />
                 <span>Contact Factory</span>
               </Link>

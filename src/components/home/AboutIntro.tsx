@@ -14,7 +14,7 @@ export const AboutIntro: React.FC = () => {
           <div className="lg:col-span-5 space-y-4">
             <div className="relative rounded-3xl overflow-hidden shadow-2xl border border-emerald-900/40">
               <WatermarkedImage
-                src="/images/office/reception-lobby.jpg"
+                src="/images/office/reception-lobby.webp"
                 alt="Shreeji Sales Corporation Corporate Office Reception"
                 aspectRatio="aspect-[4/3]"
                 watermarkText="SIMPOVENT® • VASAI PLANT"

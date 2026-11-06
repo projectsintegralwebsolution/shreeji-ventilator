@@ -116,10 +116,12 @@ export const HeroSlider: React.FC = () => {
         return (
           <div
             key={idx}
-            className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
+            className={`absolute inset-0 ${
+              isMounted ? 'transition-opacity duration-1000 ease-in-out' : ''
+            } ${
               currentSlide === idx ? 'opacity-100 z-10 scale-100' : 'opacity-0 z-0 scale-105 pointer-events-none'
             }`}
-            style={{ transitionProperty: 'opacity, transform' }}
+            style={isMounted ? { transitionProperty: 'opacity, transform' } : undefined}
           >
             <picture className="w-full h-full block">
               <source media="(max-width: 640px)" srcSet={slide.bgImageMobile} type="image/webp" />
