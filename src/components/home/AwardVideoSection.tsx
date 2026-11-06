@@ -46,7 +46,7 @@ export const AwardVideoSection: React.FC = () => {
 
             <div className="my-6 rounded-2xl overflow-hidden border border-white/10 shadow-xl relative group-hover:scale-[1.01] transition-transform">
               <img
-                src="/images/awards/harbhajan-singh-award.jpg"
+                src="/images/awards/harbhajan-singh-award.webp"
                 alt="Harbhajan Singh presenting Inspiring Leaders Award 2023 to Bharat Gurjar of Shreeji Sales Corporation Simpovent"
                 width={800}
                 height={320}
@@ -91,7 +91,7 @@ export const AwardVideoSection: React.FC = () => {
                 <button
                   onClick={() => setVideoSource('youtube')}
                   className={`px-2.5 py-1 rounded-lg transition-all ${
-                    videoSource === 'youtube' ? 'bg-emerald-600 text-white shadow' : 'text-slate-300 hover:text-white'
+                    videoSource === 'youtube' ? 'bg-emerald-700 text-white shadow' : 'text-slate-300 hover:text-white'
                   }`}
                   suppressHydrationWarning
                 >
@@ -100,7 +100,7 @@ export const AwardVideoSection: React.FC = () => {
                 <button
                   onClick={() => setVideoSource('mp4')}
                   className={`px-2.5 py-1 rounded-lg transition-all ${
-                    videoSource === 'mp4' ? 'bg-emerald-600 text-white shadow' : 'text-slate-300 hover:text-white'
+                    videoSource === 'mp4' ? 'bg-emerald-700 text-white shadow' : 'text-slate-300 hover:text-white'
                   }`}
                   suppressHydrationWarning
                 >

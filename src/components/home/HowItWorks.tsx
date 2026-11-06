@@ -22,11 +22,11 @@ export const HowItWorks: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 relative">
           {/* Step 1 */}
           <div className="bg-slate-50 p-6 rounded-3xl border border-slate-200/80 shadow-sm relative">
-            <div className="w-12 h-12 rounded-2xl bg-emerald-600 text-white font-black text-lg flex items-center justify-center mb-5 shadow-lg shadow-emerald-700/20">
+            <div className="w-12 h-12 rounded-2xl bg-emerald-700 text-white font-black text-lg flex items-center justify-center mb-5 shadow-lg shadow-emerald-800/20">
               01
             </div>
             <h3 className="text-lg font-bold text-slate-900 mb-2 flex items-center gap-2">
-              <Flame className="w-4 h-4 text-amber-600" />
+              <Flame aria-hidden="true" className="w-4 h-4 text-amber-600" />
               Thermal Convection (Stack Effect)
             </h3>
             <p className="text-xs text-slate-600 leading-relaxed">
@@ -36,11 +36,11 @@ export const HowItWorks: React.FC = () => {
 
           {/* Step 2 */}
           <div className="bg-slate-50 p-6 rounded-3xl border border-slate-200/80 shadow-sm relative">
-            <div className="w-12 h-12 rounded-2xl bg-emerald-600 text-white font-black text-lg flex items-center justify-center mb-5 shadow-lg shadow-emerald-700/20">
+            <div className="w-12 h-12 rounded-2xl bg-emerald-700 text-white font-black text-lg flex items-center justify-center mb-5 shadow-lg shadow-emerald-800/20">
               02
             </div>
             <h3 className="text-lg font-bold text-slate-900 mb-2 flex items-center gap-2">
-              <Wind className="w-4 h-4 text-emerald-600" />
+              <Wind aria-hidden="true" className="w-4 h-4 text-emerald-700" />
               Centrifugal Suction Vanes
             </h3>
             <p className="text-xs text-slate-600 leading-relaxed">
@@ -50,11 +50,11 @@ export const HowItWorks: React.FC = () => {
 
           {/* Step 3 */}
           <div className="bg-slate-50 p-6 rounded-3xl border border-slate-200/80 shadow-sm relative">
-            <div className="w-12 h-12 rounded-2xl bg-emerald-600 text-white font-black text-lg flex items-center justify-center mb-5 shadow-lg shadow-emerald-700/20">
+            <div className="w-12 h-12 rounded-2xl bg-emerald-700 text-white font-black text-lg flex items-center justify-center mb-5 shadow-lg shadow-emerald-800/20">
               03
             </div>
             <h3 className="text-lg font-bold text-slate-900 mb-2 flex items-center gap-2">
-              <ThermometerSnowflake className="w-4 h-4 text-blue-600" />
+              <ThermometerSnowflake aria-hidden="true" className="w-4 h-4 text-blue-600" />
               Fresh Replacement Air Induction
             </h3>
             <p className="text-xs text-slate-600 leading-relaxed">
@@ -67,11 +67,11 @@ export const HowItWorks: React.FC = () => {
         <div className="mt-12 bg-gradient-to-r from-[#0e382c] to-[#155e4b] rounded-2xl p-6 md:p-8 text-white flex flex-col md:flex-row items-center justify-between gap-6 shadow-xl">
           <div className="space-y-1">
             <div className="flex items-center gap-2 text-emerald-300 text-xs font-bold uppercase tracking-wider">
-              <ShieldCheck className="w-4 h-4" /> Flywheel Rotor Kinetic Advantage
+              <ShieldCheck aria-hidden="true" className="w-4 h-4" /> Flywheel Rotor Kinetic Advantage
             </div>
-            <h4 className="text-xl md:text-2xl font-bold">
+            <h3 className="text-xl md:text-2xl font-bold">
               Continuous Rotation Even During Intermittent Wind Lulls
-            </h4>
+            </h3>
             <p className="text-xs md:text-sm text-emerald-100/80 max-w-2xl">
               Our precision-balanced central shaft and dual HCH 6001 ZZ ball bearings store kinetic energy, keeping the rotor cage rotating smoothly without abrupt halts.
             </p>

@@ -58,17 +58,19 @@ export const CFMCalculator: React.FC = () => {
           {/* Input Controls (Left Column) */}
           <div className="lg:col-span-7 space-y-6">
             <h3 className="text-lg font-bold text-slate-900 border-b border-slate-200 pb-3 flex items-center gap-2">
-              <span className="w-6 h-6 rounded-full bg-emerald-600 text-white text-xs flex items-center justify-center font-bold">1</span>
+              <span className="w-6 h-6 rounded-full bg-emerald-700 text-white text-xs flex items-center justify-center font-bold">1</span>
               <span>Enter Building Dimensions & Industry Type</span>
             </h3>
 
             {/* Dimensions Inputs */}
             <div className="grid grid-cols-3 gap-3">
               <div>
-                <label className="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
+                <label htmlFor="calc-length" className="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
                   Length (Feet)
                 </label>
                 <input
+                  id="calc-length"
+                  aria-label="Shed Length in Feet"
                   type="number"
                   min={10}
                   max={2000}
@@ -80,10 +82,12 @@ export const CFMCalculator: React.FC = () => {
               </div>
 
               <div>
-                <label className="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
+                <label htmlFor="calc-width" className="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
                   Width (Feet)
                 </label>
                 <input
+                  id="calc-width"
+                  aria-label="Shed Width in Feet"
                   type="number"
                   min={10}
                   max={1000}
@@ -95,10 +99,12 @@ export const CFMCalculator: React.FC = () => {
               </div>
 
               <div>
-                <label className="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
+                <label htmlFor="calc-height" className="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
                   Avg Height (Ft)
                 </label>
                 <input
+                  id="calc-height"
+                  aria-label="Shed Average Height in Feet"
                   type="number"
                   min={8}
                   max={100}
@@ -112,10 +118,12 @@ export const CFMCalculator: React.FC = () => {
 
             {/* Industry Selection */}
             <div>
-              <label className="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">
+              <label htmlFor="calc-industry" className="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">
                 Industry Application (Determines ACPH Air Exchange Rate)
               </label>
               <select
+                id="calc-industry"
+                aria-label="Select Industry Application"
                 value={industryType}
                 onChange={(e) => setIndustryType(e.target.value)}
                 className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm font-semibold text-slate-800 focus:outline-none focus:ring-2 focus:ring-emerald-600 bg-slate-50"

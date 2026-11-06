@@ -39,9 +39,9 @@ export const FeatureCards: React.FC = () => {
                   className: "w-7 h-7 text-emerald-600 group-hover:text-white transition-colors"
                 })}
               </div>
-              <h3 className="text-base font-bold text-slate-900 mb-2 group-hover:text-emerald-700 transition-colors">
+              <h2 className="text-base font-bold text-slate-900 mb-2 group-hover:text-emerald-700 transition-colors">
                 {feature.title}
-              </h3>
+              </h2>
               <p className="text-xs text-slate-600 leading-relaxed">
                 {feature.description}
               </p>

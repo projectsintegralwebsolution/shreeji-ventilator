@@ -58,15 +58,23 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth" suppressHydrationWarning>
       <head>
+        {/* LCP Hero image preload */}
+        <link
+          rel="preload"
+          as="image"
+          href="/images/slides/slide-1.webp"
+          type="image/webp"
+          fetchPriority="high"
+        />
         {/* Google tag (gtag.js) */}
         <link rel="preconnect" href="https://www.googletagmanager.com" />
         <Script
-          strategy="afterInteractive"
+          strategy="lazyOnload"
           src="https://www.googletagmanager.com/gtag/js?id=G-YY4Z72TDCP"
         />
         <Script
           id="google-analytics"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];

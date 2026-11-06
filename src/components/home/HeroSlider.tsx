@@ -195,19 +195,23 @@ export const HeroSlider: React.FC = () => {
           aria-label="Previous Slide"
           className="w-9 h-9 rounded-full bg-slate-900/70 hover:bg-emerald-600 text-white border border-white/20 flex items-center justify-center backdrop-blur-md transition-all hover:scale-110 active:scale-95 cursor-pointer"
         >
-          <ChevronLeft className="w-4 h-4" />
+          <ChevronLeft aria-hidden="true" className="w-4 h-4" />
         </button>
 
-        <div className="flex items-center gap-1.5">
+        <div className="flex items-center gap-1">
           {slides.map((_, idx) => (
             <button
               key={idx}
               onClick={() => setCurrentSlide(idx)}
               aria-label={`Go to slide ${idx + 1}`}
-              className={`h-2 rounded-full transition-all duration-500 cursor-pointer ${
-                currentSlide === idx ? 'w-7 bg-emerald-400' : 'w-2 bg-white/50 hover:bg-white/80'
-              }`}
-            />
+              className="p-2 inline-flex items-center justify-center cursor-pointer min-w-[28px] min-h-[28px]"
+            >
+              <span
+                className={`h-2 rounded-full transition-all duration-500 block ${
+                  currentSlide === idx ? 'w-7 bg-emerald-400' : 'w-2 bg-white/50 hover:bg-white/80'
+                }`}
+              />
+            </button>
           ))}
         </div>
 
@@ -216,7 +220,7 @@ export const HeroSlider: React.FC = () => {
           aria-label="Next Slide"
           className="w-9 h-9 rounded-full bg-slate-900/70 hover:bg-emerald-600 text-white border border-white/20 flex items-center justify-center backdrop-blur-md transition-all hover:scale-110 active:scale-95 cursor-pointer"
         >
-          <ChevronRight className="w-4 h-4" />
+          <ChevronRight aria-hidden="true" className="w-4 h-4" />
         </button>
       </div>
     </section>
