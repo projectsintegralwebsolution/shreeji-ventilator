@@ -97,9 +97,9 @@ export default function RootLayout({
               }
 
               if ('requestIdleCallback' in window) {
-                window.requestIdleCallback(function(){ setTimeout(loadGtag, 3500); });
+                window.requestIdleCallback(function(){ setTimeout(loadGtag, 9000); });
               } else {
-                setTimeout(loadGtag, 3500);
+                setTimeout(loadGtag, 9000);
               }
               ['scroll', 'touchstart', 'mousemove', 'click', 'keydown'].forEach(function(e){
                 window.addEventListener(e, loadGtag, { once: true, passive: true });

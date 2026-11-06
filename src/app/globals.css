@@ -93,9 +93,3 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #0e382c;
 }
-
-/* Off-screen Rendering Optimization (Saves ~2.5s of mobile Style & Layout) */
-.content-visibility-auto {
-  content-visibility: auto;
-  contain-intrinsic-size: 1px 750px;
-}

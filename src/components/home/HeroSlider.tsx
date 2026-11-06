@@ -124,7 +124,7 @@ export const HeroSlider: React.FC = () => {
             style={isMounted ? { transitionProperty: 'opacity, transform' } : undefined}
           >
             <picture className="w-full h-full block">
-              <source media="(max-width: 640px)" srcSet={slide.bgImageMobile} type="image/webp" />
+              <source media="(max-width: 640px)" srcSet={slide.bgImageMobile} width="640" height="307" type="image/webp" />
               <img
                 src={slide.bgImage}
                 alt={slide.title}

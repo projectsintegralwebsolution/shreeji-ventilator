@@ -1,12 +1,14 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
+import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import { Phone, Mail, Clock, ShieldCheck, ChevronDown, Menu, Sparkles } from 'lucide-react';
 import { companyData } from '@/data/companyData';
 import { MegaMenu } from './MegaMenu';
-import { MobileNav } from './MobileNav';
-import { InquiryModal } from '../common/InquiryModal';
+
+const MobileNav = dynamic(() => import('./MobileNav').then(m => m.MobileNav), { ssr: false });
+const InquiryModal = dynamic(() => import('../common/InquiryModal').then(m => m.InquiryModal), { ssr: false });
 
 export const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -202,10 +204,14 @@ export const Header: React.FC = () => {
       </header>
 
       {/* Mobile Drawer */}
-      <MobileNav isOpen={mobileMenuOpen} onClose={() => setMobileMenuOpen(false)} />
+      {mobileMenuOpen && (
+        <MobileNav isOpen={mobileMenuOpen} onClose={() => setMobileMenuOpen(false)} />
+      )}
 
       {/* Instant Quote Modal */}
-      <InquiryModal isOpen={quoteModalOpen} onClose={() => setQuoteModalOpen(false)} />
+      {quoteModalOpen && (
+        <InquiryModal isOpen={quoteModalOpen} onClose={() => setQuoteModalOpen(false)} />
+      )}
     </>
   );
 };

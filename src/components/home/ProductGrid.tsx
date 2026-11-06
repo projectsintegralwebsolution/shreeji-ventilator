@@ -79,7 +79,7 @@ const ProductGridContent: React.FC = () => {
             >
               <div>
                 {/* Product Photo with Watermark */}
-                <Link href={`/${product.slug}`} className="block overflow-hidden relative">
+                <Link href={`/${product.slug}`} className="block overflow-hidden relative" aria-label={`View ${product.name}`}>
                   <WatermarkedImage
                     src={product.image}
                     alt={product.name}
@@ -134,6 +134,7 @@ const ProductGridContent: React.FC = () => {
                 <Link
                   href={`/${product.slug}`}
                   className="text-xs font-bold text-slate-800 hover:text-emerald-700 flex items-center gap-1 transition-colors group/link"
+                  aria-label={`View ${product.name} specs and details`}
                 >
                   <span>View Details</span>
                   <ArrowRight className="w-3.5 h-3.5 group-hover/link:translate-x-0.5 transition-transform" />

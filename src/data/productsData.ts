@@ -474,7 +474,7 @@ export const productsData: ProductItem[] = [
     "id": "motorized-roof-air-ventilator",
     "slug": "motorized-roof-air-ventilator",
     "legacySlug": "motorized-roof-air-ventilator.php",
-    "name": "Motorized Roof Ventilator",
+    "name": "Motorized Roof Air Ventilator",
     "h1Title": "Motorized Roof Ventilator Manufacturer & Industrial Supplier",
     "metaTitle": "Motorized Roof Ventilator Manufacturer India | Simpovent®",
     "metaDescription": "Simpovent® Motorized Roof Ventilators combine continuous wind extraction with powered motor boost for guaranteed factory airflow and rapid smoke removal.",

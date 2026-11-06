@@ -1,8 +1,10 @@
 "use client";
 
 import React, { useState } from 'react';
-import { InquiryModal } from './InquiryModal';
+import dynamic from 'next/dynamic';
 import { Sparkles } from 'lucide-react';
+
+const InquiryModal = dynamic(() => import('./InquiryModal').then(m => m.InquiryModal), { ssr: false });
 
 interface QuoteButtonProps {
   productName?: string;
@@ -40,11 +42,13 @@ export const QuoteButton: React.FC<QuoteButtonProps> = ({
         )}
       </button>
 
-      <InquiryModal
-        isOpen={open}
-        onClose={() => setOpen(false)}
-        defaultProduct={productName}
-      />
+      {open && (
+        <InquiryModal
+          isOpen={open}
+          onClose={() => setOpen(false)}
+          defaultProduct={productName}
+        />
+      )}
     </>
   );
 };
