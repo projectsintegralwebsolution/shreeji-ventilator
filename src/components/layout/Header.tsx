@@ -84,7 +84,7 @@ export const Header: React.FC = () => {
             {/* Official Simpovent Logo */}
             <Link href="/" className="flex items-center group py-0.5" aria-label="Simpovent Home">
               <img
-                src="/images/logo.png"
+                src="/images/logo.webp"
                 alt="Simpovent - Shreeji Sales Corporation"
                 width={220}
                 height={56}

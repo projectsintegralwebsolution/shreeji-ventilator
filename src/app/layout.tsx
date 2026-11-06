@@ -58,12 +58,21 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth" suppressHydrationWarning>
       <head>
-        {/* LCP Hero image preload */}
+        {/* LCP Hero image preload (mobile & desktop) */}
+        <link
+          rel="preload"
+          as="image"
+          href="/images/slides/slide-1-mobile.webp"
+          type="image/webp"
+          media="(max-width: 640px)"
+          fetchPriority="high"
+        />
         <link
           rel="preload"
           as="image"
           href="/images/slides/slide-1.webp"
           type="image/webp"
+          media="(min-width: 641px)"
           fetchPriority="high"
         />
         {/* Google tag (gtag.js) - loaded gracefully on idle or first interaction */}

@@ -21,16 +21,36 @@ export default function HomePage() {
       <HeroSlider />
       <FeatureCards />
       <AboutIntro />
-      <AwardVideoSection />
-      <CFMCalculator />
-      <ProductGrid />
-      <HowItWorks />
-      <TechSpecsComparison />
-      <IndustryApplications />
-      <ClientLogos />
-      <Testimonials />
-      <CertificationsSection />
-      <FAQAccordion />
+      <div className="content-visibility-auto">
+        <AwardVideoSection />
+      </div>
+      <div className="content-visibility-auto">
+        <CFMCalculator />
+      </div>
+      <div className="content-visibility-auto">
+        <ProductGrid />
+      </div>
+      <div className="content-visibility-auto">
+        <HowItWorks />
+      </div>
+      <div className="content-visibility-auto">
+        <TechSpecsComparison />
+      </div>
+      <div className="content-visibility-auto">
+        <IndustryApplications />
+      </div>
+      <div className="content-visibility-auto">
+        <ClientLogos />
+      </div>
+      <div className="content-visibility-auto">
+        <Testimonials />
+      </div>
+      <div className="content-visibility-auto">
+        <CertificationsSection />
+      </div>
+      <div className="content-visibility-auto">
+        <FAQAccordion />
+      </div>
     </div>
   );
 }

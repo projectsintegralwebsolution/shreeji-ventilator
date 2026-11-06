@@ -63,7 +63,7 @@ export const Footer: React.FC = () => {
         <div className="sm:col-span-2 space-y-4">
           <Link href="/" className="inline-block bg-white p-2.5 rounded-2xl shadow-md" aria-label="Simpovent Home">
             <img
-              src="/images/logo.png"
+              src="/images/logo.webp"
               alt="Simpovent Logo"
               width={160}
               height={40}
