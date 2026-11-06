@@ -178,9 +178,9 @@ export const AwardVideoSection: React.FC = () => {
             <span className="text-xs font-bold uppercase text-amber-300 tracking-wider">
               TRUSTED BY 2,500+ FACTORIES NATIONWIDE
             </span>
-            <h4 className="text-lg sm:text-xl font-black text-white">
+            <h3 className="text-lg sm:text-xl font-black text-white">
               Get an Engineered Ventilation Proposal for Your Factory
-            </h4>
+            </h3>
           </div>
 
           <div className="shrink-0 flex items-center gap-3">

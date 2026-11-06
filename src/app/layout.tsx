@@ -66,22 +66,35 @@ export default function RootLayout({
           type="image/webp"
           fetchPriority="high"
         />
-        {/* Google tag (gtag.js) */}
-        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        {/* Google tag (gtag.js) - loaded gracefully on idle or first interaction */}
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <Script
-          strategy="lazyOnload"
-          src="https://www.googletagmanager.com/gtag/js?id=G-YY4Z72TDCP"
-        />
-        <Script
-          id="google-analytics"
-          strategy="lazyOnload"
+          id="google-analytics-init"
+          strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-
               gtag('config', 'G-YY4Z72TDCP');
+
+              function loadGtag(){
+                if(window.__gtagLoaded) return;
+                window.__gtagLoaded = true;
+                var s = document.createElement('script');
+                s.async = true;
+                s.src = 'https://www.googletagmanager.com/gtag/js?id=G-YY4Z72TDCP';
+                document.head.appendChild(s);
+              }
+
+              if ('requestIdleCallback' in window) {
+                window.requestIdleCallback(function(){ setTimeout(loadGtag, 3500); });
+              } else {
+                setTimeout(loadGtag, 3500);
+              }
+              ['scroll', 'touchstart', 'mousemove', 'click', 'keydown'].forEach(function(e){
+                window.addEventListener(e, loadGtag, { once: true, passive: true });
+              });
             `,
           }}
         />

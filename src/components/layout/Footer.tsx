@@ -97,14 +97,14 @@ export const Footer: React.FC = () => {
 
         {/* Column 2: Wind-Driven Keyword Silo */}
         <div className="space-y-3">
-          <h4 className="text-white font-bold text-sm uppercase tracking-wider border-b border-emerald-800/60 pb-2">
+          <h3 className="text-white font-bold text-sm uppercase tracking-wider border-b border-emerald-800/60 pb-2">
             Wind Ventilators
-          </h4>
-          <ul className="space-y-1.5 text-xs">
+          </h3>
+          <ul className="space-y-1 text-xs">
             {windDriven.slice(0, 7).map((p) => (
               <li key={p.id}>
-                <Link href={`/${p.slug}`} className="hover:text-emerald-400 transition-colors flex items-center gap-1 text-slate-300">
-                  <ArrowRight className="w-3 h-3 text-emerald-500 shrink-0" />
+                <Link href={`/${p.slug}`} className="hover:text-emerald-400 transition-colors inline-flex items-center gap-1.5 text-slate-300 py-1 min-h-[30px]">
+                  <ArrowRight aria-hidden="true" className="w-3 h-3 text-emerald-500 shrink-0" />
                   <span className="break-words">{p.name}</span>
                 </Link>
               </li>
@@ -114,14 +114,14 @@ export const Footer: React.FC = () => {
 
         {/* Column 3: Turbine & Natural Silo */}
         <div className="space-y-3">
-          <h4 className="text-white font-bold text-sm uppercase tracking-wider border-b border-emerald-800/60 pb-2">
+          <h3 className="text-white font-bold text-sm uppercase tracking-wider border-b border-emerald-800/60 pb-2">
             Turbine & Eco Series
-          </h4>
-          <ul className="space-y-1.5 text-xs">
+          </h3>
+          <ul className="space-y-1 text-xs">
             {windDriven.slice(7).map((p) => (
               <li key={p.id}>
-                <Link href={`/${p.slug}`} className="hover:text-emerald-400 transition-colors flex items-center gap-1 text-slate-300">
-                  <ArrowRight className="w-3 h-3 text-emerald-500 shrink-0" />
+                <Link href={`/${p.slug}`} className="hover:text-emerald-400 transition-colors inline-flex items-center gap-1.5 text-slate-300 py-1 min-h-[30px]">
+                  <ArrowRight aria-hidden="true" className="w-3 h-3 text-emerald-500 shrink-0" />
                   <span className="break-words">{p.name}</span>
                 </Link>
               </li>
@@ -131,49 +131,49 @@ export const Footer: React.FC = () => {
 
         {/* Column 4: Quick Links & Events */}
         <div className="space-y-3">
-          <h4 className="text-white font-bold text-sm uppercase tracking-wider border-b border-emerald-800/60 pb-2">
+          <h3 className="text-white font-bold text-sm uppercase tracking-wider border-b border-emerald-800/60 pb-2">
             Company & Events
-          </h4>
-          <ul className="space-y-1.5 text-xs">
+          </h3>
+          <ul className="space-y-1 text-xs">
             <li>
-              <Link href="/events" className="hover:text-emerald-400 transition-colors flex items-center gap-1 text-emerald-300 font-bold">
-                <ArrowRight className="w-3 h-3 text-emerald-500 shrink-0" />
+              <Link href="/events" className="hover:text-emerald-400 transition-colors inline-flex items-center gap-1.5 text-emerald-300 font-bold py-1 min-h-[30px]">
+                <ArrowRight aria-hidden="true" className="w-3 h-3 text-emerald-500 shrink-0" />
                 <span>Events & Exhibitions</span>
               </Link>
             </li>
             <li>
-              <Link href="/blog" className="hover:text-emerald-400 transition-colors flex items-center gap-1 text-slate-300">
-                <ArrowRight className="w-3 h-3 text-emerald-500 shrink-0" />
+              <Link href="/blog" className="hover:text-emerald-400 transition-colors inline-flex items-center gap-1.5 text-slate-300 py-1 min-h-[30px]">
+                <ArrowRight aria-hidden="true" className="w-3 h-3 text-emerald-500 shrink-0" />
                 <span>Technical Blog</span>
               </Link>
             </li>
             <li>
-              <Link href="/about" className="hover:text-emerald-400 transition-colors flex items-center gap-1 text-slate-300">
-                <ArrowRight className="w-3 h-3 text-emerald-500 shrink-0" />
+              <Link href="/about" className="hover:text-emerald-400 transition-colors inline-flex items-center gap-1.5 text-slate-300 py-1 min-h-[30px]">
+                <ArrowRight aria-hidden="true" className="w-3 h-3 text-emerald-500 shrink-0" />
                 <span>About Our Factory</span>
               </Link>
             </li>
             <li>
-              <Link href="/certificate" className="hover:text-emerald-400 transition-colors flex items-center gap-1 text-slate-300">
-                <ArrowRight className="w-3 h-3 text-emerald-500 shrink-0" />
+              <Link href="/certificate" className="hover:text-emerald-400 transition-colors inline-flex items-center gap-1.5 text-slate-300 py-1 min-h-[30px]">
+                <ArrowRight aria-hidden="true" className="w-3 h-3 text-emerald-500 shrink-0" />
                 <span>ISO Certificates</span>
               </Link>
             </li>
             <li>
-              <Link href="/calculator" className="hover:text-emerald-400 transition-colors flex items-center gap-1 text-slate-300">
-                <ArrowRight className="w-3 h-3 text-emerald-500 shrink-0" />
+              <Link href="/calculator" className="hover:text-emerald-400 transition-colors inline-flex items-center gap-1.5 text-slate-300 py-1 min-h-[30px]">
+                <ArrowRight aria-hidden="true" className="w-3 h-3 text-emerald-500 shrink-0" />
                 <span>CFM Sizing Calculator</span>
               </Link>
             </li>
             <li>
-              <Link href="/applications" className="hover:text-emerald-400 transition-colors flex items-center gap-1 text-slate-300">
-                <ArrowRight className="w-3 h-3 text-emerald-500 shrink-0" />
+              <Link href="/applications" className="hover:text-emerald-400 transition-colors inline-flex items-center gap-1.5 text-slate-300 py-1 min-h-[30px]">
+                <ArrowRight aria-hidden="true" className="w-3 h-3 text-emerald-500 shrink-0" />
                 <span>Industrial Applications</span>
               </Link>
             </li>
             <li>
-              <Link href="/contact" className="hover:text-emerald-400 transition-colors flex items-center gap-1 text-slate-300">
-                <ArrowRight className="w-3 h-3 text-emerald-500 shrink-0" />
+              <Link href="/contact" className="hover:text-emerald-400 transition-colors inline-flex items-center gap-1.5 text-slate-300 py-1 min-h-[30px]">
+                <ArrowRight aria-hidden="true" className="w-3 h-3 text-emerald-500 shrink-0" />
                 <span>Contact Factory</span>
               </Link>
             </li>
@@ -183,9 +183,9 @@ export const Footer: React.FC = () => {
 
       {/* Major Industrial Cities & Regions Served Silo (Local SEO Booster) */}
       <div className="max-w-7xl mx-auto px-4 py-8 border-t border-emerald-900/60 text-xs overflow-hidden">
-        <h5 className="text-white font-bold mb-3 uppercase tracking-wider text-[11px] text-emerald-400">
+        <h3 className="text-white font-bold mb-3 uppercase tracking-wider text-[11px] text-emerald-400">
           Serving Major Industrial Hubs & Manufacturing Belts Across India:
-        </h5>
+        </h3>
         <div className="flex flex-wrap gap-2 text-slate-300">
           {citiesData.map((city, idx) => (
             <span key={idx} className="inline-flex items-center flex-wrap">

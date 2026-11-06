@@ -41,7 +41,7 @@ export const Testimonials: React.FC = () => {
 
               <div className="pt-4 border-t border-slate-100 flex items-center justify-between">
                 <div>
-                  <h4 className="font-bold text-sm text-slate-900">{item.name}</h4>
+                  <h3 className="font-bold text-sm text-slate-900">{item.name}</h3>
                   <span className="text-xs text-slate-500 block">{item.role}, {item.company}</span>
                 </div>
                 <div className="flex items-center gap-1 text-xs font-semibold text-emerald-700">
