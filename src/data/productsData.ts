@@ -88,6 +88,7 @@ export const productsData: ProductItem[] = [
     "shortDescription": "Heavy-duty industrial motorized roof ventilator engineered for continuous high-heat evacuation, severe smoke extraction, and zero-stagnation plant ventilation.",
     "fullDescription": [
       "The SIMPOVENT® Motorized Roof Ventilator is engineered specifically for severe industrial factory environments where process heat loads, welding fumes, chemical vapors, or furnace emissions demand continuous forced rooftop extraction.",
+      "Engineered as an industrial-grade motorized roof extractor fan delivering 10,000 CFM forced exhaust, this unit combines high-velocity smoke extraction with heavy-duty IP55 weatherproofing for high-heat manufacturing plants. Manufactured at our Vasai East plant with direct supply across Mumbai, Pune, and Maharashtra, each unit is supplied with UV-stabilized FRP base plates custom-moulded to your exact corrugated roofing sheet profile.",
       "Operating directly at the highest apex of the factory roof deck, this system prevents the accumulation of trapped thermal blankets and stratifying toxic fumes. When energized, the precision-balanced internal motor assembly generates high-velocity suction that pulls stagnant air up through the central throat and expels it horizontally away from the roofline.",
       "Constructed with aerospace-grade Hindalco Aluminium 8011 vanes, heavy-gauge Stainless Steel SS 304 structural framework, and a TEFC IP55 weatherproof motor enclosure, it provides continuous 24/7 industrial extraction in dusty, humid, and corrosive atmospheres."
     ],
@@ -175,6 +176,7 @@ export const productsData: ProductItem[] = [
     "shortDescription": "High-capacity SIMPOVENT® Motorized Ventilator engineered with 24\" throat diameter and 6000 to 6500 CFM exhaust capacity with heavy-duty FRP base plate.",
     "fullDescription": [
       "The SIMPOVENT® Motorized Ventilator is a powerhouse industrial roof ventilation unit engineered to deliver 6000 to 6500 CFM of high-velocity air exhaust across heavy manufacturing plants, foundries, and large PEB industrial sheds.",
+      "The 24-inch SIMPOVENT® motorised ventilator delivers continuous 6,000 to 6,500 CFM forced draft extraction powered by a high-torque Class F insulated copper motor to eliminate stagnant factory heat. Available with factory-direct dispatch across Gujarat and Maharashtra, every system includes a heavy-duty FRP-only mounting plate engineered for 100% leak-proof rooftop installation.",
       "Driven by a high-torque Class F insulated copper-wound electric motor, this unit provides aggressive, uninterrupted extraction of dense thermal plumes, process fumes, and airborne industrial contaminants without depending on external wind speeds.",
       "Every SIMPOVENT® Motorized Ventilator is supplied exclusively with custom-moulded, UV-stabilized heavy-duty FRP base plates tailored to match exact roofing sheet profiles (Tata Bluescope, JSW, Kirby, Asbestos, etc.), ensuring a 100% leak-proof, weatherproof factory installation."
     ],
@@ -258,6 +260,7 @@ export const productsData: ProductItem[] = [
     "shortDescription": "Dual-action motorized turbo ventilator integrating an aerodynamic spinning rotor cage with an electric motor booster for rapid localized heat and smoke evacuation.",
     "fullDescription": [
       "The SIMPOVENT® Motorized Turbo Ventilator unites the aerofoil efficiency of an industrial rotary turbo head with the assured extraction power of an internal electric motor booster, delivering reliable ventilation regardless of weather or wind conditions.",
+      "This dual-action motorized turbo ventilator pairs an aerodynamically spinning 42-blade rotor cage with an internal electric booster fan, ensuring guaranteed CFM air suction even during zero-wind conditions. Designed as an instant upgrade for passive roof vents in welding, foundry, and plastic moulding sheds, it comes backed by our 10-year structural warranty and rapid pan-India dispatch.",
       "In standard operating conditions, the precision-curved 42 aluminium vanes rotate smoothly via natural thermal buoyancy and ambient breeze. During intense manufacturing shifts or sudden thermal surges, the integrated motor activates to create an accelerated vortex that dramatically boosts volumetric CFM air evacuation.",
       "Constructed with Hindalco 8011 aluminium alloy, heavy SS 304 center shaft assembly, and dual precision sealed bearings, the Motorized Turbo Ventilator is designed for long service life across harsh chemical, industrial, and coastal settings."
     ],
@@ -338,6 +341,7 @@ export const productsData: ProductItem[] = [
     "shortDescription": "High-capacity powered industrial roof ventilator engineered for forced evacuation of industrial thermal plumes, corrosive fumes, and stagnant factory air.",
     "fullDescription": [
       "The SIMPOVENT® Power Ventilator is an industrial-grade, electric-driven roof exhaust unit designed for manufacturing facilities requiring guaranteed, continuous high-volume air displacement through the roof deck.",
+      "The SIMPOVENT® power ventilator provides heavy-duty forced roof extraction delivering 10,000 CFM to rapidly purge dense welding fumes, corrosive chemical vapours, and trapped heat plumes from industrial sheds. Directly manufactured by Shreeji Sales Corporation in Vasai with precision dynamic balancing, it mounts seamlessly onto PEB metal roofs via custom-engineered FRP base plates.",
       "Equipped with a high-torque continuous-duty motor and aerodynamically balanced impeller blades, the Power Ventilator establishes positive vertical airflow, forcefully evacuating process heat, airborne dust, and oppressive industrial fumes before they disperse across the shop floor.",
       "Housed inside a rugged, corrosion-resistant weatherproof cowl with integrated backdraft prevention, the Power Ventilator delivers uncompromising 24/7 reliability in steel mills, chemical plants, and heavy fabrication workshops."
     ],
@@ -417,6 +421,7 @@ export const productsData: ProductItem[] = [
     "shortDescription": "High-pressure, high-capacity forced-draft industrial roof ventilator delivering 25,000 to 53,000 CFM to overcome heavy static resistance and evacuate dense chemical fumes and smoke.",
     "fullDescription": [
       "The SIMPOVENT® Force Ventilator is a high-capacity, high-pressure forced-draft industrial roof ventilation system engineered for massive industrial facilities, chemical synthesis plants, and heavy fabrication workshops where high system resistance and dense airborne particulate loads demand extraordinary extraction power.",
+      "Delivering massive high-pressure airflow from 25,000 to 53,000 CFM, this forced draft industrial roof ventilator is engineered to overcome severe duct and shed static resistance in chemical synthesis and heavy forging plants. Available in 36-inch, 48-inch, and 54-inch throat configurations with IP55 ingress protection, we supply direct factory consignments to major industrial belts across India.",
       "Delivering an impressive airflow capacity of 25,000 to 53,000 CFM, this heavy-duty system is driven by an industrial-grade Class F insulated IP55 motor paired with high-pitch aerodynamic impellers. It generates the powerful directional draft required to forcefully pull superheated air, corrosive chemical vapors, and dense smoke plumes from deep within the building envelope.",
       "Constructed with heavy-gauge corrosion-resistant metallurgy, sealed bearing assemblies, and custom heavy-duty FRP roof base plates, the Force Ventilator ensures zero-leakage, vibration-free, and dependable operation in the most demanding manufacturing environments."
     ],
@@ -495,6 +500,7 @@ export const productsData: ProductItem[] = [
     "shortDescription": "Precision-engineered motorized roof ventilator combining continuous passive air circulation with high-capacity motorized suction for versatile multi-shift factory ventilation.",
     "fullDescription": [
       "The SIMPOVENT® Motorized Roof Ventilator offers versatile, energy-efficient ventilation for modern manufacturing facilities that operate under fluctuating thermal and production demands throughout the day.",
+      "Offering versatile multi-shift operation, this motorized roof air ventilator provides zero-cost natural ventilation during mild hours and 6,000 to 6,500 CFM powered suction during peak production shifts. Engineered with a high-efficiency TEFC motor and corrosion-resistant cowl, it provides complete monsoon protection and seamless fitment across all industrial corrugated sheet profiles.",
       "Engineered to deliver continuous zero-cost air changes during normal operating hours via thermal convection, it features an integrated high-efficiency electric motor that can be engaged on-demand to provide powerful forced draft extraction during peak heat-generating production shifts.",
       "Built with a robust IP55 motor housing, this unit withstands aggressive industrial humidity, chemical vapors, and heavy monsoon weather with zero maintenance."
     ],
@@ -577,6 +583,7 @@ export const productsData: ProductItem[] = [
     "shortDescription": "High-volume heavy-duty industrial exhaust fan engineered with dynamically balanced aerodynamic blades and a high-efficiency copper motor for rapid plant smoke and heat evacuation.",
     "fullDescription": [
       "Simpovent® Heavy Duty Industrial Exhaust Fans are built to deliver massive volumetric air displacement across large factory sheds, welding bays, boiler rooms, and PEB industrial warehouses.",
+      "Manufactured in 18-inch to 54-inch diameters with airflow ratings up to 53,000 CFM, this heavy-duty industrial wall-mounted and roof-mounted exhaust fan rapidly purges dense smoke haze and furnace heat. Equipped with 100% copper-wound Class F IP55 motors and optional gravity backdraft louvers, our Vasai plant delivers factory-direct wholesale pricing and pan-India shipping.",
       "Equipped with aerodynamically contoured, dynamically balanced heavy-gauge aluminium/steel impellers and a heavy-duty copper-wound IP55 motor, these fans extract intense heat, airborne dust, welding fumes, and toxic chemical gases effortlessly.",
       "Designed for wall-mount or roof-mount industrial configurations, every unit undergoes rigorous vibration and dynamic balance testing at our Vasai manufacturing plant."
     ],
@@ -654,6 +661,7 @@ export const productsData: ProductItem[] = [
     "shortDescription": "High-capacity roof-mounted industrial extractor fan designed for high-volume smoke evacuation, hot gas expulsion, and continuous roof-level ventilation.",
     "fullDescription": [
       "The Simpovent® Roof Extractor Fan is designed for heavy industrial installations requiring vertical or horizontal high-velocity discharge directly through the factory roof.",
+      "This heavy-duty roof extractor fan provides vertical high-velocity discharge directly through factory roof decks, preventing hazardous heat blankets and chemical fume accumulation in PEB warehouses. Supplied with factory-matched UV-stabilized FRP base plates matching Tata Bluescope and JSW profiles, it delivers long-term vibration-free performance with zero maintenance.",
       "Featuring a heavy-gauge weatherproof cowl, aerodynamic axial/centrifugal impeller, and a Class F insulated copper motor, it efficiently eliminates high-temperature plumes before they spread across the workplace.",
       "Supplied with factory-matched UV-stabilized FRP base plates for zero-leakage integration with industrial corrugated sheet roofs."
     ],
@@ -729,6 +737,7 @@ export const productsData: ProductItem[] = [
     "shortDescription": "High Volume Low Speed (HVLS) direct-drive PMSM industrial ceiling fan (10ft to 24ft) delivering massive 15,500 CMM airflow with ultra-low power consumption and zero oil maintenance.",
     "fullDescription": [
       "SIMPOVENT® Industrial HVLS PMSM Fans represent the pinnacle of large-space industrial airflow technology. Powered by a direct-drive Permanent Magnet Synchronous Motor (PMSM) utilizing high-coercivity Neodymium (NdFeB) rare-earth magnets, these fans eliminate traditional gearboxes entirely.",
+      "Driven by an advanced direct-drive PMSM motor with rare-earth Neodymium magnets (zero gearbox, zero oil leakage), this industrial HVLS fan delivers up to 15,500 CMM (547,000 CFM) of massive, silent airflow. Available from 10-ft to 24-ft sweeps covering up to 1,700 m² per unit, it reduces floor temperatures by 5°C to 8°C while saving up to 50% electrical energy compared to traditional ceiling fans.",
       "Unlike conventional gearbox-driven HVLS fans that require regular oil top-ups, suffer from oil leak risks, and generate gear mesh noise, SIMPOVENT® PMSM fans operate with zero maintenance, 20X longer motor lifespan, and whisper-quiet sound levels (38 dBA to 55 dBA).",
       "Equipped with aerospace-grade Aluminium-Magnesium Alloy 6063-T6 aerodynamic airfoil blades with winglet tips, our HVLS fans generate a massive columnar breeze that covers up to 1,600 square meters per fan, reducing perceived temperatures by 5°C to 8°C while consuming only 0.75 kW to 1.5 kW of electrical power."
     ],
@@ -826,6 +835,7 @@ export const productsData: ProductItem[] = [
     "shortDescription": "High-performance wind-driven roof turbo ventilator engineered with 42 Hindalco aluminium curved vanes and dual sealed bearings for 24/7 continuous silent ventilation.",
     "fullDescription": [
       "Simpovent® (manufactured by Shreeji Sales Corporation) is a pioneer in developing high-efficiency Turbo Ventilators designed for severe industrial factory sheds, commercial warehouses, and manufacturing plants across India.",
+      "As India's leading ISO 9001:2015 certified turbo ventilator manufacturer, our 24-inch model features 42 aerodynamically curved Hindalco 8011 aluminium vanes and dual HCH precision sealed bearings. Operating with 0 Watts electricity and zero maintenance, each unit delivers 2,000 to 2,500 CFM natural exhaust and is backed by our 10-year structural warranty and same-day dispatch from Vasai.",
       "The Turbo Ventilator operates completely without electricity, utilizing the natural velocity energy of ambient breeze and thermal convection to continuously exhaust accumulated process heat, smoke, humidity, and toxic fumes.",
       "Manufactured using aerospace-grade Hindalco Aluminium 8011 vanes, heavy-gauge Stainless Steel SS 304 top covers, and precision dual HCH 6001 ZZ deep-groove sealed ball bearings, the Simpovent® Turbo Ventilator guarantees zero maintenance, total rain resistance, and maximum exhaust efficiency for over a decade."
     ],
@@ -925,6 +935,7 @@ export const productsData: ProductItem[] = [
     "shortDescription": "Zero-power roof air ventilator engineered for optimal thermodynamic convection and maximum exhaust of hot industrial indoor air.",
     "fullDescription": [
       "The Simpovent® Roof Air Ventilator is engineered specifically for metal roofing sheds that suffer from severe heat buildup under direct sunlight.",
+      "Engineered for metal PEB factory sheds, this zero-power industrial roof air ventilator continuously exhausts rising thermal blankets to lower ambient shop-floor temperatures by 4°C to 8°C. Constructed with heavy-gauge SS 304 top cowls and corrosion-proof aluminium vanes, it provides 100% monsoon storm protection across Maharashtra, Gujarat, and pan-India sites.",
       "By continuously extracting the upper thermal layer of superheated air, it induces cool fresh ambient air through lower side wall louvers and windows.",
       "Constructed with Hindalco 8011 aluminium vanes and precision sealed bearings, it delivers high-performance ventilation without consuming any power."
     ],
@@ -993,6 +1004,7 @@ export const productsData: ProductItem[] = [
     "shortDescription": "Heavy-duty turbo air ventilator designed for maximum exhaust velocity in humid, dusty, or high-temperature industrial environments.",
     "fullDescription": [
       "The Simpovent® Turbo Air Ventilator combines advanced aerodynamic blade design with frictionless bearing rotation to maximize CFM air extraction.",
+      "This heavy-duty turbo air ventilator harnesses ambient wind velocity and thermal siphon dynamics to deliver high-velocity silent ventilation across humid, chemical, and dusty industrial environments. Engineered with frictionless sealed deep-groove ball bearings and custom-moulded FRP base plates, it installs seamlessly without cutting or modifying existing roof purlins.",
       "Manufactured with aircraft-grade Hindalco Aluminium 8011 vanes and a Stainless Steel SS 304 top cowl, it withstands aggressive chemical atmospheres and coastal salt air.",
       "Completely noiseless and maintenance-free, it provides an eco-friendly solution to industrial factory ventilation."
     ],
@@ -1060,6 +1072,7 @@ export const productsData: ProductItem[] = [
     "shortDescription": "Eco-friendly wind-driven industrial roof ventilator engineered for continuous passive ventilation of factory sheds and warehouses.",
     "fullDescription": [
       "Simpovent® Wind Driven Ventilators harness natural wind velocity to provide powerful, continuous exhaust ventilation for industrial buildings across India.",
+      "With over 100,000 units installed nationwide, our wind driven roof ventilators provide eco-friendly, continuous 24/7 air displacement without incurring recurring electricity costs or wiring risks. Manufactured from virgin Hindalco alloy with stainless steel central hardware, each unit is dynamically balanced to start spinning smoothly even in low breezes under 2 km/h.",
       "Requiring zero electrical power, these ventilators eliminate running costs while maintaining a healthy, cool, and comfortable indoor environment for workers.",
       "Engineered with 42 Hindalco Aluminium vanes, SS 304 top cowl, and dual sealed deep-groove ball bearings for lifetime maintenance-free performance."
     ],
@@ -1126,6 +1139,7 @@ export const productsData: ProductItem[] = [
     "shortDescription": "Heavy-duty wind-operated roof ventilator engineered for smooth rotation in low-wind conditions and maximum air displacement.",
     "fullDescription": [
       "The Simpovent® Wind Operate Ventilator is designed to start rotating at extremely low breeze speeds (< 2 km/h), providing round-the-clock air evacuation.",
+      "Designed for ultra-low starting torque, this wind operate ventilator activates at breeze speeds under 2 km/h, preventing condensation, mold, and suffocating heat buildup in factory godowns. Directly supplied by Shreeji Sales Corporation with custom-profile polycarbonate and FRP base plates, it ensures an absolute leak-proof seal during heavy Indian monsoon downpours.",
       "Engineered with 42 Hindalco Aluminium vanes, SS 304 top cowl, and dual sealed deep-groove ball bearings, it delivers reliable passive exhaust for factories.",
       "Backed by an ISO 9001:2015 certified manufacturing process and a 10-year warranty."
     ],
@@ -1192,6 +1206,7 @@ export const productsData: ProductItem[] = [
     "shortDescription": "Zero-power natural air ventilator designed to harness thermal updrafts and natural breezes for optimal factory air exchange.",
     "fullDescription": [
       "The Simpovent® Natural Air Ventilator operates entirely on nature's power — combining wind kinetic energy with the thermal chimney effect.",
+      "The SIMPOVENT® natural air ventilator provides 100% green, zero-carbon ventilation that qualifies manufacturing facilities for valuable IGBC, GRIHA, and LEED green building certification credits. Featuring a 42-blade aerodynamic rotor assembly and dual permanently lubricated bearings, it delivers dependable, noiseless thermal convection without consuming single watt of power.",
       "Crafted with 42 Hindalco Aluminium vanes, SS 304 top cowl, and dual sealed deep-groove ball bearings, it ensures non-stop air exchange without electrical wiring.",
       "Proven across over 100,000 industrial installations throughout India."
     ],
@@ -1259,6 +1274,7 @@ export const productsData: ProductItem[] = [
     "shortDescription": "Durable, high-efficiency industrial roof ventilator engineered with Hindalco aluminium vanes for long-term factory heat and fume extraction.",
     "fullDescription": [
       "The Simpovent® Roof Ventilator is the industry benchmark for passive factory roof ventilation in India.",
+      "Recognized as the industrial benchmark across Mumbai, Pune, and Ahmedabad manufacturing corridors, this 24-inch roof ventilator continuously evacuates trapped process heat and airborne pollutants. Every unit undergoes strict dynamic spin testing at our Vasai facility, ensuring over 15 years of trouble-free industrial service backed by our comprehensive 10-year warranty.",
       "Engineered to withstand harsh monsoons, high ambient temperatures, and corrosive industrial atmospheres, it operates silently 24/7 without electricity.",
       "Manufactured with 42 Hindalco Aluminium vanes, SS 304 top cowl, and dual sealed deep-groove ball bearings."
     ],
@@ -1325,6 +1341,7 @@ export const productsData: ProductItem[] = [
     "shortDescription": "Precision-balanced rotating turbine ventilator for continuous, noiseless industrial factory ventilation.",
     "fullDescription": [
       "The Simpovent® Turbine Ventilator features a precision-formed aerodynamic rotor cage that spins smoothly under the slightest breeze.",
+      "This industrial turbine ventilator converts ambient breeze into centrifugal exhaust suction, continuously drawing stale factory air upward and exhausting it horizontally away from the roofline. Built with anti-corrosive Hindalco aluminium and high-temperature synthetic grease bearings, it resists acid vapors and coastal humidity across heavy manufacturing hubs.",
       "Manufactured with 42 Hindalco Aluminium vanes, SS 304 top cowl, and dual sealed deep-groove ball bearings, it continuously evacuates heat and fumes.",
       "Ideal for manufacturing facilities seeking to improve workplace ergonomics and air circulation with zero power consumption."
     ],
@@ -1391,6 +1408,7 @@ export const productsData: ProductItem[] = [
     "shortDescription": "High-capacity wind turbine ventilator engineered with 42 Hindalco aluminium curved vanes for maximum industrial thermal exhaust.",
     "fullDescription": [
       "The Simpovent® Wind Turbine Ventilator combines aerodynamic turbine design with heavy-duty construction for demanding factory environments.",
+      "Engineered with a 24-inch throat diameter and 42 curved aerodynamic vanes, this wind turbine ventilator generates an effective 2,000 to 2,500 CFM air displacement without electrical consumption. We maintain extensive ready inventory at our Maharashtra warehouse for immediate dispatch to PEB contractors, steel fabricators, and MEP consultants nationwide.",
       "Spinning silently on dual sealed precision bearings, it converts natural wind energy into continuous exhaust suction without consuming any electricity.",
       "Backed by an ISO 9001:2015 certified manufacturing facility in Vasai, Maharashtra."
     ],
@@ -1457,6 +1475,7 @@ export const productsData: ProductItem[] = [
     "shortDescription": "Zero-electricity industrial roof ventilator engineered to provide non-stop thermal exhaust without running costs or electrical wiring.",
     "fullDescription": [
       "The Simpovent® Powerless Ventilator is designed for industrial enterprises committed to energy conservation, environmental sustainability, and zero operating costs.",
+      "The SIMPOVENT® powerless ventilator delivers zero-operating-cost industrial ventilation for plants committed to zero carbon emissions, energy conservation, and worker thermal comfort. Custom-moulded FRP base plates match all standard metal profiles (Tata Bluescope, JSW, Kirby, Asbestos), ensuring swift, drill-and-fasten installation with zero structural roof alterations.",
       "Operating completely without electricity, it utilizes ambient wind velocity and thermal convection to continuously exhaust accumulated heat and fumes.",
       "Manufactured using aerospace-grade Hindalco Aluminium 8011 vanes, SS 304 top cowl, and dual sealed deep-groove ball bearings."
     ],
@@ -1523,6 +1542,7 @@ export const productsData: ProductItem[] = [
     "shortDescription": "Sustainable, zero-carbon industrial roof ventilator engineered for green factories, PEB buildings, and LEED-certified facilities.",
     "fullDescription": [
       "The Simpovent® Eco Ventilator represents the ultimate in sustainable industrial roof ventilation.",
+      "Our eco ventilator is engineered specifically for sustainable factories, FMCG packaging halls, and pharmaceutical sheds requiring clean, noiseless, zero-power air exchange. Crafted from 100% recyclable aerospace-grade aluminium and stainless steel, it reduces factory indoor temperatures by 4°C to 8°C without electrical motor burnout risks.",
       "By eliminating all electrical power requirements, it helps manufacturing plants achieve their carbon neutrality and ESG sustainability targets.",
       "Engineered with 42 Hindalco Aluminium vanes, SS 304 top cowl, and dual sealed deep-groove ball bearings for lifetime maintenance-free performance."
     ],
@@ -1590,6 +1610,7 @@ export const productsData: ProductItem[] = [
     "shortDescription": "High-efficiency passive industrial roof extractor designed to continuously exhaust accumulated heat, smoke, and moisture from factory sheds.",
     "fullDescription": [
       "The Simpovent® Roof Extractor is engineered for severe industrial factory environments where massive thermal buildup occurs under metal roof profiles.",
+      "This passive industrial roof extractor is designed for heavy metal sheds suffering from extreme solar radiation and process heat accumulation beneath high-bay ceilings. Engineered with reverse-curved water deflector blade lips, it forcefully expels rising heat plumes while blocking wind-driven monsoon rainwater with 100% reliability.",
       "Operating completely without electricity, it utilizes ambient wind and thermal convection to evacuate hot air through the roof continuously.",
       "Manufactured with 42 Hindalco Aluminium vanes, SS 304 top cowl, and dual sealed deep-groove ball bearings."
     ],
@@ -1656,6 +1677,7 @@ export const productsData: ProductItem[] = [
     "shortDescription": "Zero-power wind-driven roof ventilator engineered with Hindalco aluminium vanes for reliable, continuous industrial ventilation.",
     "fullDescription": [
       "The Simpovent® Wind Ventilator is a reliable, cost-effective solution for industrial ventilation across India.",
+      "Engineered for continuous round-the-clock air evacuation in PEB warehouses and industrial workshops, this wind ventilator delivers up to 2,500 CFM exhaust with zero operational expenses. Contact Shreeji Sales Corporation for direct factory wholesale rates, certified CFM calculation sizing assistance, and prompt dispatch from our Vasai East plant.",
       "Requiring zero electrical power, it harnesses natural wind breezes to evacuate trapped process heat, humidity, and fumes from factory sheds.",
       "Manufactured with 42 Hindalco Aluminium vanes, SS 304 top cowl, and dual sealed deep-groove ball bearings."
     ],
