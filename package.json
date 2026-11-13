@@ -40,6 +40,12 @@
   "overrides": {
     "proxy-addr": "2.0.8",
     "body-parser": "2.4.0",
-    "shell-quote": "^1.11.0"
+    "shell-quote": "^1.11.0",
+    "eslint": {
+      "brace-expansion": "1.1.21"
+    },
+    "@typescript-eslint/typescript-estree": {
+      "brace-expansion": "5.0.13"
+    }
   }
 }
