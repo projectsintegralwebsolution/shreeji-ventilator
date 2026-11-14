@@ -18,8 +18,11 @@ export function constructMetadata({
   ogImage = "/images/products/motorized-roof-ventilator-new.jpeg",
   noIndex = false
 }: GenerateMetadataProps): Metadata {
-  const fullTitle = `${title} | ${companyData.name} (${companyData.brand})`;
+  const fullTitle = title.includes(companyData.name) || title.includes(companyData.brand)
+    ? title
+    : `${title} | ${companyData.name} (${companyData.brand})`;
   const url = canonicalUrl ? `${companyData.website}${canonicalUrl}` : companyData.website;
+  const fullOgImage = ogImage.startsWith("http") ? ogImage : `${companyData.website}${ogImage}`;
 
   const defaultKeywords = [
     "Shreeji Sales Corporation",
@@ -60,7 +63,9 @@ export function constructMetadata({
   const mergedKeywords = Array.from(new Set([...keywords, ...defaultKeywords]));
 
   return {
-    title: fullTitle,
+    title: {
+      absolute: fullTitle
+    },
     description,
     keywords: mergedKeywords,
     authors: [{ name: companyData.name, url: companyData.website }],
@@ -77,7 +82,7 @@ export function constructMetadata({
       siteName: companyData.name,
       images: [
         {
-          url: ogImage,
+          url: fullOgImage,
           width: 1200,
           height: 630,
           alt: title
@@ -90,7 +95,7 @@ export function constructMetadata({
       card: "summary_large_image",
       title: fullTitle,
       description,
-      images: [ogImage],
+      images: [fullOgImage],
       creator: "@BharatG98375368"
     },
     robots: {

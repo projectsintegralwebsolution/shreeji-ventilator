@@ -560,17 +560,19 @@ export const productsData: ProductItem[] = [
     "legacySlug": "heavy-duty-industrial-exhaust-fan.php",
     "name": "Heavy Duty Industrial Exhaust Fan",
     "h1Title": "Heavy Duty Industrial Exhaust Fan Manufacturer & Supplier in India",
-    "metaTitle": "Heavy Duty Industrial Exhaust Fan Manufacturer | Simpovent®",
-    "metaDescription": "Simpovent® manufactures heavy duty industrial exhaust fans, wall mounted exhaust fans, cone fans and roof exhaust fans for high-heat factories across India.",
+    "metaTitle": "Heavy Duty Exhaust Fan Manufacturer in India | Simpovent®",
+    "metaDescription": "Heavy duty exhaust fan manufacturer in India. Simpovent® supplies high-CFM wall & roof fans with 100% copper IP55 motors. Direct factory rates & fast dispatch.",
     "focusKeywords": [
       "heavy duty exhaust fan",
+      "heavy duty exhaust fan manufacturer",
+      "heavy duty exhaust fan manufacturer in india",
       "heavy duty industrial exhaust fan",
+      "industrial exhaust fan manufacturer",
       "industrial exhaust fan",
-      "industrial wall mounted exhaust fan",
       "wall mounted exhaust fan",
+      "industrial wall mounted exhaust fan",
       "wall mount big exhaust fan",
       "big exhaust fan",
-      "roof mount big exhaust fan",
       "roof mount exhaust fan",
       "roof exhaust fan",
       "roof extractor fan",
@@ -580,26 +582,26 @@ export const productsData: ProductItem[] = [
     ],
     "category": "industrial-exhaust",
     "categoryLabel": "Heavy Duty Industrial Exhaust Fan",
-    "shortDescription": "High-volume heavy-duty industrial exhaust fan engineered with dynamically balanced aerodynamic blades and a high-efficiency copper motor for rapid plant smoke and heat evacuation.",
+    "shortDescription": "High-capacity heavy duty exhaust fan engineered by Shreeji Sales Corporation (Simpovent®) with dynamically balanced aerofoil blades and a continuous-duty IP55 copper motor for rapid plant heat, smoke, and fume evacuation.",
     "fullDescription": [
-      "Simpovent® Heavy Duty Industrial Exhaust Fans are built to deliver massive volumetric air displacement across large factory sheds, welding bays, boiler rooms, and PEB industrial warehouses.",
-      "Manufactured in 18-inch to 54-inch diameters with airflow ratings up to 53,000 CFM, this heavy-duty industrial wall-mounted and roof-mounted exhaust fan rapidly purges dense smoke haze and furnace heat. Equipped with 100% copper-wound Class F IP55 motors and optional gravity backdraft louvers, our Vasai plant delivers factory-direct wholesale pricing and pan-India shipping.",
-      "Equipped with aerodynamically contoured, dynamically balanced heavy-gauge aluminium/steel impellers and a heavy-duty copper-wound IP55 motor, these fans extract intense heat, airborne dust, welding fumes, and toxic chemical gases effortlessly.",
-      "Designed for wall-mount or roof-mount industrial configurations, every unit undergoes rigorous vibration and dynamic balance testing at our Vasai manufacturing plant."
+      "As a premier heavy duty exhaust fan manufacturer in India, Shreeji Sales Corporation manufactures Simpovent® heavy duty industrial exhaust fans engineered specifically for demanding, high-heat factory environments. In large fabrication facilities, foundry shops, boiler houses, and PEB industrial sheds, stagnant heat plumes, welding fumes, and airborne chemical particulates compromise worker safety and plant productivity. Our heavy duty exhaust fans are purpose-built to extract thousands of cubic feet of contaminated air every minute, establishing continuous positive air movement and cooling comfort across the shop floor.",
+      "Available in sweep sizes ranging from 18 inches (450 mm), 24 inches (600 mm), 36 inches (900 mm), 48 inches (1200 mm), up to 54 inches (1380 mm), each heavy duty exhaust fan delivers massive volumetric airflow from 12,000 CFM up to 53,000 CFM. Whether mounted on exterior masonry walls or factory roof structures, our aerodynamic aerofoil impellers are dynamically balanced to ISO 1940 standards. This precision engineering eliminates vibration, minimizes acoustic decibel levels, and maximizes air displacement per watt of electrical power consumed.",
+      "Every industrial exhaust fan is powered by a heavy-duty, 100% copper-wound Class F / Class H insulated TEFC induction motor rated for continuous 24/7 duty. Encased in an IP55 dust-and-water-resistant housing, the motor operates reliably under severe factory ambient temperatures and voltage variations (available in both 415V three-phase and 230V single-phase configurations). The rigid casing is crafted from heavy-gauge powder-coated CRCA steel or stainless steel, with optional automatic gravity backdraft louvers that open smoothly when the motor engages and seal shut upon shutdown to prevent dust, rain, and bird intrusion.",
+      "Manufactured under rigorous ISO 9001:2015 quality control at our facility in Vasai, Maharashtra, every heavy duty exhaust fan is tested for vibration, electrical continuity, and aerodynamic balance before packing. By purchasing directly from an established Indian manufacturer, industrial clients, HVAC consultants, and MEP contractors benefit from transparent factory wholesale pricing, tailored motor configurations, and expedited dispatch to industrial belts across Mumbai, Pune, Ahmedabad, Surat, Delhi NCR, Chennai, Hyderabad, and pan-India."
     ],
     "keyFeatures": [
-      "High-Volume Air Displacement up to 18,000 CFM",
-      "Dynamically Balanced Precision Aerodynamic Blades",
-      "Heavy-Gauge Powder Coated Corrosion-Proof Steel Frame",
-      "100% Copper-Wound High-Efficiency IP55 Induction Motor",
-      "Optional Automatic Gravity Shutter & Safety Finger Guards",
-      "Continuous 24/7 Heavy-Duty Industrial Duty Cycle"
+      "High-Volume Air Displacement from 12,000 CFM up to 53,000 CFM",
+      "Heavy-Duty 100% Copper-Wound Class F / IP55 TEFC Induction Motor",
+      "Dynamically Balanced Aerodynamic Aerofoil Blades (Cast Aluminum / MS / SS)",
+      "Heavy-Gauge Powder-Coated Corrosion-Resistant Industrial Frame",
+      "Automatic Gravity Backdraft Shutters (Louvers) & Bird Protection Guard",
+      "Continuous 24/7 Heavy-Duty Industrial Duty Cycle at Low Noise Levels"
     ],
     "efficiencyHighlights": [
-      "Provides rapid air changes per hour (ACH) in severe heat zones",
-      "Low acoustic noise signature with precision-balanced blades",
-      "Dramatically reduces factory ambient temperature and smoke haze",
-      "Significantly increases worker comfort, safety, and productivity"
+      "Rapid Air Changes per Hour (ACH) for compliance with Factory Act ventilation standards",
+      "Dynamically balanced assembly for vibration-free, whisper-quiet shop floor operation",
+      "Significantly reduces ambient factory temperatures and eliminates heavy welding haze",
+      "Low power consumption per CFM, reducing overall factory operating expenses"
     ],
     "workingTheory": "High-pitch aerodynamic impeller blades create a massive pressure differential, forcefully suctioning trapped industrial heat, welding fumes, and airborne particulate plumes from the interior and exhausting them outside.",
     "applications": [
@@ -612,12 +614,18 @@ export const productsData: ProductItem[] = [
     ],
     "specs": {
       "throatDia": "24\" (600mm) / 36\" (900mm) / 48\" (1200mm) / 54\" (1380mm)",
-      "outerDia": "Up to 54\" (1380 MM)",
-      "motorType": "100% Copper-Wound Class F IP55 TEFC Motor",
-      "bladeMoc": "Fibre",
-      "bladeCount": "4 to 6 Aerodynamic Blades",
-      "airflowCfm": "25,000–53,000 CFM",
-      "powerConsumption": "0.5 HP to 3.0 HP (Single Phase 230V / 3 Phase 415V)"
+      "fanDiameter": "18\" (450mm) to 54\" (1380mm) Sweep Size",
+      "outerDia": "Up to 54\" (1380mm) Heavy Square / Circular Casing",
+      "motorType": "100% Copper-Wound Class F / IP55 TEFC Induction Motor (Continuous Duty)",
+      "bladeMoc": "Die-Cast Aerofoil Aluminum Alloy / Heavy-Duty Stainless Steel / Powder-Coated MS",
+      "bladeCount": "4 to 6 Aerodynamic High-Pitch Airfoil Blades",
+      "airflowCfm": "12,000 to 53,000 CFM (High-Volume Air Displacement)",
+      "powerConsumption": "0.5 HP to 5.0 HP (0.37 kW to 3.7 kW)",
+      "voltageRating": "415V 3-Phase / 230V Single-Phase (50 Hz / 60 Hz)",
+      "protectionGrade": "IP55 Ingress Protection (Water & Dust Resistant)",
+      "maxRpm": "700 RPM to 1440 RPM (Direct Drive / Heavy Belt Drive)",
+      "noiseLevel": "< 65–70 dB(A) at 1.5 meters (Precision Balanced)",
+      "coverageArea": "Up to 3,500 – 6,000 Sq. Ft. per unit (Depending on ACH & Ceiling Height)"
     },
     "image": "/images/products/heavy-duty-industrial-exhaust-fan-new.jpg",
     "galleryImages": [
@@ -626,12 +634,20 @@ export const productsData: ProductItem[] = [
     ],
     "faqs": [
       {
-        "question": "What sizes are available for the heavy duty industrial exhaust fan?",
-        "answer": "We manufacture sizes from 18\" (450mm), 24\" (600mm), 36\" (900mm), 48\" (1200mm), up to 54\" (1380mm) with custom motor ratings based on your required CFM and room volume."
+        "question": "What makes Shreeji Sales Corporation a leading heavy duty exhaust fan manufacturer in India?",
+        "answer": "Established in 2005 and ISO 9001:2015 certified, Shreeji Sales Corporation manufactures Simpovent® heavy duty industrial exhaust fans directly at our state-of-the-art facility in Vasai, Maharashtra. We engineer our fans with 100% copper-wound IP55 motors, dynamically balanced aerodynamic impellers, and heavy-gauge corrosion-resistant frames. By buying directly from the manufacturer, clients eliminate distributor markups, receive tailored engineering support, and benefit from rapid dispatch across India."
       },
       {
-        "question": "Can it be supplied with automatic louvers/shutters?",
-        "answer": "Yes, we provide automatic gravity backdraft louvers that open smoothly when the fan starts and close tightly when switched off to prevent dust, bird, and rain entry."
+        "question": "What sweep sizes and CFM airflow ratings are available for heavy duty exhaust fans?",
+        "answer": "We manufacture heavy duty industrial exhaust fans in sweep sizes of 18\" (450mm), 24\" (600mm), 36\" (900mm), 48\" (1200mm), and 54\" (1380mm), delivering air displacement capacities from 12,000 CFM up to 53,000 CFM. Our technical team assists factory owners, MEP engineers, and HVAC consultants in calculating the exact Air Changes per Hour (ACH) needed based on factory shed volume and heat load."
+      },
+      {
+        "question": "Can these industrial exhaust fans withstand severe factory heat, chemical fumes, and continuous 24/7 operation?",
+        "answer": "Yes, Simpovent® heavy duty exhaust fans are engineered for continuous 24/7 operation in punishing industrial environments such as foundries, chemical plants, welding sheds, and boiler rooms. They feature Class F / Class H insulated IP55 motors protected against airborne moisture and dust, cast aluminum or stainless-steel aerofoil blades, and optional automatic gravity backdraft louvers that seal out rain, dust, and birds when the fan is switched off."
+      },
+      {
+        "question": "How are heavy duty exhaust fans packed and dispatched across India?",
+        "answer": "Every fan undergoes strict vibration testing, electrical safety checks, and dynamic balancing before dispatch from our Vasai, Maharashtra manufacturing plant. We use heavy-duty reinforced wooden and corrugated packaging with transit insurance to guarantee damage-free arrival. We maintain ready stock for standard sizes and supply industrial clients throughout Mumbai, Pune, Gujarat, Delhi NCR, Tamil Nadu, Karnataka, and nationwide across India."
       }
     ]
   },

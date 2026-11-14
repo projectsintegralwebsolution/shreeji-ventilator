@@ -35,7 +35,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title: product.metaTitle,
     description: product.metaDescription,
     keywords: product.focusKeywords,
-    canonicalUrl: `/${product.slug}`
+    canonicalUrl: `/${product.slug}`,
+    ogImage: product.image
   });
 }
 
