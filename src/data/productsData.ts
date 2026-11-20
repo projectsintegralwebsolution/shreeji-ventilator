@@ -1235,53 +1235,65 @@ export const productsData: ProductItem[] = [
     "legacySlug": "natural-air-ventilator.php",
     "name": "Natural Air Ventilator",
     "h1Title": "Natural Air Ventilator Manufacturer in India | Simpovent®",
-    "metaTitle": "Natural Air Ventilator Manufacturer India | Simpovent®",
-    "metaDescription": "Simpovent® Natural Air Ventilators deliver 100% natural, green, zero-electricity ventilation for factory buildings, PEB warehouses, and mills.",
+    "metaTitle": "Natural Air Ventilator Manufacturer in India | Simpovent®",
+    "metaDescription": "Simpovent® Natural Air Ventilator — leading manufacturer in India. 100% green zero-power roof vents (2,500 CFM), IGBC/LEED ready, 10-year warranty. ISO 9001.",
     "focusKeywords": [
-      "Natural Air Ventilator",
+      "natural air ventilator",
+      "natural air ventilator manufacturer",
+      "natural air ventilator manufacturer in india",
       "natural ventilation system",
+      "natural roof ventilator",
       "zero power ventilator",
       "eco roof ventilator",
+      "passive roof ventilator",
       "roof ventilator"
     ],
     "category": "wind-driven",
     "categoryLabel": "Wind-Driven Natural Ventilator",
-    "shortDescription": "Zero-power natural air ventilator designed to harness thermal updrafts and natural breezes for optimal factory air exchange.",
+    "shortDescription": "100% green, zero-electricity natural air ventilator that harnesses thermal updrafts and ambient wind for silent, round-the-clock industrial air exchange.",
     "fullDescription": [
-      "The Simpovent® Natural Air Ventilator operates entirely on nature's power — combining wind kinetic energy with the thermal chimney effect.",
-      "The SIMPOVENT® natural air ventilator provides 100% green, zero-carbon ventilation that qualifies manufacturing facilities for valuable IGBC, GRIHA, and LEED green building certification credits. Featuring a 42-blade aerodynamic rotor assembly and dual permanently lubricated bearings, it delivers dependable, noiseless thermal convection without consuming single watt of power.",
-      "Crafted with 42 Hindalco Aluminium vanes, SS 304 top cowl, and dual sealed deep-groove ball bearings, it ensures non-stop air exchange without electrical wiring.",
-      "Proven across over 100,000 industrial installations throughout India."
+      "A Natural Air Ventilator is a passive, zero-electricity roof ventilation unit that continuously expels rising hot air, trapped humidity, and stale indoor fumes using nothing but natural wind energy and thermal convection. Proven across more than 100,000 installations nationwide, Shreeji Sales Corporation (Simpovent®) has been a trusted natural air ventilator manufacturer in India since 2005—helping factories, PEB sheds, and agricultural godowns maintain fresh, breathable indoor air 24/7 with zero power bills.",
+      "Designed for sustainable industrial cooling, each 24-inch Simpovent® natural air ventilator exhausts 2,000 to 2,500 CFM of trapped heat, helping reduce indoor floor temperatures by 4°C to 8°C and relieving thermal stress on metal roofing sheets. Because it consumes 0 Watts and produces zero carbon emissions, installing natural air ventilators directly supports manufacturing plants aiming for IGBC, GRIHA, and LEED green building certification credits while cutting down dependence on power-hungry electric exhaust fans.",
+      "Every ventilator is engineered with 42 precision-curved Hindalco Aluminium Alloy 8011 vanes, a corrosion-resistant Stainless Steel SS 304 top cowl and central shaft, and dual permanently lubricated HCH sealed deep-groove bearings. The lightweight rotor begins turning silently in light ambient breezes under 2 km/h, while custom-moulded UV-resistant FRP base plates match GI, color-coated, PEB, or asbestos roof profiles for a weatherproof, leakproof fit without altering structural purlins.",
+      "Manufactured under ISO 9001:2015 quality controls at our plant in Vasai, Maharashtra, every natural air ventilator is dynamically spin-tested and backed by a 10-year structural and rotor cage warranty. Ordering directly from an established Indian natural air ventilator manufacturer gives industrial buyers, architects, and MEP contractors factory-direct pricing, ready stock in 18\", 21\", and 24\" sizes, and reliable pan-India delivery across Mumbai, Pune, Gujarat, Delhi NCR, Chennai, Hyderabad, Bengaluru, and nationwide."
     ],
     "keyFeatures": [
-      "100% Green & Eco-Friendly Technology",
-      "Zero Operational & Electrical Costs",
-      "Hindalco 8011 Aluminium Construction",
-      "Weatherproof & Leakproof Installation",
-      "10-Year Structural & Rotor Cage Warranty"
+      "100% Green, Zero-Carbon Passive Roof Ventilation",
+      "Zero Electricity Consumption & Zero Recurring Running Costs",
+      "42 Precision Hindalco 8011 Aluminium Vanes with SS 304 Top Cowl",
+      "Dual Permanently Lubricated HCH Sealed Deep-Groove Bearings",
+      "Custom UV-Resistant FRP Base Plate for 100% Leakproof Fitment",
+      "Backed by a 10-Year Structural & Rotor Cage Warranty"
     ],
     "efficiencyHighlights": [
-      "Creates continuous air circulation across large manufacturing floors",
-      "Reduces structural thermal stress on metal roof sheets",
-      "Helps industrial facilities achieve green building (IGBC/LEED) credits"
+      "Exhausts 2,000 to 2,500 CFM per 24\" unit using pure wind & thermal updraft",
+      "Lowers indoor shed temperature by 4°C to 8°C and relieves roof heat stress",
+      "Qualifies factories for IGBC, GRIHA, and LEED green building energy credits",
+      "Completely silent (0 dB), maintenance-free, and safe with zero electrical wiring"
     ],
-    "workingTheory": "Thermal convection carries hot, buoyant air to the roof crest where the spinning aerodynamic vanes evacuate it into the ambient atmosphere.",
+    "workingTheory": "A natural air ventilator operates through the combined physics of the thermal chimney (stack) effect and wind-driven suction. Inside an industrial building, hot, humid air naturally rises toward the roof ridge. As gentle outdoor breeze passes over the 42 curved aerodynamic blades, the turbine spins smoothly on sealed bearings, creating a continuous low-pressure updraft that evacuates warm, stale air outside while pulling cooler fresh air in through lower louvers and openings.",
     "applications": [
-      "Green Building & LEED Certified Plants",
-      "Textile & Spinning Units",
-      "Paper & Packaging Factories",
+      "Green Building & LEED / IGBC Certified Plants",
+      "Textile, Spinning & Garment Units",
+      "Paper, Pulp & Packaging Factories",
       "Agricultural Godowns & Grain Storage",
-      "Commercial Warehouses"
+      "PEB Industrial Sheds & Commercial Warehouses",
+      "Food Processing, Dairy & Logistics Facilities"
     ],
     "specs": {
-      "throatDia": "24\" Inch (610 MM)",
+      "throatDia": "24\" Inch (610 MM) — Also available in 18\" & 21\"",
       "outerDia": "30\" Inch (760 MM)",
-      "bladeMoc": "Hindalco Aluminium 8011",
-      "topCoverMoc": "Stainless Steel SS 304",
-      "bearingMake": "HCH Precision Sealed Bearing",
-      "basePlateMoc": "FRP UV-Resistant Matching Sheet",
-      "airflowCfm": "2,000 to 2,500 CFM",
-      "powerConsumption": "0 Watts"
+      "topCoverMoc": "Stainless Steel SS 304 (Rust & Weather Proof)",
+      "bladeMoc": "Hindalco Aluminium Alloy 8011 (Optional Full SS 304)",
+      "bladeCount": "42 Precision Aerodynamic Curved Vanes",
+      "shaftMoc": "Stainless Steel SS 304",
+      "bearingMake": "Dual HCH Precision Sealed Deep-Groove Bearings",
+      "bearingSize": "6002ZZ / 6202ZZ Sealed Maintenance-Free",
+      "basePlateMoc": "UV-Resistant Leakproof FRP Matching Roof Sheet",
+      "airflowCfm": "2,000 to 2,500 CFM per unit",
+      "coverageArea": "250 to 350 Sq. Ft. per 24\" unit (Depending on roof height & heat load)",
+      "noiseLevel": "0 dB (Completely Silent Passive Operation)",
+      "powerConsumption": "0 Watts (100% Natural Wind & Thermal Stack Driven)"
     },
     "image": "/images/products/natural-air-ventilator-new.jpg",
     "galleryImages": [
@@ -1291,8 +1303,24 @@ export const productsData: ProductItem[] = [
     ],
     "faqs": [
       {
-        "question": "Can natural air ventilators help in LEED / IGBC green building certifications?",
-        "answer": "Yes, because they operate with 0 Watts electricity and zero greenhouse gas emissions, they earn maximum points in energy conservation and natural ventilation categories."
+        "question": "What is a Natural Air Ventilator and how does it cool a factory without electricity?",
+        "answer": "A Natural Air Ventilator is a passive, wind- and thermal-driven roof exhaust turbine that removes trapped hot air, moisture, and stale fumes from factories and warehouses 24/7 without using electricity. Hot air rises naturally to the roof crest, and even a light breeze under 2 km/h spins the 42 curved vanes to pull that heat outside—lowering indoor temperatures by 4°C to 8°C at zero power cost."
+      },
+      {
+        "question": "How much area does one 24-inch Natural Air Ventilator cover?",
+        "answer": "One 24-inch Simpovent® Natural Air Ventilator delivers 2,000 to 2,500 CFM and effectively ventilates 250 to 350 sq. ft. of floor area in standard warehouses, godowns, and industrial sheds. For high-heat production zones, closer spacing is recommended—you can use the CFM Calculator on this page or share your shed dimensions with our team for an exact layout count."
+      },
+      {
+        "question": "Can Natural Air Ventilators help in LEED, IGBC, and GRIHA green building certifications?",
+        "answer": "Yes. Because Simpovent® Natural Air Ventilators operate on 0 Watts of electricity and produce zero greenhouse gas emissions, they help industrial plants, warehouses, and commercial buildings earn valuable energy efficiency and natural ventilation credits under IGBC, GRIHA, and LEED green building standards."
+      },
+      {
+        "question": "Are Natural Air Ventilators leakproof during heavy rain, and do they require maintenance?",
+        "answer": "Yes, they are 100% weatherproof and monsoon-proof. The overlapping aerodynamic vane geometry deflects rainwater outward while custom-moulded UV-resistant FRP base plates seal tightly to GI, color-coated, PEB, or asbestos roofs. With permanently lubricated HCH sealed bearings and no motor or wiring, they require virtually zero maintenance."
+      },
+      {
+        "question": "Why choose Simpovent® (Shreeji Sales Corporation) as your Natural Air Ventilator manufacturer in India?",
+        "answer": "Founded in 2005 and ISO 9001:2015 certified, Shreeji Sales Corporation has over 100,000 Simpovent® Natural Air Ventilators operating across India. Manufactured in-house in Vasai, Maharashtra using virgin Hindalco Aluminium 8011 and SS 304 hardware, every unit includes a 10-year structural warranty, direct factory pricing, and fast pan-India dispatch."
       }
     ]
   },
