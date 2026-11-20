@@ -1329,55 +1329,66 @@ export const productsData: ProductItem[] = [
     "slug": "roof-ventilator",
     "legacySlug": "roof-ventilator.php",
     "name": "Roof Ventilator",
-    "h1Title": "Industrial Roof Ventilator Manufacturer & Supplier in India",
-    "metaTitle": "Roof Ventilator Manufacturer in Mumbai, Pune, India | Simpovent®",
-    "metaDescription": "Simpovent® Roof Ventilator manufacturer in India. Premium zero-power wind ventilators for metal PEB sheds, factories, and warehouses.",
+    "h1Title": "Roof Ventilator Manufacturer & Supplier in India",
+    "metaTitle": "Roof Ventilator Manufacturer in India | Simpovent®",
+    "metaDescription": "Simpovent® Roof Ventilator — leading manufacturer in India. Zero-power 24\" industrial roof vents (2,500 CFM), 15+ yr life, 10-yr warranty, pan-India supply.",
     "focusKeywords": [
-      "Roof Ventilator",
+      "roof ventilator",
       "roof ventilator manufacturer",
+      "roof ventilator manufacturer in india",
       "industrial roof ventilator",
       "factory roof ventilator",
-      "turbo ventilator",
+      "shed roof ventilator",
+      "metal roof ventilator",
+      "turbo roof ventilator",
       "roof air ventilator"
     ],
     "category": "wind-driven",
     "categoryLabel": "Wind-Driven Natural Ventilator",
-    "shortDescription": "Durable, high-efficiency industrial roof ventilator engineered with Hindalco aluminium vanes for long-term factory heat and fume extraction.",
+    "shortDescription": "Heavy-duty zero-electricity roof ventilator engineered with 42 Hindalco Aluminium vanes and SS 304 hardware for 15+ years of silent industrial heat and fume extraction.",
     "fullDescription": [
-      "The Simpovent® Roof Ventilator is the industry benchmark for passive factory roof ventilation in India.",
-      "Recognized as the industrial benchmark across Mumbai, Pune, and Ahmedabad manufacturing corridors, this 24-inch roof ventilator continuously evacuates trapped process heat and airborne pollutants. Every unit undergoes strict dynamic spin testing at our Vasai facility, ensuring over 15 years of trouble-free industrial service backed by our comprehensive 10-year warranty.",
-      "Engineered to withstand harsh monsoons, high ambient temperatures, and corrosive industrial atmospheres, it operates silently 24/7 without electricity.",
-      "Manufactured with 42 Hindalco Aluminium vanes, SS 304 top cowl, and dual sealed deep-groove ball bearings."
+      "A Roof Ventilator is a wind-driven, zero-electricity exhaust unit installed along the roof ridge of factories, warehouses, and PEB sheds to continuously expel trapped heat, humidity, and airborne fumes. As a trusted roof ventilator manufacturer in India since 2005, Shreeji Sales Corporation engineers the Simpovent® Roof Ventilator as the industrial benchmark for silent, round-the-clock roof ventilation across metal and masonry buildings.",
+      "Available in 18-inch, 21-inch, and 24-inch throat diameters, each 24-inch Simpovent® roof ventilator exhausts 2,000 to 2,500 CFM of hot ridge air—lowering shop-floor temperatures by 4°C to 8°C without consuming a single watt of electricity. Every unit is supplied with a custom-moulded, UV-stabilized FRP base plate shaped to match GI, color-coated trapezoidal, sinusoidal, PEB, or asbestos roofing sheets, enabling quick, 100% leakproof installation without cutting existing roof purlins.",
+      "Built for harsh Indian summers, heavy monsoons, and corrosive industrial atmospheres, the turbine combines 42 precision-curved Hindalco Aluminium Alloy 8011 vanes, a heavy-gauge Stainless Steel SS 304 top cowl and central shaft, and dual HCH sealed deep-groove ball bearings. Every roof ventilator undergoes strict dynamic spin testing at our Vasai plant to ensure vibration-free rotation in light breezes and 15+ years of maintenance-free service backed by a 10-year comprehensive structural warranty.",
+      "Manufactured under ISO 9001:2015 quality controls in Vasai, Maharashtra, Simpovent® roof ventilators are trusted across Mumbai, Pune, Ahmedabad, Surat, Delhi NCR, Chennai, Hyderabad, Bengaluru, and major industrial belts nationwide. Buying directly from an established Indian roof ventilator manufacturer guarantees genuine raw materials, ready stock, transparent factory pricing, and fast pan-India dispatch."
     ],
     "keyFeatures": [
-      "No Electric Power Needed (Zero Running Cost)",
-      "42 Aerodynamic Hindalco Aluminium Vanes",
-      "Dual HCH Sealed Precision Bearings",
-      "100% Weatherproof FRP Matching Base Plates",
-      "10-Year Comprehensive Structural Warranty"
+      "100% Zero-Electricity Operation — No Wiring or Power Bills",
+      "42 Precision Aerodynamic Hindalco Aluminium Alloy 8011 Vanes",
+      "Heavy-Gauge Stainless Steel SS 304 Top Cowl & Central Shaft",
+      "Dual HCH Precision Sealed Bearings — Zero Lubrication Needed",
+      "Custom UV-Stabilized FRP Matching Base Plates (100% Leakproof)",
+      "Dynamically Spin-Tested with 10-Year Structural Warranty"
     ],
     "efficiencyHighlights": [
-      "Lowers indoor temperature by 4°C to 8°C",
-      "Exhausts trapped heat, moisture, and chemical vapors",
-      "Requires zero lubrication or maintenance"
+      "Exhausts 2,000 to 2,500 CFM per 24\" unit at zero electrical cost",
+      "Lowers indoor factory and shed temperature by 4°C to 8°C",
+      "Removes trapped ridge heat, moisture, smoke, and chemical vapors 24/7",
+      "15+ years trouble-free service life with zero maintenance or downtime"
     ],
-    "workingTheory": "Converts wind velocity into centrifugal force at the turbine head, creating strong suction at the throat to extract hot indoor air.",
+    "workingTheory": "Installed at the highest point of a shed roof where hot air naturally accumulates, a roof ventilator converts ambient outdoor wind velocity into centrifugal force across its 42 curved blades. As the turbine head spins smoothly on sealed bearings, air is thrown outward from the vane tips—creating continuous low-pressure suction at the throat that draws hot indoor air, steam, and fumes straight out of the building.",
     "applications": [
       "Foundries & Forging Shops",
       "Engineering & Fabrication Sheds",
-      "Automotive Assembly Plants",
-      "Chemical & Pharma Factories",
-      "Warehouses & Godowns"
+      "Automotive Assembly & Paint Plants",
+      "Chemical, Fertilizer & Pharma Factories",
+      "PEB Industrial Sheds & Logistics Warehouses",
+      "Textile Mills, Godowns & Cold Storage Corridors"
     ],
     "specs": {
-      "throatDia": "24\" Inch (610 MM)",
+      "throatDia": "24\" Inch (610 MM) — Also available in 18\" & 21\"",
       "outerDia": "30\" Inch (760 MM)",
+      "topCoverMoc": "Stainless Steel SS 304 (Heavy-Gauge Weatherproof)",
       "bladeMoc": "Hindalco Aluminium Alloy 8011 / SS 304",
-      "topCoverMoc": "Stainless Steel SS 304",
-      "bearingMake": "HCH Precision Sealed Bearing",
-      "basePlateMoc": "FRP Matching Profile Base Plate",
-      "airflowCfm": "2,000 to 2,500 CFM",
-      "powerConsumption": "0 Watts"
+      "bladeCount": "42 Precision Aerodynamic Curved Vanes",
+      "shaftMoc": "Stainless Steel SS 304",
+      "bearingMake": "Dual HCH Precision Sealed Deep-Groove Bearings",
+      "bearingSize": "6002ZZ / 6202ZZ Sealed Maintenance-Free",
+      "basePlateMoc": "UV-Stabilized Leakproof FRP Matching Profile Base Plate",
+      "airflowCfm": "2,000 to 2,500 CFM per unit",
+      "coverageArea": "250 to 350 Sq. Ft. per 24\" unit (Depending on roof height & heat load)",
+      "noiseLevel": "0 dB (Completely Silent Operation)",
+      "powerConsumption": "0 Watts (100% Wind & Thermal Convection Driven)"
     },
     "image": "/images/products/roof-ventilator-new.png",
     "galleryImages": [
@@ -1387,8 +1398,24 @@ export const productsData: ProductItem[] = [
     ],
     "faqs": [
       {
-        "question": "What makes Simpovent® roof ventilators superior to local alternatives?",
-        "answer": "Simpovent® uses genuine Hindalco 8011 high-tensile aluminium, heavy-gauge SS 304 top covers, precision dual HCH sealed bearings, and UV-stabilized virgin FRP base plates, ensuring over 15+ years of trouble-free performance."
+        "question": "What is a Roof Ventilator and how does it cool an industrial building without electricity?",
+        "answer": "A Roof Ventilator is a passive, wind-powered exhaust turbine mounted on factory and warehouse roofs. Because hot air naturally rises to the roof ridge, even a gentle outdoor breeze spins its 42 curved vanes to create suction that continuously extracts trapped heat, moisture, and fumes—lowering indoor temperatures by 4°C to 8°C with 0 Watts of power."
+      },
+      {
+        "question": "Which roof types can Simpovent® Roof Ventilators be installed on, and are they leakproof in heavy rain?",
+        "answer": "Simpovent® Roof Ventilators can be installed on GI sheets, color-coated trapezoidal/sinusoidal sheets, PEB metal roofs, and asbestos roofs. Each unit comes with a custom-moulded UV-stabilized FRP base plate matched to your exact roof sheet profile, and the overlapping vane design deflects rainwater outward for 100% leakproof monsoon performance."
+      },
+      {
+        "question": "How many 24-inch Roof Ventilators are required for a factory shed or warehouse?",
+        "answer": "One 24-inch Simpovent® Roof Ventilator moves 2,000 to 2,500 CFM and covers approximately 250 to 350 sq. ft. of floor area in standard warehouses and industrial sheds. High-heat zones like foundries or forging shops require closer spacing—use our CFM Calculator on this page or share your shed dimensions for an exact engineering count."
+      },
+      {
+        "question": "What makes Simpovent® Roof Ventilators superior to local alternatives?",
+        "answer": "Simpovent® uses genuine Hindalco 8011 high-tensile aluminium, heavy-gauge SS 304 top covers and central shafts, dual precision HCH sealed bearings, and UV-stabilized virgin FRP base plates. Every unit is dynamically spin-tested in-house for 15+ years of silent, wobble-free performance backed by a 10-year structural warranty."
+      },
+      {
+        "question": "Why choose Shreeji Sales Corporation as your Roof Ventilator manufacturer in India?",
+        "answer": "Established in 2005 and ISO 9001:2015 certified, Shreeji Sales Corporation manufactures Simpovent® Roof Ventilators at our Vasai, Maharashtra facility with strict quality control and ready stock in 18\", 21\", and 24\" sizes. Ordering directly from the manufacturer ensures factory-direct pricing, custom FRP base plates, and fast dispatch across India."
       }
     ]
   },
