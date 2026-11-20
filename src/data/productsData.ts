@@ -1003,56 +1003,67 @@ export const productsData: ProductItem[] = [
     "slug": "turbo-air-ventilator",
     "legacySlug": "turbo-air-ventilator.php",
     "name": "Turbo Air Ventilator",
-    "h1Title": "Industrial Turbo Air Ventilator Manufacturer in India",
-    "metaTitle": "Turbo Air Ventilator Manufacturer & Supplier | Simpovent®",
-    "metaDescription": "Buy high-efficiency Turbo Air Ventilators from Simpovent®. Eco-friendly, silent, wind-driven ventilators engineered for heavy industries.",
+    "h1Title": "Turbo Air Ventilator Manufacturer & Supplier in India",
+    "metaTitle": "Turbo Air Ventilator Manufacturer in India | Simpovent®",
+    "metaDescription": "Simpovent® Turbo Air Ventilator — leading manufacturer in India. Zero-power 24\" roof vents (2,500 CFM), Hindalco Aluminium & SS 304 build, ISO 9001 quality.",
     "focusKeywords": [
-      "Turbo Air Ventilator",
-      "turbo vents",
+      "turbo air ventilator",
+      "turbo air ventilator manufacturer",
+      "turbo air ventilator manufacturer in india",
+      "industrial turbo air ventilator",
       "turbo ventilator",
+      "turbo vents",
       "roof air ventilator",
       "turbo air ventilator price",
-      "industrial turbo air ventilator",
+      "wind driven turbo air ventilator",
       "roof ventilator"
     ],
     "category": "wind-driven",
     "categoryLabel": "Wind-Driven Natural Ventilator",
-    "shortDescription": "Heavy-duty turbo air ventilator designed for maximum exhaust velocity in humid, dusty, or high-temperature industrial environments.",
+    "shortDescription": "Zero-electricity industrial turbo air ventilator delivering 2,000–2,500 CFM continuous exhaust with 42 Hindalco Aluminium 8011 vanes, SS 304 top cowl, and silent dual HCH sealed bearings.",
     "fullDescription": [
-      "The Simpovent® Turbo Air Ventilator combines advanced aerodynamic blade design with frictionless bearing rotation to maximize CFM air extraction.",
-      "This heavy-duty turbo air ventilator harnesses ambient wind velocity and thermal siphon dynamics to deliver high-velocity silent ventilation across humid, chemical, and dusty industrial environments. Engineered with frictionless sealed deep-groove ball bearings and custom-moulded FRP base plates, it installs seamlessly without cutting or modifying existing roof purlins.",
-      "Manufactured with aircraft-grade Hindalco Aluminium 8011 vanes and a Stainless Steel SS 304 top cowl, it withstands aggressive chemical atmospheres and coastal salt air.",
-      "Completely noiseless and maintenance-free, it provides an eco-friendly solution to industrial factory ventilation."
+      "A Turbo Air Ventilator is a wind-driven, zero-electricity roof exhaust system designed to continuously pull trapped heat, humidity, stale air, and industrial fumes out of factories and warehouses 24/7. As a trusted turbo air ventilator manufacturer in India since 2005, Shreeji Sales Corporation engineers the Simpovent® Turbo Air Ventilator to keep heavy industrial sheds cooler, drier, and safer without adding a single rupee to your monthly power bill.",
+      "Built for demanding Indian factory conditions, each Simpovent® turbo air ventilator features 42 aerodynamically curved Hindalco Aluminium Alloy 8011 vanes paired with a corrosion-proof Stainless Steel SS 304 top cowl and central shaft. Precision dual HCH sealed deep-groove bearings allow the turbine head to spin smoothly even in gentle breezes under 2 km/h, while custom-moulded, UV-stabilized FRP base plates fit seamlessly onto GI, color-coated, PEB, and asbestos roofs without cutting or weakening existing roof purlins.",
+      "In real shop-floor operation, a single 24-inch turbo air ventilator exhausts 2,000 to 2,500 CFM of hot stagnant air, helping lower indoor factory temperatures by 4°C to 8°C and eliminating suffocating heat pockets, chemical odors, and airborne dust. Its precision rain-deflector vane geometry keeps the system 100% leakproof during heavy Indian monsoons, while completely silent, motor-free construction eliminates wiring hazards, motor burnouts, and routine maintenance.",
+      "Every unit is manufactured and dynamically balanced under ISO 9001:2015 quality controls at our plant in Vasai, Maharashtra. Whether you are outfitting a new PEB warehouse or upgrading an existing chemical, textile, or engineering plant, partnering directly with an established Indian turbo air ventilator manufacturer gives you factory-direct pricing, ready stock in 18\", 21\", and 24\" sizes, and reliable pan-India dispatch across Mumbai, Pune, Gujarat, Delhi NCR, Chennai, Hyderabad, Bengaluru, and nationwide."
     ],
     "keyFeatures": [
-      "Zero Electricity Operation",
-      "42 Precision Curved Hindalco Aluminium Blades",
-      "Dual HCH Sealed Bearings with High-Temperature Lubrication",
-      "Resistant to Acids, Alkalis, and High Humidity",
-      "100% Monsoon-Proof Rain Deflector Design"
+      "100% Zero-Electricity Wind & Thermal Convection Operation",
+      "42 Precision-Curved Hindalco Aluminium Alloy 8011 Vanes",
+      "Stainless Steel SS 304 Top Cowl & Central Shaft for Corrosion Resistance",
+      "Dual HCH Sealed Deep-Groove Bearings with High-Temperature Lubrication",
+      "Custom UV-Stabilized FRP Base Plates for Leakproof Roof Fitment",
+      "100% Monsoon-Proof Rain Deflector Design — Silent & Maintenance-Free"
     ],
     "efficiencyHighlights": [
-      "Exhausts up to 2,400 CFM per 24\" unit in normal breeze",
-      "Eliminates stale odors, toxic fumes, and suffocating heat",
-      "No wiring, no motor burnout risk, zero carbon footprint"
+      "Exhausts 2,000 to 2,500 CFM per 24\" unit in normal ambient breeze",
+      "Reduces indoor factory and warehouse temperature by 4°C to 8°C",
+      "Eliminates trapped heat, humidity, stale odors, and airborne fumes 24/7",
+      "Zero electricity bills, no wiring or motor burnout risk, zero carbon footprint"
     ],
-    "workingTheory": "Natural wind spins the turbine cowl. Centrifugal force throws air outward from the vane tips, creating vacuum suction at the neck that continuously pulls interior air upward.",
+    "workingTheory": "A turbo air ventilator works on two natural physical principles: wind-driven centrifugal force and the thermal stack effect. As natural outdoor wind blows across the 42 curved aerodynamic vanes, the turbine cowl rotates effortlessly on frictionless sealed bearings, throwing air outward from the vane tips. This creates a continuous low-pressure vacuum at the ventilator throat that draws rising hot air, moisture, and industrial fumes upward and out of the building—while cooler fresh air enters through lower doors, louvers, or windows.",
     "applications": [
+      "PEB Warehouses & Logistics Hubs",
       "Chemical & Fertilizer Plants",
-      "Paper & Pulp Mills",
-      "Sugar & Textile Factories",
-      "Heavy Machine Workshops",
-      "Commercial Warehouses"
+      "Paper, Pulp & Packaging Mills",
+      "Sugar, Textile & Spinning Factories",
+      "Heavy Machine & Fabrication Workshops",
+      "Food Processing, Pharma & Commercial Sheds"
     ],
     "specs": {
-      "throatDia": "24\" Inch (610 MM)",
+      "throatDia": "24\" Inch (610 MM) — Also available in 18\" & 21\"",
       "outerDia": "30\" Inch (760 MM)",
-      "topCoverMoc": "Stainless Steel SS 304",
+      "topCoverMoc": "Stainless Steel SS 304 (Corrosion-Proof)",
       "bladeMoc": "Hindalco Aluminium Alloy 8011 / SS 304",
-      "bearingMake": "HCH Precision Sealed Bearing",
-      "basePlateMoc": "FRP UV-Stabilized Sheet",
-      "airflowCfm": "2,000 to 2,500 CFM",
-      "powerConsumption": "0 Watts"
+      "bladeCount": "42 Precision Aerodynamic Curved Vanes",
+      "shaftMoc": "Stainless Steel SS 304",
+      "bearingMake": "Dual HCH Precision Sealed Deep-Groove Bearings",
+      "bearingSize": "6002ZZ / 6202ZZ Sealed Maintenance-Free",
+      "basePlateMoc": "UV-Stabilized Leakproof FRP Sheet (Custom Roof Profile)",
+      "airflowCfm": "2,000 to 2,500 CFM per unit",
+      "coverageArea": "250 to 350 Sq. Ft. per 24\" unit (Depending on height & heat load)",
+      "noiseLevel": "0 dB (Completely Silent Operation)",
+      "powerConsumption": "0 Watts (100% Wind & Thermal Convection Driven)"
     },
     "image": "/images/products/turbo-air-ventilator-new.png",
     "galleryImages": [
@@ -1062,8 +1073,24 @@ export const productsData: ProductItem[] = [
     ],
     "faqs": [
       {
-        "question": "Can the Turbo Air Ventilator withstand cyclonic wind speeds?",
-        "answer": "Yes, Simpovent® ventilators are aerodynamically balanced and structurally tested to withstand high wind speeds up to 140 km/h when anchored properly with our FRP base plates."
+        "question": "What is a Turbo Air Ventilator and how does it work without electricity?",
+        "answer": "A Turbo Air Ventilator is a natural, wind-powered roof exhaust turbine installed on industrial sheds and warehouses. Even a light breeze under 2 km/h spins its 42 curved aerodynamic blades, creating centrifugal suction that continuously pulls rising hot air, humidity, and fumes out through the roof—operating 24/7 with zero electricity and zero running cost."
+      },
+      {
+        "question": "How many Turbo Air Ventilators are required for a factory shed or warehouse?",
+        "answer": "As a practical engineering rule, one 24-inch Simpovent® Turbo Air Ventilator effectively ventilates 250 to 350 sq. ft. of floor area in standard warehouses, and closer spacing is recommended for high-heat processes like foundries or welding shops. You can also use our free CFM Ventilation Calculator on this page or share your shed length, width, and height with our engineers for an exact unit count."
+      },
+      {
+        "question": "Which material (Aluminium vs SS 304) is best for a Turbo Air Ventilator, and will it fit my roof?",
+        "answer": "Hindalco Aluminium Alloy 8011 vanes paired with an SS 304 top cowl offer the ideal balance of lightweight low-wind rotation and long-term rust resistance for most Indian factories. For highly corrosive chemical or coastal plants, full SS 304 construction is recommended. Every unit is supplied with a custom-moulded UV-stabilized FRP base plate matched to your exact roof sheet profile (GI, color-coated, PEB, or asbestos) for 100% leakproof installation."
+      },
+      {
+        "question": "Why choose Simpovent® (Shreeji Sales Corporation) as your Turbo Air Ventilator manufacturer in India?",
+        "answer": "Established in 2005 and ISO 9001:2015 certified, Shreeji Sales Corporation manufactures Simpovent® Turbo Air Ventilators in-house at our Vasai, Maharashtra facility with virgin Hindalco aluminium, genuine SS 304 hardware, and dual HCH sealed bearings. Buying directly from the manufacturer ensures consistent dynamic balancing, wholesale factory pricing, ready stock, and fast pan-India delivery."
+      },
+      {
+        "question": "Can the Turbo Air Ventilator withstand heavy Indian monsoons and cyclonic wind speeds?",
+        "answer": "Yes. Simpovent® Turbo Air Ventilators use precision rain-deflector vane geometry that blocks rainwater ingress even during heavy monsoon downpours, and they are aerodynamically balanced and structurally tested to withstand wind speeds up to 140 km/h when anchored properly with our custom FRP base plates."
       }
     ]
   },
