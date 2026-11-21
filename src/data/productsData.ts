@@ -320,46 +320,47 @@ export const productsData: ProductItem[] = [
     "slug": "power-ventilator",
     "legacySlug": "power-ventilator.php",
     "name": "Power Ventilator",
-    "h1Title": "Power Ventilator Manufacturer & Industrial Forced Air Systems",
+    "h1Title": "Power Ventilator Manufacturer & Supplier in India",
     "metaTitle": "Power Ventilator Manufacturer in India | Simpovent®",
-    "metaDescription": "Simpovent® Power Ventilator for heavy industrial roof air exhaust. High-CFM electric powered extraction system for steel mills, foundries, and factory sheds.",
+    "metaDescription": "Simpovent® Power Ventilator — leading manufacturer in India. 32\" electric roof exhaust (10,000 CFM) with 1.5 HP IP55 copper motor. Direct factory dispatch.",
     "focusKeywords": [
       "power ventilator",
+      "power ventilator manufacturer",
+      "power ventilator manufacturer in india",
+      "industrial power ventilator",
+      "powered roof ventilator",
       "powar ventilator",
       "force ventilator",
       "motorized roof ventilator",
-      "motorised ventilator",
       "roof mount exhaust fan",
       "roof exhaust fan",
       "roof extractor fan",
-      "industrial exhaust fan",
-      "big exhaust fan",
       "smoke extraction"
     ],
     "category": "motorized-hybrid",
     "categoryLabel": "Powered Roof Ventilator",
-    "shortDescription": "High-capacity powered industrial roof ventilator engineered for forced evacuation of industrial thermal plumes, corrosive fumes, and stagnant factory air.",
+    "shortDescription": "Heavy-duty 32-inch electric power ventilator delivering 10,000 CFM forced roof extraction with a 1.5 HP IP55 copper motor for rapid evacuation of factory heat, smoke, and corrosive fumes.",
     "fullDescription": [
-      "The SIMPOVENT® Power Ventilator is an industrial-grade, electric-driven roof exhaust unit designed for manufacturing facilities requiring guaranteed, continuous high-volume air displacement through the roof deck.",
-      "The SIMPOVENT® power ventilator provides heavy-duty forced roof extraction delivering 10,000 CFM to rapidly purge dense welding fumes, corrosive chemical vapours, and trapped heat plumes from industrial sheds. Directly manufactured by Shreeji Sales Corporation in Vasai with precision dynamic balancing, it mounts seamlessly onto PEB metal roofs via custom-engineered FRP base plates.",
-      "Equipped with a high-torque continuous-duty motor and aerodynamically balanced impeller blades, the Power Ventilator establishes positive vertical airflow, forcefully evacuating process heat, airborne dust, and oppressive industrial fumes before they disperse across the shop floor.",
-      "Housed inside a rugged, corrosion-resistant weatherproof cowl with integrated backdraft prevention, the Power Ventilator delivers uncompromising 24/7 reliability in steel mills, chemical plants, and heavy fabrication workshops."
+      "A Power Ventilator is an electric-driven industrial roof exhaust unit built for factories and process sheds that require guaranteed, continuous high-volume air extraction—even on still, zero-wind days or inside extreme heat zones. As an ISO 9001:2015 certified power ventilator manufacturer in India since 2005, Shreeji Sales Corporation engineers the Simpovent® Power Ventilator to purge intense process heat, dense welding smoke, and chemical fumes straight through the roof deck.",
+      "Our flagship 32-inch (810 mm) power ventilator delivers a steady 10,000 CFM of forced vertical airflow, powered by a continuous-duty 1.5 HP Class F insulated IP55 TEFC copper-wound motor (available in 415V 3-phase and 230V single-phase). Precision dynamic balancing of the high-pitch aerofoil impeller eliminates structural vibration and keeps operating noise below 65 dB(A), helping plant managers maintain target Air Changes per Hour (ACH) and Factory Act ventilation compliance.",
+      "Built for tough Indian industrial climates, the Simpovent® power ventilator is enclosed inside a weatherproof, UV-stabilized FRP cowl with corrosion-resistant hardware that stands up to acidic vapors, coastal humidity, and heavy monsoons. Each unit is supplied with a custom-moulded heavy-duty FRP base plate matched to your exact PEB, GI, color-coated, or asbestos roof slope for a vertical, 100% leakproof installation without weakening roof purlins.",
+      "Every unit is assembled and dynamically spin-tested at our Vasai, Maharashtra manufacturing facility before dispatch. Ordering directly from an established Indian power ventilator manufacturer gives steel mills, foundries, chemical plants, commercial kitchens, and MEP contractors direct factory pricing, reliable technical sizing support, and fast pan-India delivery across Mumbai, Pune, Ahmedabad, Surat, Delhi NCR, Chennai, Hyderabad, Bengaluru, and nationwide."
     ],
     "keyFeatures": [
-      "High-Volume Powered Air Extraction Engine for Large Industrial Sheds",
-      "Aerodynamic Weatherhood Cowl with Integrated Rain Deflection Lip",
-      "Heavy-Duty Class F TEFC Copper-Wound Industrial Motor",
-      "Corrosion-Proof Aluminium & SS 304 Hardware Construction",
-      "Precision Dynamically Balanced Impeller for Smooth, Low-Acoustic Operation",
-      "Direct Roof Mounting via Custom FRP Base Plate"
+      "Guaranteed 10,000 CFM Forced Roof Air Extraction (32\" / 810 MM Throat)",
+      "Heavy-Duty 1.5 HP Class F IP55 TEFC 100% Copper-Wound Motor",
+      "Weatherproof UV-Stabilized FRP Cowl with Rain Deflection Design",
+      "Precision Dynamically Balanced Aerofoil Impeller (< 65 dB(A) Noise)",
+      "Corrosion-Resistant Construction for Chemical, Coastal & Acidic Sheds",
+      "Custom-Moulded Leakproof FRP Base Plate for Inclined PEB & Metal Roofs"
     ],
     "efficiencyHighlights": [
-      "Guarantees designated air changes per hour (ACH) to meet industrial safety and environmental standards",
-      "Swiftly purges explosive dust, welding fumes, and paint overspray",
-      "Maintains optimal working ambient temperatures for machine operators and sensitive equipment",
-      "Prevents structural heat entrapment under wide-span metal roof decks"
+      "Guarantees fixed Air Changes per Hour (ACH) even on zero-wind days",
+      "Rapidly purges dense welding fumes, explosive dust, and paint overspray",
+      "Prevents structural heat buildup under wide-span PEB and metal roof decks",
+      "Continuous 24/7 industrial duty cycle with low noise and minimal maintenance"
     ],
-    "workingTheory": "An industrial electric motor drives a high-pitch aerofoil impeller inside the cowl, creating substantial upward pressure differential. Hot thermal plumes, heavy smoke, and trapped factory air are suctioned upward from floor level and forcefully ejected into the atmosphere.",
+    "workingTheory": "Inside the weatherproof FRP cowl, a 1.5 HP continuous-duty IP55 electric motor drives a dynamically balanced, high-pitch aerofoil impeller to create a strong upward pressure differential. Rising thermal plumes, heavy smoke, and stale shop-floor air are forcefully suctioned upward through the 32-inch roof throat and discharged out into the open atmosphere.",
     "applications": [
       "Steel Fabrication & Heavy Engineering Plants",
       "Chemical Processing & Bulk Storage Sheds",
@@ -371,12 +372,17 @@ export const productsData: ProductItem[] = [
     "specs": {
       "throatDia": "32\" Inch (810 MM)",
       "outerDia": "32\" Inch (810 MM)",
-      "motorType": "1.5 HP High-Torque IP55 Industrial Motor",
-      "bladeMoc": "Fibre",
-      "topCoverMoc": "Fibre",
-      "basePlateMoc": "Heavy-Duty FRP Matching Base Plate (FRP only)",
-      "airflowCfm": "10,000 CFM",
-      "powerConsumption": "1.5 HP (415V 3-Phase / 230V Single Phase)"
+      "motorType": "1.5 HP High-Torque Class F IP55 TEFC Copper-Wound Motor",
+      "bladeMoc": "Heavy-Duty FRP (Fibre Reinforced Plastic) Aerofoil Blades",
+      "bladeCount": "High-Pitch Dynamically Balanced Aerofoil Impeller",
+      "topCoverMoc": "Weatherproof UV-Stabilized FRP Cowl",
+      "basePlateMoc": "Heavy-Duty FRP Matching Base Plate (Custom Roof Profile)",
+      "airflowCfm": "10,000 CFM (Guaranteed Forced Exhaust)",
+      "powerConsumption": "1.5 HP (1.1 kW)",
+      "voltageRating": "415V 3-Phase / 230V Single-Phase (50 Hz)",
+      "protectionGrade": "IP55 Ingress Protection & Class F Thermal Insulation",
+      "noiseLevel": "< 65 dB(A) at Full Speed (OSHA Compliant)",
+      "coverageArea": "Up to 2,000 – 3,000 Sq. Ft. per unit (Depending on ACH & heat load)"
     },
     "image": "/images/products/power-ventilator-new.jpeg",
     "galleryImages": [
@@ -386,12 +392,24 @@ export const productsData: ProductItem[] = [
     ],
     "faqs": [
       {
-        "question": "Can this unit be mounted on inclined metal roofs?",
-        "answer": "Yes, our custom-engineered FRP base plates are moulded to the exact pitch and profile of your PEB or asbestos roof, ensuring a vertical installation with zero leakages."
+        "question": "What is a Power Ventilator and when should a factory choose it over a wind-driven turbo ventilator?",
+        "answer": "A Power Ventilator is a motorized roof exhaust system that delivers a guaranteed 10,000 CFM regardless of outdoor wind speed. Factories should choose a Power Ventilator when dealing with intense process heat, dense welding smoke, chemical vapors, or enclosed bays where fixed Air Changes per Hour (ACH) must be maintained 24/7 even on calm, zero-wind days."
       },
       {
-        "question": "What is the noise level during full-speed operation?",
-        "answer": "Precision dynamic balancing and aerodynamically contoured impeller blades maintain operating noise levels below 65 dBA, ensuring full compliance with OSHA industrial standards."
+        "question": "Can this Power Ventilator be mounted on inclined metal or PEB roofs without leakage?",
+        "answer": "Yes. Our custom-engineered, UV-stabilized FRP base plates are moulded to match the exact pitch and sheet profile of your GI, color-coated, PEB, or asbestos roof—ensuring a perfectly vertical installation with 100% leakproof monsoon protection."
+      },
+      {
+        "question": "What is the noise level and electrical power requirement during full-speed operation?",
+        "answer": "Precision dynamic balancing and aerodynamically contoured impeller blades keep operating noise below 65 dB(A), meeting industrial workplace standards. The unit runs on a 1.5 HP (1.1 kW) Class F IP55 copper-wound motor available in both 415V 3-phase and 230V single-phase options."
+      },
+      {
+        "question": "How many Power Ventilators are needed for a factory shed, foundry, or chemical plant?",
+        "answer": "One 32-inch Simpovent® Power Ventilator exhausts 10,000 CFM and typically serves 2,000 to 3,000 sq. ft. depending on ceiling height and required Air Changes per Hour (ACH). You can use our free CFM Calculator on this page or share your shed dimensions and process heat load with our engineers for an exact layout plan."
+      },
+      {
+        "question": "Why choose Shreeji Sales Corporation (Simpovent®) as your Power Ventilator manufacturer in India?",
+        "answer": "Established in 2005 and ISO 9001:2015 certified, Shreeji Sales Corporation manufactures and dynamically spin-tests every Simpovent® Power Ventilator in-house at our Vasai, Maharashtra facility. Buying directly from the manufacturer guarantees genuine IP55 copper-wound motors, custom-matched FRP base plates, factory-direct pricing, and fast pan-India dispatch."
       }
     ]
   },
