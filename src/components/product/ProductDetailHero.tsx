@@ -100,7 +100,8 @@ export const ProductDetailHero: React.FC<ProductDetailHeroProps> = ({ product })
               <div className="rounded-2xl overflow-hidden shadow-2xl border border-white/20 mb-4">
                 <WatermarkedImage
                   src={product.image}
-                  alt={product.name}
+                  alt={`${product.name} - ${product.h1Title} | Simpovent®`}
+                  title={`${product.name} by Simpovent® (Shreeji Sales Corporation)`}
                   aspectRatio="aspect-[4/3]"
                   watermarkText="SIMPOVENT® • ISO 9001:2015"
                   watermarkPosition="bottom-right"

@@ -1424,54 +1424,66 @@ export const productsData: ProductItem[] = [
     "slug": "turbine-ventilator",
     "legacySlug": "turbine-ventilator.php",
     "name": "Turbine Ventilator",
-    "h1Title": "Industrial Turbine Ventilator Manufacturer in India | Simpovent®",
-    "metaTitle": "Turbine Ventilator Manufacturer & Supplier | Simpovent®",
-    "metaDescription": "Simpovent® Turbine Ventilators provide continuous silent exhaust for industrial sheds without electricity. ISO 9001:2015 certified.",
+    "h1Title": "Turbine Ventilator Manufacturer & Supplier in India",
+    "metaTitle": "Turbine Ventilator Manufacturer in India | Simpovent®",
+    "metaDescription": "Simpovent® Turbine Ventilator — leading manufacturer in India. Zero-power 24\" roof turbines (2,500 CFM), Hindalco Aluminium & SS 304 build, 10-year warranty.",
     "focusKeywords": [
-      "Turbine Ventilator",
+      "turbine ventilator",
+      "turbine ventilator manufacturer",
+      "turbine ventilator manufacturer in india",
       "industrial turbine ventilator",
       "roof turbine ventilator",
       "wind turbine ventilator",
-      "turbo ventilator"
+      "air turbine ventilator",
+      "turbo ventilator",
+      "roof ventilator"
     ],
     "category": "wind-driven",
     "categoryLabel": "Wind-Driven Natural Ventilator",
-    "shortDescription": "Precision-balanced rotating turbine ventilator for continuous, noiseless industrial factory ventilation.",
+    "shortDescription": "Precision-balanced zero-electricity turbine ventilator with 42 Hindalco Aluminium vanes and SS 304 hardware for silent, 24/7 industrial heat, humidity, and fume extraction.",
     "fullDescription": [
-      "The Simpovent® Turbine Ventilator features a precision-formed aerodynamic rotor cage that spins smoothly under the slightest breeze.",
-      "This industrial turbine ventilator converts ambient breeze into centrifugal exhaust suction, continuously drawing stale factory air upward and exhausting it horizontally away from the roofline. Built with anti-corrosive Hindalco aluminium and high-temperature synthetic grease bearings, it resists acid vapors and coastal humidity across heavy manufacturing hubs.",
-      "Manufactured with 42 Hindalco Aluminium vanes, SS 304 top cowl, and dual sealed deep-groove ball bearings, it continuously evacuates heat and fumes.",
-      "Ideal for manufacturing facilities seeking to improve workplace ergonomics and air circulation with zero power consumption."
+      "A Turbine Ventilator is a rotating, wind-powered roof exhaust unit that uses natural breeze and rising heat to continuously draw hot, humid, and polluted air out of industrial buildings without using electricity. As an ISO 9001:2015 certified turbine ventilator manufacturer in India since 2005, Shreeji Sales Corporation engineers the Simpovent® Turbine Ventilator with a precision-formed aerodynamic rotor cage that spins effortlessly even in gentle winds under 2 km/h.",
+      "Built for heavy-duty Indian manufacturing environments, each 24-inch Simpovent® turbine ventilator exhausts 2,000 to 2,500 CFM of trapped ceiling heat and discharges it horizontally away from the roofline. This continuous air exchange lowers indoor shed temperatures by 4°C to 8°C, clears stale fumes and airborne dust, and stops harmful moisture condensation from rusting structural roof purlins in steel, textile, plastic, and chemical units.",
+      "Every unit combines 42 aerodynamically curved Hindalco Aluminium Alloy 8011 vanes, a corrosion-resistant Stainless Steel SS 304 top cowl and central shaft, and dual HCH sealed deep-groove bearings packed with high-temperature synthetic grease. Custom-moulded UV-stabilized FRP base plates match GI, color-coated, PEB, and asbestos roof profiles for 100% leakproof monsoon protection, with zero wiring, zero noise, and a 10-year structural warranty.",
+      "Manufactured and dynamically spin-tested in-house at our Vasai, Maharashtra facility, Simpovent® turbine ventilators are supplied directly to factories, EPC contractors, and PEB builders across Mumbai, Pune, Ahmedabad, Surat, Delhi NCR, Chennai, Hyderabad, Bengaluru, and nationwide. Working directly with an established Indian turbine ventilator manufacturer ensures ready stock in 18\", 21\", and 24\" sizes, transparent factory pricing, and fast pan-India dispatch."
     ],
     "keyFeatures": [
-      "Zero Electricity Operation",
-      "42 Precision Formed Aluminium Vanes",
-      "Dual Sealed High-Grade Deep Groove Bearings",
-      "Corrosion-Proof Aluminium & SS 304 Metallurgy",
-      "10-Year Structural Warranty"
+      "100% Zero-Electricity Operation — Continuous 24/7 Exhaust",
+      "42 Precision-Formed Hindalco Aluminium Alloy 8011 Vanes",
+      "Heavy-Gauge Stainless Steel SS 304 Top Cowl & Central Shaft",
+      "Dual HCH Sealed Bearings with High-Temperature Synthetic Grease",
+      "Stops Roof Purlin Condensation & Resists Acidic / Coastal Humidity",
+      "Custom UV-Stabilized FRP Base Plate with 10-Year Structural Warranty"
     ],
     "efficiencyHighlights": [
-      "Non-stop 24/7 silent ventilation",
-      "Reduces factory ambient temperature significantly",
-      "Eliminates humidity and condensation on structural purlins"
+      "Exhausts 2,000 to 2,500 CFM per 24\" unit at zero power cost",
+      "Reduces indoor factory and workshop temperature by 4°C to 8°C",
+      "Eliminates trapped humidity, smoke, and condensation on steel purlins",
+      "Silent (0 dB), vibration-free rotation with zero maintenance required"
     ],
-    "workingTheory": "Natural wind and thermal buoyancy turn the turbine vanes, generating centrifugal suction that extracts hot air through the roof neck.",
+    "workingTheory": "Natural outdoor wind and indoor thermal buoyancy work together to spin the 42 curved vanes of the turbine ventilator on frictionless sealed bearings. As the rotor accelerates, centrifugal force throws air outward horizontally away from the roofline—creating strong negative suction at the throat that continuously pulls hot air, steam, and fumes upward and out of the building.",
     "applications": [
       "Steel & Metal Fabrication Mills",
-      "Textile & Weaving Sheds",
-      "Plastic & Rubber Processing Units",
-      "Automobile Workshops",
-      "Commercial Storage Godowns"
+      "Textile, Spinning & Weaving Sheds",
+      "Plastic, Polymer & Rubber Processing Units",
+      "Automobile Assembly & Service Workshops",
+      "Chemical, Paint & Corrosive Process Plants",
+      "PEB Warehouses & Commercial Storage Godowns"
     ],
     "specs": {
-      "throatDia": "24\" Inch (610 MM)",
+      "throatDia": "24\" Inch (610 MM) — Also available in 18\" & 21\"",
       "outerDia": "30\" Inch (760 MM)",
-      "bladeMoc": "Hindalco Aluminium 8011",
-      "topCoverMoc": "Stainless Steel SS 304",
-      "bearingMake": "HCH Precision Sealed Bearing",
-      "basePlateMoc": "FRP Matching Sheet",
-      "airflowCfm": "2,000 to 2,500 CFM",
-      "powerConsumption": "0 Watts"
+      "topCoverMoc": "Stainless Steel SS 304 (Corrosion-Proof)",
+      "bladeMoc": "Hindalco Aluminium Alloy 8011 (Optional Full SS 304)",
+      "bladeCount": "42 Precision-Formed Aerodynamic Vanes",
+      "shaftMoc": "Stainless Steel SS 304",
+      "bearingMake": "Dual HCH Precision Sealed Deep-Groove Bearings",
+      "bearingSize": "6002ZZ / 6202ZZ Sealed Maintenance-Free",
+      "basePlateMoc": "UV-Stabilized Leakproof FRP Matching Sheet",
+      "airflowCfm": "2,000 to 2,500 CFM per unit",
+      "coverageArea": "250 to 350 Sq. Ft. per 24\" unit (Depending on height & heat load)",
+      "noiseLevel": "0 dB (Completely Silent Rotation)",
+      "powerConsumption": "0 Watts (100% Wind & Thermal Buoyancy Driven)"
     },
     "image": "/images/products/turbo-ventilator-new.jpeg",
     "galleryImages": [
@@ -1481,8 +1493,24 @@ export const productsData: ProductItem[] = [
     ],
     "faqs": [
       {
-        "question": "How do turbine ventilators handle high humidity and rain?",
-        "answer": "The curved vane geometry spins raindrops outward via centrifugal force, while the sealed bearings are protected by internal and external seals against humidity."
+        "question": "What is a Turbine Ventilator and how does it work without electricity?",
+        "answer": "A Turbine Ventilator is a wind-driven roof exhaust turbine installed on factories, workshops, and warehouses. Even a light breeze under 2 km/h spins its 42 curved aerodynamic vanes on sealed bearings, generating centrifugal suction that continuously pulls rising hot air, humidity, and fumes out through the roof—operating 24/7 with 0 Watts of electricity."
+      },
+      {
+        "question": "How do Turbine Ventilators handle high humidity, condensation, and heavy Indian monsoons?",
+        "answer": "The overlapping curved vane geometry uses centrifugal force to fling raindrops outward away from the throat during heavy rain, while custom-moulded UV-stabilized FRP base plates seal tightly to your roof sheet profile. Dual HCH sealed bearings with high-temperature synthetic grease resist coastal humidity, acid vapors, and condensation."
+      },
+      {
+        "question": "How many 24-inch Turbine Ventilators are needed for a factory shed or workshop?",
+        "answer": "As a general rule, one 24-inch Simpovent® Turbine Ventilator exhausts 2,000 to 2,500 CFM and covers 250 to 350 sq. ft. of floor area in standard sheds and godowns. High-heat zones such as metal fabrication, plastic moulding, or rubber processing units benefit from closer spacing—use our CFM Calculator on this page or share your shed dimensions for an exact count."
+      },
+      {
+        "question": "What sizes and materials (Aluminium vs SS 304) are available for Simpovent® Turbine Ventilators?",
+        "answer": "We manufacture Turbine Ventilators in 18-inch, 21-inch, and 24-inch throat diameters. Standard units combine lightweight Hindalco Aluminium Alloy 8011 vanes with an SS 304 top cowl and shaft for rapid low-wind rotation, while full SS 304 construction is available for highly corrosive chemical or coastal plants."
+      },
+      {
+        "question": "Why choose Shreeji Sales Corporation (Simpovent®) as your Turbine Ventilator manufacturer in India?",
+        "answer": "Established in 2005 and ISO 9001:2015 certified, Shreeji Sales Corporation manufactures and dynamically spin-tests every Simpovent® Turbine Ventilator at our Vasai, Maharashtra facility. Buying directly from the manufacturer gives you genuine Hindalco aluminium, SS 304 hardware, a 10-year structural warranty, direct factory pricing, and fast pan-India delivery."
       }
     ]
   },

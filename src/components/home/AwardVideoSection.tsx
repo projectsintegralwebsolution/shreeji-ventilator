@@ -48,6 +48,7 @@ export const AwardVideoSection: React.FC = () => {
               <img
                 src="/images/awards/harbhajan-singh-award.webp"
                 alt="Harbhajan Singh presenting Inspiring Leaders Award 2023 to Bharat Gurjar of Shreeji Sales Corporation Simpovent"
+                title="Inspiring Leaders Award 2023 — Shreeji Sales Corporation (Simpovent®)"
                 width={600}
                 height={240}
                 loading="lazy"
@@ -131,6 +132,7 @@ export const AwardVideoSection: React.FC = () => {
                     <img
                       src="https://i.ytimg.com/vi/abD5Itpu6hI/hqdefault.jpg"
                       alt="Simpovent Wind Ventilator Rooftop Demonstration Video Thumbnail"
+                      title="Simpovent® Industrial Roof Ventilator Demonstration Video"
                       width={640}
                       height={360}
                       className="w-full h-full object-cover opacity-85 group-hover:opacity-95 transition-opacity"

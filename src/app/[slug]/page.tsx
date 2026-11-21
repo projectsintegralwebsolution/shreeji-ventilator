@@ -116,7 +116,8 @@ export default async function KeywordProductPage({ params }: PageProps) {
                     <div key={idx} className="rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
                       <WatermarkedImage
                         src={img}
-                        alt={`${product.name} - View ${idx + 1}`}
+                        alt={`${product.name} Industrial Roof Installation - View ${idx + 1} | Simpovent®`}
+                        title={`${product.name} - Factory & Site Installation Photo ${idx + 1} | Simpovent®`}
                         aspectRatio="aspect-[4/3]"
                         watermarkText="SIMPOVENT®"
                         watermarkPosition="bottom-right"

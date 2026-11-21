@@ -64,7 +64,8 @@ export const Footer: React.FC = () => {
           <Link href="/" className="inline-block bg-white p-2.5 rounded-2xl shadow-md" aria-label="Simpovent Home">
             <img
               src="/images/logo.webp"
-              alt="Simpovent Logo"
+              alt="Simpovent Logo - Shreeji Sales Corporation"
+              title="Simpovent® - Shreeji Sales Corporation"
               width={160}
               height={40}
               loading="lazy"

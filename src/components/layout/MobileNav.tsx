@@ -51,7 +51,8 @@ export const MobileNav: React.FC<MobileNavProps> = ({ isOpen, onClose }) => {
           <Link href="/" onClick={onClose} className="block">
             <img
               src="/images/logo.png"
-              alt="Simpovent Logo"
+              alt="Simpovent Logo - Shreeji Sales Corporation"
+              title="Simpovent® - Shreeji Sales Corporation"
               className="h-10 w-auto object-contain"
             />
           </Link>

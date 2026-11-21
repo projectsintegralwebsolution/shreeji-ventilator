@@ -128,6 +128,7 @@ export const HeroSlider: React.FC = () => {
               <img
                 src={slide.bgImage}
                 alt={slide.title}
+                title={`${slide.title} | Simpovent®`}
                 width={1920}
                 height={800}
                 className="w-full h-full object-cover object-center"

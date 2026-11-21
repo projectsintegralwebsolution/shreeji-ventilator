@@ -153,6 +153,7 @@ export default function EventsPage() {
                     <img
                       src={evt.image}
                       alt={evt.title}
+                      title={`${evt.title} | Simpovent®`}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     />
                     <div className="absolute top-3 left-3">
@@ -233,6 +234,7 @@ export default function EventsPage() {
                   <img
                     src={img.src}
                     alt={img.caption}
+                    title={`${img.caption} | Simpovent®`}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                     loading="lazy"
                   />

@@ -88,6 +88,7 @@ export const Header: React.FC = () => {
               <img
                 src="/images/logo.webp"
                 alt="Simpovent - Shreeji Sales Corporation"
+                title="Simpovent® - Shreeji Sales Corporation | Industrial Ventilator Manufacturer India"
                 width={220}
                 height={56}
                 decoding="async"

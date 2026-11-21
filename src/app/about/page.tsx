@@ -185,6 +185,7 @@ export default function AboutPage() {
                     <img
                       src={item.image}
                       alt={item.title}
+                      title={`${item.title} | Simpovent®`}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     />
                     <div className="absolute top-3 left-3">

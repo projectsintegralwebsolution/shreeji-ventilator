@@ -4,6 +4,7 @@ import { ShieldCheck, Wind } from 'lucide-react';
 interface WatermarkedImageProps {
   src?: string;
   alt: string;
+  title?: string;
   className?: string;
   aspectRatio?: string;
   priority?: boolean;
@@ -14,6 +15,7 @@ interface WatermarkedImageProps {
 export const WatermarkedImage: React.FC<WatermarkedImageProps> = ({
   src,
   alt,
+  title,
   className = "w-full h-full object-cover",
   aspectRatio = "aspect-[4/3]",
   priority = false,
@@ -69,6 +71,7 @@ export const WatermarkedImage: React.FC<WatermarkedImageProps> = ({
       <img
         src={src}
         alt={alt}
+        title={title || alt}
         className={`w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105 ${className}`}
         loading={priority ? 'eager' : 'lazy'}
         decoding="async"

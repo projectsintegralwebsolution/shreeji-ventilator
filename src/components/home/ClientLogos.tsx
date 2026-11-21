@@ -34,7 +34,8 @@ export const ClientLogos: React.FC = () => {
             >
               <img
                 src={client.src}
-                alt={`Industrial Client Partner ${idx + 1}`}
+                alt={`Simpovent Industrial Ventilation Client Partner ${idx + 1}`}
+                title={`Simpovent® Trusted Industrial Client Partner ${idx + 1}`}
                 width={140}
                 height={48}
                 loading="lazy"
