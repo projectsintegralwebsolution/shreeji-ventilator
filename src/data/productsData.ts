@@ -830,46 +830,45 @@ export const productsData: ProductItem[] = [
     "slug": "turbo-ventilator",
     "legacySlug": "turbo-ventilator.php",
     "name": "Turbo Ventilator",
-    "h1Title": "Industrial Turbo Ventilator Manufacturer & Supplier in India",
-    "metaTitle": "Turbo Ventilator Manufacturer in Vasai, Mumbai, Pune, India | Simpovent®",
-    "metaDescription": "Simpovent® is a premier Turbo Ventilator manufacturer in Vasai, Mumbai, Pune, Maharashtra, Gujarat, Rajasthan & India. Zero power, noiseless, ISO 9001:2015 certified.",
+    "h1Title": "Turbo Ventilator Manufacturer & Supplier in India",
+    "metaTitle": "Turbo Ventilator Manufacturer in India | Simpovent®",
+    "metaDescription": "Simpovent® Turbo Ventilator — leading manufacturer in India. Zero-power 24\" roof vents (2,500 CFM), 42 Hindalco blades, 10-year warranty & fast dispatch.",
     "focusKeywords": [
-      "Turbo Ventilator",
+      "turbo ventilator",
+      "turbo ventilator manufacturer",
+      "turbo ventilator manufacturer in india",
+      "industrial turbo ventilator",
+      "roof turbo ventilator",
       "turbo air ventilator",
       "turbo vents",
-      "roof ventilator",
-      "Turbo Ventilator manufacturer",
-      "Turbo Ventilator in Mumbai",
-      "Turbo Ventilator Pune",
-      "Turbo Ventilator Vasai",
-      "Industrial Turbo Ventilator India",
-      "wind driven ventilator",
-      "roof air ventilator"
+      "turbo ventilator price in india",
+      "wind driven turbo ventilator",
+      "roof ventilator"
     ],
     "category": "wind-driven",
     "categoryLabel": "Wind-Driven Natural Ventilator",
-    "shortDescription": "High-performance wind-driven roof turbo ventilator engineered with 42 Hindalco aluminium curved vanes and dual sealed bearings for 24/7 continuous silent ventilation.",
+    "shortDescription": "Zero-electricity 24-inch industrial turbo ventilator with 42 Hindalco 8011 aluminium vanes, SS 304 top cowl, and dual HCH 6001 ZZ sealed bearings for silent 24/7 factory heat extraction.",
     "fullDescription": [
-      "Simpovent® (manufactured by Shreeji Sales Corporation) is a pioneer in developing high-efficiency Turbo Ventilators designed for severe industrial factory sheds, commercial warehouses, and manufacturing plants across India.",
-      "As India's leading ISO 9001:2015 certified turbo ventilator manufacturer, our 24-inch model features 42 aerodynamically curved Hindalco 8011 aluminium vanes and dual HCH precision sealed bearings. Operating with 0 Watts electricity and zero maintenance, each unit delivers 2,000 to 2,500 CFM natural exhaust and is backed by our 10-year structural warranty and same-day dispatch from Vasai.",
-      "The Turbo Ventilator operates completely without electricity, utilizing the natural velocity energy of ambient breeze and thermal convection to continuously exhaust accumulated process heat, smoke, humidity, and toxic fumes.",
-      "Manufactured using aerospace-grade Hindalco Aluminium 8011 vanes, heavy-gauge Stainless Steel SS 304 top covers, and precision dual HCH 6001 ZZ deep-groove sealed ball bearings, the Simpovent® Turbo Ventilator guarantees zero maintenance, total rain resistance, and maximum exhaust efficiency for over a decade."
+      "A Turbo Ventilator is a wind-driven, zero-electricity roof exhaust system engineered to pull trapped heat, humidity, smoke, and stale fumes out of industrial sheds and warehouses around the clock. As an ISO 9001:2015 certified turbo ventilator manufacturer in India since 2005, Shreeji Sales Corporation builds the Simpovent® Turbo Ventilator to deliver dependable, noiseless natural ventilation across demanding Indian factory floors without adding a rupee to your power bills.",
+      "Our flagship 24-inch turbo ventilator moves 2,000 to 2,500 CFM of hot ceiling air—helping drop indoor shed temperatures by 4°C to 8°C while protecting stored inventory from moisture condensation. Engineered with 42 precision-formed Hindalco Aluminium Alloy 8011 blades (505 mm long, 0.5 mm thick) mounted on a 12.7 mm machined central shaft and dual HCH 6001 ZZ deep-groove sealed bearings, the rotor starts spinning smoothly in light breezes under 2 km/h and keeps drawing air through brief wind lulls using stored flywheel momentum.",
+      "Built for tough Indian summers, heavy monsoons, and corrosive chemical environments, every Simpovent® turbo ventilator combines a heavy-gauge Stainless Steel SS 304 top cowl and bottom ring with custom UV-stabilized FRP or Polycarbonate base plates (2.0M x 1.0M) matched to GI, color-coated, PEB, or asbestos roofs. Reverse-curved rain-deflector vane lips fling rainwater outward for 100% leakproof performance, and every unit is backed by a 10-year structural warranty with zero routine maintenance.",
+      "Manufactured and dynamically spin-tested at our Vasai, Maharashtra facility, Simpovent® turbo ventilators are trusted across boiler rooms, foundries, DG sheds, textile mills, and logistics warehouses throughout Mumbai, Pune, Gujarat, Rajasthan, Delhi NCR, Chennai, Hyderabad, Bengaluru, and pan-India. Buying directly from an established Indian turbo ventilator manufacturer guarantees genuine raw materials, ready stock for same-day dispatch, and factory-direct pricing."
     ],
     "keyFeatures": [
       "Zero Electricity & Zero Operating Costs (100% Wind & Thermal Driven)",
-      "Aerodynamic 42-blade rotor cage for smooth spin even in light breeze (< 2 km/h)",
-      "Hindalco 8011 Grade High-Tensile Aluminium construction",
-      "Dual HCH 6001 ZZ sealed deep-groove ball bearings with high-temp grease",
-      "Heavy-duty SS 304 top cowl and bottom ring for extreme corrosion resistance",
-      "100% Weatherproof & Leakproof FRP / Polycarbonate base plate matching"
+      "Aerodynamic 42-Blade Rotor Cage — Spins Smoothly in Light Breeze (< 2 km/h)",
+      "Virgin Hindalco 8011 High-Tensile Aluminium Construction (0.5 MM Blades)",
+      "Dual HCH 6001 ZZ Sealed Deep-Groove Bearings with High-Temp Grease",
+      "Heavy-Gauge SS 304 Top Cowl & Bottom Ring for Corrosion Resistance",
+      "100% Monsoon-Proof FRP / Polycarbonate Base Plate & 10-Year Warranty"
     ],
     "efficiencyHighlights": [
-      "Ant-acid, anti-corrosive, and anti-erosion construction for chemical sheds",
-      "Zero acoustic noise and zero carbon footprint",
-      "Dramatically lowers shed temperature by 4°C to 8°C",
-      "Accelerates worker productivity and prevents moisture condensation on stored goods"
+      "Exhausts 2,000 to 2,500 CFM per 24\" unit at zero electrical cost",
+      "Anti-acid, anti-corrosive, and anti-erosion build for chemical & coastal sheds",
+      "Lowers indoor factory and warehouse temperature by 4°C to 8°C",
+      "Zero acoustic noise (0 dB), zero carbon footprint, and prevents roof condensation"
     ],
-    "workingTheory": "The Turbo Ventilator operates by converting wind energy into centrifugal force. Spinning aerodynamic vanes create a continuous low-pressure zone at the throat, drawing hot, buoyant air and fumes upwards through the roof. Stored flywheel kinetic energy ensures non-stop air extraction even during intermittent wind lulls.",
+    "workingTheory": "A turbo ventilator converts natural outdoor wind energy into centrifugal exhaust force. As ambient breeze turns the 42 curved aerodynamic blades on frictionless dual HCH 6001 ZZ bearings, air is flung outward from the vane tips—creating a continuous low-pressure zone at the 24-inch throat that pulls hot, buoyant indoor air and fumes upward through the roof. Stored flywheel kinetic energy keeps the rotor spinning smoothly even during brief wind lulls.",
     "applications": [
       "Boiler & Furnace Rooms",
       "Foundries & Forging Plants",
@@ -881,7 +880,7 @@ export const productsData: ProductItem[] = [
       "Paper, Textile, Sugar & Plastic Mills"
     ],
     "specs": {
-      "throatDia": "24\" Inch (610 MM)",
+      "throatDia": "24\" Inch (610 MM) — Also available in 18\" & 21\"",
       "outerDia": "30\" Inch (760 MM)",
       "topCoverSize": "510 MM",
       "topCoverThickness": "5 MM (Stainless Steel SS 304)",
@@ -906,6 +905,8 @@ export const productsData: ProductItem[] = [
       "bladeMoc": "Hindalco Aluminium Alloy 8011 / SS 304",
       "bladeCount": "42 Specially Curved Blades",
       "airflowCfm": "2,000 to 2,500 CFM (at 5-15 km/h wind speed)",
+      "coverageArea": "250 to 350 Sq. Ft. per 24\" unit (Depending on roof height & heat load)",
+      "noiseLevel": "0 dB (Completely Silent Operation)",
       "powerConsumption": "0 Watts (100% Free Natural Power)"
     },
     "image": "/images/products/turbo-ventilator-new.jpeg",
@@ -916,16 +917,24 @@ export const productsData: ProductItem[] = [
     ],
     "faqs": [
       {
-        "question": "How does Simpovent® Turbo Ventilator work without electricity?",
-        "answer": "Simpovent® Turbo Ventilators work on two physical principles: natural wind velocity turning the aerodynamic rotor cage to create centrifugal exhaust force, and the thermal siphon effect where lighter hot air and fumes naturally rise to the ceiling throat and get drawn out."
+        "question": "How does a Simpovent® Turbo Ventilator work without electricity?",
+        "answer": "Simpovent® Turbo Ventilators work on two natural principles: ambient wind velocity spins the 42-blade aerodynamic rotor cage to create centrifugal exhaust suction, and the thermal siphon effect causes hot air and fumes to rise to the roof throat where they are continuously drawn out—operating 24/7 with 0 Watts of electricity."
+      },
+      {
+        "question": "How many 24-inch Turbo Ventilators are required for a factory shed or warehouse?",
+        "answer": "One 24-inch Simpovent® Turbo Ventilator exhausts 2,000 to 2,500 CFM and effectively covers 250 to 350 sq. ft. of floor space in standard warehouses and industrial sheds. High-heat zones like boiler rooms, foundries, or DG sheds require closer spacing—use our CFM Calculator on this page or share your shed dimensions for an exact unit count."
       },
       {
         "question": "Can rainwater enter through the spinning vanes during heavy monsoons?",
-        "answer": "No. The 42 vanes are formed with precision reverse-curved water deflector lips. Centrifugal rotation forces any incoming droplets outward away from the throat, making it 100% leakproof even in heavy monsoon rains."
+        "answer": "No. The 42 vanes are formed with precision reverse-curved water deflector lips. Centrifugal rotation forces any incoming droplets outward away from the throat, and our custom-moulded FRP/Polycarbonate base plates seal tightly to your roof sheet for 100% leakproof monsoon protection."
       },
       {
         "question": "What maintenance is required for Simpovent® Turbo Ventilators?",
-        "answer": "Zero maintenance. Our dual sealed HCH deep-groove bearings are permanently lubricated with high-temperature synthetic grease and sealed against dust and moisture."
+        "answer": "Zero routine maintenance is required. Our dual sealed HCH 6001 ZZ deep-groove bearings are permanently lubricated with high-temperature synthetic grease and sealed against industrial dust, fumes, and moisture."
+      },
+      {
+        "question": "Why choose Shreeji Sales Corporation (Simpovent®) as your Turbo Ventilator manufacturer in India?",
+        "answer": "Established in 2005 and ISO 9001:2015 certified, Shreeji Sales Corporation manufactures and dynamically spin-tests every Simpovent® Turbo Ventilator in-house at our Vasai, Maharashtra facility using virgin Hindalco 8011 aluminium and SS 304 hardware. Buying directly from the manufacturer gives you a 10-year structural warranty, factory-direct pricing, ready stock, and fast pan-India dispatch."
       }
     ]
   },
