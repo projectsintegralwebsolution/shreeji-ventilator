@@ -674,62 +674,68 @@ export const productsData: ProductItem[] = [
     "slug": "roof-extractor-fan",
     "legacySlug": "roof-extractor-fan.php",
     "name": "Roof Extractor Fan",
-    "h1Title": "Roof Extractor Fan Manufacturer - Industrial Powered Roof Extraction",
-    "metaTitle": "Roof Extractor Fan Manufacturer India | Simpovent®",
-    "metaDescription": "Simpovent® Roof Extractor Fan for heavy industrial roof exhaust. High-capacity roof mount exhaust fans for PEB buildings, metal sheds, and factories.",
+    "h1Title": "Roof Extractor Fan Manufacturer & Supplier in India",
+    "metaTitle": "Roof Extractor Fan Manufacturer in India | Simpovent®",
+    "metaDescription": "Simpovent® Roof Extractor Fan — leading manufacturer in India. High-CFM (25,000–53,000 CFM) industrial roof exhaust fans with IP55 copper motors & FRP bases.",
     "focusKeywords": [
       "roof extractor fan",
+      "roof extractor fan manufacturer",
+      "roof extractor fan manufacturer in india",
+      "industrial roof extractor fan",
       "roof extractor",
       "roof mount exhaust fan",
       "roof exhaust fan",
       "roof mounted exhaust fan",
       "roof mount big exhaust fan",
-      "industrial exhaust fan",
-      "heavy duty exhaust fan",
-      "big exhaust fan",
       "fume extractor",
       "smoke extraction"
     ],
     "category": "industrial-exhaust",
     "categoryLabel": "Industrial Roof Extractor Fan",
-    "shortDescription": "High-capacity roof-mounted industrial extractor fan designed for high-volume smoke evacuation, hot gas expulsion, and continuous roof-level ventilation.",
+    "shortDescription": "High-capacity 24\" to 54\" industrial roof extractor fan delivering 25,000–53,000 CFM forced roof-deck discharge for rapid smoke, heat blanket, and chemical fume evacuation.",
     "fullDescription": [
-      "The Simpovent® Roof Extractor Fan is designed for heavy industrial installations requiring vertical or horizontal high-velocity discharge directly through the factory roof.",
-      "This heavy-duty roof extractor fan provides vertical high-velocity discharge directly through factory roof decks, preventing hazardous heat blankets and chemical fume accumulation in PEB warehouses. Supplied with factory-matched UV-stabilized FRP base plates matching Tata Bluescope and JSW profiles, it delivers long-term vibration-free performance with zero maintenance.",
-      "Featuring a heavy-gauge weatherproof cowl, aerodynamic axial/centrifugal impeller, and a Class F insulated copper motor, it efficiently eliminates high-temperature plumes before they spread across the workplace.",
-      "Supplied with factory-matched UV-stabilized FRP base plates for zero-leakage integration with industrial corrugated sheet roofs."
+      "A Roof Extractor Fan is a heavy-duty, motorized roof-mounted exhaust unit engineered to capture rising heat blankets, dense smoke, and chemical fumes at the roof apex and discharge them vertically into the open atmosphere. As an ISO 9001:2015 certified roof extractor fan manufacturer in India since 2005, Shreeji Sales Corporation builds the Simpovent® Roof Extractor Fan for high-volume industrial sheds where passive ventilation alone cannot keep pace with intense process heat.",
+      "Available in throat diameters of 24\" (600 mm), 30\" (750 mm), 36\" (900 mm), 48\" (1200 mm), and 54\" (1380 mm), our roof extractor fans deliver massive volumetric airflow from 25,000 CFM up to 53,000 CFM. Powered by continuous-duty 0.75 kW to 3.7 kW Class F insulated IP55 100% copper-wound motors (415V 3-phase) driving dynamically balanced aerofoil impellers, each unit removes oppressive heat and hazardous gases before they recirculate down to the shop floor.",
+      "Designed for harsh Indian monsoons and corrosive industrial atmospheres, every unit features a deep weatherproof UV-stabilized FRP cowl with an internal rain-deflector lip, bird guard mesh, and automatic backdraft damper flaps. Each fan is supplied with a factory-matched UV-stabilized FRP base plate contoured to Tata Bluescope, JSW, GI, PEB, or asbestos roofing sheets—ensuring zero-leakage roof integration without modifying structural purlins.",
+      "Manufactured, vibration-checked, and dynamically balanced at our Vasai, Maharashtra facility, Simpovent® roof extractor fans serve PEB warehouses, boiler houses, foundries, chemical plants, and automotive paint booths across India. Partnering directly with an established Indian roof extractor fan manufacturer gives plant engineers and MEP contractors transparent factory pricing, tailored CFM sizing, and fast dispatch across Mumbai, Pune, Ahmedabad, Surat, Delhi NCR, Chennai, Hyderabad, Bengaluru, and nationwide."
     ],
     "keyFeatures": [
-      "Direct High-Velocity Roof Air Extraction",
-      "Weatherproof FRP / Galvanized Heavy Cowl Housing",
-      "Dynamically Balanced High-CFM Impeller",
-      "Class F IP55 Copper Wound Continuous Duty Motor",
-      "Bird Guard Mesh & Backdraft Damper Flaps Included",
-      "Zero-Leakage Integration with FRP Base Plates"
+      "High-Velocity Vertical Roof Extraction (25,000 to 53,000 CFM)",
+      "Available in 24\", 30\", 36\", 48\", and 54\" Throat Diameters",
+      "Weatherproof UV-Stabilized FRP Cowl with Internal Rain Deflector Lip",
+      "Class F IP55 100% Copper-Wound Continuous-Duty Industrial Motor",
+      "Integrated Bird Guard Mesh & Backdraft Damper Flaps Included",
+      "Custom FRP Base Plates Matched to Tata Bluescope, JSW & PEB Roofs"
     ],
     "efficiencyHighlights": [
-      "Directly captures and discharges rising thermal updrafts at the roof crest",
-      "Prevents hazardous gas accumulation in PEB warehouse apex zones",
-      "Low maintenance with sealed self-lubricating bearings"
+      "Captures and discharges trapped thermal blankets directly at the roof crest",
+      "Prevents hazardous smoke and chemical gas buildup in PEB apex zones",
+      "Dynamically balanced aerofoil impeller for low-vibration 24/7 operation",
+      "Low-maintenance sealed bearings with weatherproof monsoon protection"
     ],
-    "workingTheory": "Hot buoyant air and process smoke naturally rise to the roof apex. The Roof Extractor Fan pulls this accumulated hot gas mass and forcefully ejects it into the atmosphere, creating a continuous convective cycle throughout the factory.",
+    "workingTheory": "Hot, buoyant air, process smoke, and fumes naturally rise and collect at the roof apex of an industrial building. The Roof Extractor Fan's IP55 motor spins a dynamically balanced aerofoil impeller inside the weatherproof roof cowl, pulling this trapped hot gas mass straight up through the roof throat and forcefully discharging it away from the roofline.",
     "applications": [
       "Industrial PEB Factory Sheds",
       "Boiler & Furnace Houses",
       "Foundries & Forging Shops",
-      "Chemical Processing Plants",
-      "Automotive Paint Booths",
-      "Warehouses & Logistics Centers"
+      "Chemical & Fertilizer Processing Plants",
+      "Automotive Paint Booths & Assembly Lines",
+      "Large Warehouses & Logistics Centers"
     ],
     "specs": {
       "throatDia": "24\" (600mm) / 30\" (750mm) / 36\" (900mm) / 48\" (1200mm) / 54\" (1380mm)",
       "outerDia": "34\" to 56\" (860mm to 1420mm)",
-      "motorType": "Class F IP55 Copper Motor",
-      "bladeMoc": "Fibre",
-      "topCoverMoc": "Fibre",
-      "basePlateMoc": "Custom FRP Profile Matching Sheet (FRP only)",
-      "airflowCfm": "25,000–53,000 CFM",
-      "powerConsumption": "0.75 kW to 3.7 kW (415V 3-Phase)"
+      "motorType": "Class F IP55 100% Copper-Wound TEFC Continuous-Duty Motor",
+      "bladeMoc": "Heavy-Duty FRP (Fibre Reinforced Plastic) Aerofoil Impeller",
+      "bladeCount": "4 to 6 Dynamically Balanced High-Pitch Aerofoil Blades",
+      "topCoverMoc": "Weatherproof UV-Stabilized Heavy-Duty FRP Cowl",
+      "basePlateMoc": "Custom UV-Stabilized FRP Profile Matching Sheet (Tata Bluescope / JSW / PEB)",
+      "airflowCfm": "25,000 to 53,000 CFM (High-Volume Roof Discharge)",
+      "powerConsumption": "0.75 kW to 3.7 kW (1.0 HP to 5.0 HP)",
+      "voltageRating": "415V 3-Phase / 230V Single-Phase (50 Hz)",
+      "protectionGrade": "IP55 Ingress Protection & Class F Insulation",
+      "noiseLevel": "< 65–70 dB(A) (Dynamically Balanced Operation)",
+      "coverageArea": "Up to 3,500 – 6,000 Sq. Ft. per unit (Depending on ACH & heat load)"
     },
     "image": "/images/products/roof-extractor-fan-new.jpg",
     "galleryImages": [
@@ -739,8 +745,24 @@ export const productsData: ProductItem[] = [
     ],
     "faqs": [
       {
-        "question": "How is the roof extractor fan protected against rain?",
-        "answer": "The deep aerodynamic cowl and internal water deflector lip completely shield the fan throat from rain and wind-driven water, even during severe monsoon downpours."
+        "question": "What is a Roof Extractor Fan and where is it used in industrial buildings?",
+        "answer": "A Roof Extractor Fan is a high-volume electric exhaust fan mounted directly on a factory or warehouse roof to pull out trapped ceiling heat, smoke, and chemical fumes. It is widely used in PEB industrial sheds, boiler houses, foundries, chemical plants, and automotive paint booths where continuous forced air exchange is required."
+      },
+      {
+        "question": "How is a Roof Extractor Fan protected against heavy monsoon rain and backdraft?",
+        "answer": "Every Simpovent® Roof Extractor Fan features a deep aerodynamic FRP weather cowl with an internal water-deflector lip that shields the throat from wind-driven rain, even during heavy Indian monsoons. Integrated backdraft damper flaps close when the fan is off to block dust, rain, and birds."
+      },
+      {
+        "question": "What sizes and CFM airflow capacities are available for Simpovent® Roof Extractor Fans?",
+        "answer": "We manufacture Roof Extractor Fans in 24\" (600 mm), 30\" (750 mm), 36\" (900 mm), 48\" (1200 mm), and 54\" (1380 mm) throat diameters, delivering 25,000 to 53,000 CFM with 0.75 kW to 3.7 kW IP55 copper-wound motors tailored to your shed volume and required Air Changes per Hour (ACH)."
+      },
+      {
+        "question": "Will the Roof Extractor Fan fit Tata Bluescope, JSW, PEB, or asbestos roofs without leakage?",
+        "answer": "Yes. Each unit is supplied with a custom-moulded, UV-stabilized FRP base plate matched precisely to Tata Bluescope, JSW, GI corrugated, PEB trapezoidal, or asbestos sheet profiles—allowing quick, 100% leakproof installation without cutting roof purlins."
+      },
+      {
+        "question": "Why choose Shreeji Sales Corporation (Simpovent®) as your Roof Extractor Fan manufacturer in India?",
+        "answer": "Founded in 2005 and ISO 9001:2015 certified, Shreeji Sales Corporation manufactures and dynamically balances every Simpovent® Roof Extractor Fan in-house at our Vasai, Maharashtra plant. Buying directly from the manufacturer ensures genuine IP55 copper motors, custom-matched FRP bases, wholesale factory pricing, and fast pan-India dispatch."
       }
     ]
   },
